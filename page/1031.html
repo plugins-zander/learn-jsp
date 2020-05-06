@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>简介 · learn-jsp</title>
+        <title>out · learn-jsp</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -77,10 +77,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="1012.html" />
+    <link rel="next" href="1020.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="1030.html" />
     
 
     </head>
@@ -122,7 +122,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="1011.html">
+        <li class="chapter " data-level="1.2" data-path="1011.html">
             
                 <a href="1011.html">
             
@@ -416,7 +416,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2.4.5" data-path="1031.html">
+        <li class="chapter active" data-level="1.4.2.4.5" data-path="1031.html">
             
                 <a href="1031.html">
             
@@ -556,7 +556,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >简介</a>
+        <a href=".." >out</a>
     </h1>
 </div>
 
@@ -571,11 +571,63 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h1>
-<h1 id="&#x4EC0;&#x4E48;&#x662F;jsp">&#x4EC0;&#x4E48;&#x662F;JSP</h1>
+                                <h1 id="out">out</h1>
 <ul>
-<li>JSP&#x662F;Java Server Page&#x7684;&#x7F29;&#x5199;&#xFF0C;&#x662F;&#x7531;Sun&#x516C;&#x53F8;&#x5021;&#x5BFC;&#xFF0C;&#x8BB8;&#x591A;&#x516C;&#x53F8;&#x53C2;&#x4E0E;&#xFF0C;&#x4E8E;1999&#x5E74;&#x63A8;&#x51FA;&#x7684;&#x4E00;&#x79CD;Web&#x670D;&#x52A1;&#x8BBE;&#x8BA1;&#x6807;&#x51C6;&#x3002;</li>
+<li><p>out&#x5BF9;&#x8C61;&#x662F;&#x4E00;&#x4E2A;&#x8F93;&#x51FA;&#x6D41;,&#x7528;&#x6765;&#x5411;&#x7528;&#x6237;&#x7AEF;&#x8F93;&#x51FA;&#x6570;&#x636E;&#x3002; </p>
+</li>
+<li><p>out&#x5BF9;&#x8C61;&#x53EF;&#x8C03;&#x7528;&#x5982;&#x4E0B;&#x7684;&#x65B9;&#x6CD5;&#x7528;&#x4E8E;&#x5404;&#x79CD;&#x6570;&#x636E;&#x7684;&#x8F93;&#x51FA;&#xFF0C;</p>
+<ul>
+<li>out.print(Boolean)&#xFF0C;out.println(Boolean) &#x7528;&#x4E8E;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x5E03;&#x5C14;&#x503C;&#x3002;</li>
+<li>out.print(char)&#xFF0C;out.println(char)    &#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x3002;</li>
+<li>out.print(double)&#xFF0C;out.println(double) &#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x53CC;&#x7CBE;&#x5EA6;&#x7684;&#x6D6E;&#x70B9;&#x6570;&#x3002;</li>
+<li>out.print(float)&#xFF0C;out.println(float) &#x7528;&#x4E8E;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x5355;&#x7CBE;&#x5EA6;&#x7684;&#x6D6E;&#x70B9;&#x6570;&#x3002;</li>
+<li>out.print(long)&#xFF0C;out.println(long)    &#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x957F;&#x6574;&#x578B;&#x6570;&#x636E;&#x3002;</li>
+<li>out.print(String)&#xFF0C;out.println(String) &#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x5BF9;&#x8C61;&#x7684;&#x5185;&#x5BB9;&#x3002;</li>
+<li>out.newLine()    &#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x6362;&#x884C;&#x7B26;&#x3002;</li>
+<li>out.flush() &#x8F93;&#x51FA;&#x7F13;&#x51B2;&#x533A;&#x91CC;&#x7684;&#x5185;&#x5BB9;&#x3002;</li>
+<li>out.close() &#x5173;&#x95ED;&#x6D41;</li>
 </ul>
+</li>
+</ul>
+<blockquote>
+<p>&#x4F7F;&#x7528;out&#x5BF9;&#x8C61;&#x5411;&#x7528;&#x6237;&#x8F93;&#x51FA;&#x5305;&#x62EC;&#x8868;&#x683C;&#x7B49;&#x5185;&#x5BB9;&#x7684;&#x4FE1;&#x606F;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.util.*&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;
+  &lt;% int a=100;long b=300;boolean c=true;
+     out.println(&quot;&lt;H1&gt;&#x8FD9;&#x662F;&#x6807;&#x9898;1&#x5B57;&#x4F53;&#x7684;&#x5927;&#x5C0F;&lt;/HT1&gt;&quot;);
+     out.println(&quot;&lt;H2&gt;&#x8FD9;&#x662F;&#x6807;&#x9898;2&#x5B57;&#x4F53;&#x7684;&#x5927;&#x5C0F;&lt;/HT2&gt;&quot;);
+     out.print(&quot;&lt;BR&gt;&quot;);
+     out.println(a);  out.println(b);  out.println(c);
+  %&gt;
+  &lt;Center&gt;
+  &lt;p&gt;&lt;Font size=2 &gt;&#x4EE5;&#x4E0B;&#x662F;&#x4E00;&#x4E2A;&#x8868;&#x683C;&lt;/Font&gt; 
+  &lt;%  out.print(&quot;&lt;Font face=&#x96B6;&#x4E66; size=2 &gt;&quot;);
+      out.println(&quot;&lt;Table Border &gt;&quot;);
+      out.println(&quot;&lt;tr &gt;&quot;);
+            out.println(&quot;&lt;th width=80&gt;&quot;+&quot;&#x59D3;&#x540D;&quot;+&quot;&lt;/th&gt;&quot;);
+            out.println(&quot;&lt;th width=60&gt;&quot;+&quot;&#x6027;&#x522B;&quot;+&quot;&lt;/th&gt;&quot;);
+            out.println(&quot;&lt;th width=200&gt;&quot;+&quot;&#x51FA;&#x751F;&#x65E5;&#x671F;&quot;+&quot;&lt;/th&gt;&quot;);
+      out.println(&quot;&lt;/tr&gt;&quot;);
+      out.println(&quot;&lt;tr &gt;&quot;);
+            out.println(&quot;&lt;td &gt;&quot;+&quot;&#x5218;&#x7532;&#x4E00;&quot;+&quot;&lt;/td&gt;&quot;);
+            out.println(&quot;&lt;td &gt;&quot;+&quot;&#x7537;&quot;+&quot;&lt;/td&gt;&quot;);
+            out.println(&quot;&lt;td &gt;&quot;+&quot;1978&#x5E74;5&#x6708;&quot;+&quot;&lt;/td&gt;&quot;);
+      out.println(&quot;&lt;/tr&gt;&quot;);
+      out.println(&quot;&lt;tr&gt;&quot;);
+            out.println(&quot;&lt;td &gt;&quot;+&quot;&#x6797;&#x3000;&#x971E;&quot;+&quot;&lt;/td&gt;&quot;);
+            out.println(&quot;&lt;td &gt;&quot;+&quot;&#x5973;&quot;+&quot;&lt;/td&gt;&quot;);
+            out.println(&quot;&lt;td &gt;&quot;+&quot;1979&#x5E74;8&#x6708;&quot;+&quot;&lt;/td&gt;&quot;);
+     out.println(&quot;&lt;/tr&gt;&quot;);
+     out.println(&quot;&lt;/Table&gt;&quot;);
+     out.print(&quot;&lt;/Font&gt;&quot;)  ;
+  %&gt;
+  &lt;/Center&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<p><img src="https://img1.zlogs.net/20/20200506211640.png" alt=""></p>
 <div id="gitalk-container"></div>
                                 
                                 </section>
@@ -603,12 +655,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 本书简介">
+                <a href="1030.html" class="navigation navigation-prev " aria-label="Previous page: application">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="1012.html" class="navigation navigation-next " aria-label="Next page: 环境">
+                <a href="1020.html" class="navigation navigation-next " aria-label="Next page: 注释">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -619,7 +671,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"简介","level":"1.2","depth":1,"next":{"title":"环境","level":"1.3","depth":1,"path":"page/1012.md","ref":"page/1012.md","articles":[{"title":"原理","level":"1.3.1","depth":2,"path":"page/1014.md","ref":"page/1014.md","articles":[]},{"title":"配置","level":"1.3.2","depth":2,"path":"page/1015.md","ref":"page/1015.md","articles":[]},{"title":"目录","level":"1.3.3","depth":2,"path":"page/1036.md","ref":"page/1036.md","articles":[]},{"title":"文件","level":"1.3.4","depth":2,"path":"page/1037.md","ref":"page/1037.md","articles":[]}]},"previous":{"title":"本书简介","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1011.md","mtime":"2020-05-06T13:32:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T13:34:57.978Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"out","level":"1.4.2.4.5","depth":4,"next":{"title":"注释","level":"1.4.2.5","depth":3,"path":"page/1020.md","ref":"page/1020.md","articles":[]},"previous":{"title":"application","level":"1.4.2.4.4","depth":4,"path":"page/1030.md","ref":"page/1030.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1031.md","mtime":"2020-05-06T13:32:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T13:34:57.978Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

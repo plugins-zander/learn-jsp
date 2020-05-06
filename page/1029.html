@@ -1,0 +1,1148 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>session · learn-jsp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Zander Zhao">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/css/gitalk.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1030.html" />
+    
+    
+    <link rel="prev" href="1028.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    本书简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1011.html">
+            
+                <a href="1011.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="1012.html">
+            
+                <a href="1012.html">
+            
+                    
+                    环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1014.html">
+            
+                <a href="1014.html">
+            
+                    
+                    原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1015.html">
+            
+                <a href="1015.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1036.html">
+            
+                <a href="1036.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="1037.html">
+            
+                <a href="1037.html">
+            
+                    
+                    文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="1013.html">
+            
+                <a href="1013.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1016.html">
+            
+                <a href="1016.html">
+            
+                    
+                    HTML部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="1019.html">
+            
+                <a href="1019.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="1017.html">
+            
+                <a href="1017.html">
+            
+                    
+                    Java部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="1021.html">
+            
+                <a href="1021.html">
+            
+                    
+                    声明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1.1" data-path="1022.html">
+            
+                <a href="1022.html">
+            
+                    
+                    变量声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.1.2" data-path="1023.html">
+            
+                <a href="1023.html">
+            
+                    
+                    方法声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="1024.html">
+            
+                <a href="1024.html">
+            
+                    
+                    程序片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="1025.html">
+            
+                <a href="1025.html">
+            
+                    
+                    表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="1026.html">
+            
+                <a href="1026.html">
+            
+                    
+                    内置对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.4.1" data-path="1027.html">
+            
+                <a href="1027.html">
+            
+                    
+                    request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.2" data-path="1028.html">
+            
+                <a href="1028.html">
+            
+                    
+                    response
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2.4.3" data-path="1029.html">
+            
+                <a href="1029.html">
+            
+                    
+                    session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.4" data-path="1030.html">
+            
+                <a href="1030.html">
+            
+                    
+                    application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.5" data-path="1031.html">
+            
+                <a href="1031.html">
+            
+                    
+                    out
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="1018.html">
+            
+                <a href="1018.html">
+            
+                    
+                    JSP部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="1033.html">
+            
+                <a href="1033.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1.1" data-path="1034.html">
+            
+                <a href="1034.html">
+            
+                    
+                    指令标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.1.2" data-path="1035.html">
+            
+                <a href="1035.html">
+            
+                    
+                    动作标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >session</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="session">session</h1>
+<ul>
+<li>HTTP&#x534F;&#x8BAE;&#x662F;&#x4E00;&#x79CD;&#x65E0;&#x72B6;&#x6001;&#x534F;&#x8BAE;&#x3002;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x5411;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x51FA;&#x8BF7;&#x6C42;&#xFF08;request&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x670D;&#x52A1;&#x5668;&#x8FD4;&#x56DE;&#x54CD;&#x5E94;&#xFF08;response&#xFF09;&#xFF0C;&#x8FDE;&#x63A5;&#x5C31;&#x88AB;&#x5173;&#x95ED;&#x4E86;&#xFF0C;&#x5728;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x4E0D;&#x4FDD;&#x7559;&#x8FDE;&#x63A5;&#x7684;&#x6709;&#x5173;&#x4FE1;&#x606F;&#xFF0C;&#x56E0;&#x6B64;&#x5F53;&#x4E0B;&#x4E00;&#x6B21;&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x5DF2;&#x6CA1;&#x6709;&#x4EE5;&#x524D;&#x7684;&#x8FDE;&#x63A5;&#x4FE1;&#x606F;&#x4E86;&#xFF0C;&#x65E0;&#x6CD5;&#x5224;&#x65AD;&#x8FD9;&#x4E00;&#x6B21;&#x8FDE;&#x63A5;&#x548C;&#x4EE5;&#x524D;&#x7684;&#x8FDE;&#x63A5;&#x662F;&#x5426;&#x5C5E;&#x4E8E;&#x540C;&#x4E00;&#x7528;&#x6237;&#x3002; </li>
+<li>&#x5185;&#x7F6E;session(&#x4F1A;&#x8BDD;)&#x5BF9;&#x8C61;&#x8BB0;&#x5F55;&#x6709;&#x5173;&#x8FDE;&#x63A5;&#x7684;&#x4FE1;&#x606F;.&#x7531;Tomcat&#x670D;&#x52A1;&#x5668;&#x8D1F;&#x8D23;&#x521B;&#x5EFA;&#x3002;</li>
+</ul>
+<h2 id="session&#x5BF9;&#x8C61;&#x7684;id">session&#x5BF9;&#x8C61;&#x7684;Id</h2>
+<ul>
+<li><p>&#x5F53;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x9996;&#x6B21;&#x8BBF;&#x95EE;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;JSP&#x9875;&#x9762;&#x65F6;&#xFF0C;JSP&#x5F15;&#x64CE;&#x4E3A;&#x5176;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;session&#x5BF9;&#x8C61;&#x3002;&#x4E3A;&#x7528;&#x6237;&#x4EA7;&#x751F;&#x7684;session&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x76F8;&#x5E94;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x5B58;&#x50A8;&#x7528;&#x6237;&#x5728;&#x8BBF;&#x95EE;&#x5404;&#x4E2A;&#x9875;&#x9762;&#x671F;&#x95F4;&#x63D0;&#x4EA4;&#x7684;&#x5404;&#x79CD;&#x4FE1;&#x606F;&#x3002;</p>
+</li>
+<li><p>&#x4E3A;&#x7528;&#x6237;&#x4EA7;&#x751F;&#x7684;session&#x5BF9;&#x8C61;&#x4E2D;&#x542B;&#x6709;&#x4E00;&#x4E2A;String&#x7C7B;&#x578B;&#x7684;Id&#x53F7;&#xFF0C;JSP&#x5F15;&#x64CE;&#x540C;&#x65F6;&#x5C06;&#x8FD9;&#x4E2A;Id&#x53F7;&#x53D1;&#x9001;&#x5230;&#x7528;&#x6237;&#x7AEF;&#x3001;&#x5B58;&#x653E;&#x5728;&#x7528;&#x6237;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x7684;Cookie&#x4E2D;&#x3002;</p>
+</li>
+<li><p>&#x6BCF;&#x4E2A;&#x7528;&#x6237;&#x90FD;&#x5BF9;&#x5E94;&#x7740;&#x4E00;&#x4E2A;session&#x5BF9;&#x8C61;&#xFF08;&#x8BE5;&#x7528;&#x6237;&#x7684;&#x4F1A;&#x8BDD;&#xFF09;&#xFF0C;&#x4E0D;&#x540C;&#x7528;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x4E92;&#x4E0D;&#x76F8;&#x540C;&#xFF0C;&#x5373;&#x5177;&#x6709;&#x4E0D;&#x540C;&#x7684;Id&#x53F7;&#x7801;&#x3002;</p>
+</li>
+</ul>
+<blockquote>
+<p>&#x7528;&#x6237;&#x5728;&#x670D;&#x52A1;&#x5668;&#x7684;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;ch4&#x4E2D;&#x7684;&#x4E09;&#x4E2A;&#x9875;&#x9762;first.jsp&#x3001;second&#x548C;third.jsp&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x8FDE;&#x63A5;&#xFF0C;&#x4E09;&#x4E2A;&#x9875;&#x9762;&#x7684;session&#x5BF9;&#x8C61;&#x662F;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x3002;&#x5176;&#x4E2D;&#xFF0C;first.jsp&#x5B58;&#x653E;&#x5728;ch4&#x4E2D;&#xFF0C;second.jsp&#x5B58;&#x653E;&#x5728;ch4&#x7684;&#x5B50;&#x76EE;&#x5F55;two&#x4E2D;&#xFF0C;third.jsp&#x5B58;&#x653E;&#x5728;ch4&#x7684;&#x5B50;&#x76EE;&#x5F55;three&#x4E2D;&#x3002;&#x7528;&#x6237;&#x9996;&#x5148;&#x8BBF;&#x95EE;first.jsp&#x9875;&#x9762;&#xFF0C;&#x4ECE;&#x8FD9;&#x4E2A;&#x9875;&#x9762;&#x518D;&#x8FDE;&#x63A5;&#x5230;second.jsp&#x9875;&#x9762;&#xFF0C;&#x7136;&#x540E;&#x4ECE;second.jsp&#x518D;&#x8FDE;&#x63A5;&#x5230;third.jsp&#x9875;&#x9762;&#x3002;first.jsp&#x3001;second&#x548C;third.jsp&#x7684;&#x6548;&#x679C;&#x56FE;&#x5982;&#x56FE;4.11&#xFF08;a&#xFF09;&#xFF0C;4.11&#xFF08;b&#xFF09;&#xFF0C;4.11&#xFF08;c&#xFF09;</p>
+<p>first.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY  bgcolor=cyan&gt;
+   &#x6211;&#x662F;first.jsp&#x9875;&#x9762;,&#x8F93;&#x5165;&#x4F60;&#x7684;&#x59D3;&#x540D;&#x8FDE;&#x63A5;&#x5230;second.jsp
+   &lt;% String id=session.getId();
+      out.println(&quot;&lt;br&gt;&#x60A8;&#x7684;session&#x5BF9;&#x8C61;&#x7684;ID&#x662F;&#xFF1A;&lt;br&gt;&quot;+id);
+   %&gt;
+  &lt;FORM action=&quot;two/second.jsp&quot; method=post name=form&gt;
+       &lt;INPUT type=&quot;text&quot; name=&quot;boy&quot;&gt; 
+       &lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x9001;&#x51FA;&quot; name=submit&gt;
+  &lt;/FORM&gt;  
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>second.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY &gt;
+   &#x6211;&#x662F;second.jsp&#x9875;&#x9762;
+   &lt;%  String id=session.getId();
+       out.println(&quot;&#x60A8;&#x7684;session&#x5BF9;&#x8C61;&#x7684;ID&#x662F;&#xFF1A;&lt;br&gt;&quot;+id);
+   %&gt;
+&lt;BR&gt; &#x5355;&#x51FB;&#x8D85;&#x94FE;&#x63A5;&#xFF0C;&#x8FDE;&#x63A5;&#x5230;third.jsp&#x7684;&#x9875;&#x9762;&#x3002;
+&lt;BR&gt;&lt;A HREF=&quot;/ch4/three/third.jsp&quot;&gt; &#x6B22;&#x8FCE;&#x53BB;third.jsp&#x9875;&#x9762;&#xFF01;&lt;/A&gt;   
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>third.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;
+   &#x6211;&#x662F;third.jsp&#x9875;&#x9762;
+   &lt;%  String id=session.getId();
+       out.println(&quot;&#x60A8;&#x7684;session&#x5BF9;&#x8C61;&#x7684;ID&#x662F;&#xFF1A;&lt;br&gt;&quot;+id);
+   %&gt;
+&lt;BR&gt; &#x5355;&#x51FB;&#x8D85;&#x94FE;&#x63A5;&#xFF0C;&#x8FDE;&#x63A5;&#x5230;first.jsp&#x7684;&#x9875;&#x9762;&#x3002;
+&lt;BR&gt;&lt;A HREF=&quot;/ch4/first.jsp&quot;&gt;  &#x6B22;&#x8FCE;&#x53BB;first.jsp&#xFF01;&lt;/A&gt;   
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<p><img src="https://img1.zlogs.net/20/20200506204700.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506204740.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506204831.png" alt=""></p>
+<h2 id="session&#x5BF9;&#x8C61;&#x4E0E;url&#x91CD;&#x5199;">session&#x5BF9;&#x8C61;&#x4E0E;URL&#x91CD;&#x5199;</h2>
+<ul>
+<li>&#x5982;&#x679C;&#x7528;&#x6237;&#x7AEF;&#x4E0D;&#x652F;&#x6301;Cookie&#xFF0C;&#x90A3;&#x4E48;&#x7528;&#x6237;&#x5728;&#x4E0D;&#x540C;&#x7F51;&#x9875;&#x4E4B;&#x95F4;&#x7684;session&#x5BF9;&#x8C61;&#x53EF;&#x80FD;&#x662F;&#x4E92;&#x4E0D;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x5982;&#x679C;&#x670D;&#x52A1;&#x5668;&#x65E0;&#x6CD5;&#x5C06;Id&#x5B58;&#x653E;&#x5230;&#x7528;&#x6237;&#x7AEF;&#xFF0C;&#x5C31;&#x4E0D;&#x80FD;&#x5EFA;&#x7ACB;session&#x5BF9;&#x8C61;&#x548C;&#x7528;&#x6237;&#x7684;&#x4E00;&#x4E00;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;&#x3002;</li>
+<li>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;URL&#x91CD;&#x5199;&#x6765;&#x5B9E;&#x73B0;session&#x5BF9;&#x8C61;&#x7684;&#x60DF;&#x4E00;&#x6027;&#x3002;&#x6240;&#x8C13;URL&#x91CD;&#x5199;&#xFF0C;&#x5C31;&#x662F;&#x5F53;&#x7528;&#x6237;&#x4ECE;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x91CD;&#x65B0;&#x94FE;&#x63A5;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x901A;&#x8FC7;&#x5411;&#x8FD9;&#x4E2A;&#x65B0;&#x7684;URL&#x6DFB;&#x52A0;&#x53C2;&#x6570;&#xFF0C;&#x628A;session&#x5BF9;&#x8C61;&#x7684;Id&#x4F20;&#x5E26;&#x8FC7;&#x53BB;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x4FDD;&#x969C;&#x7528;&#x6237;&#x5728;&#x8BE5;&#x7F51;&#x7AD9;&#x5404;&#x4E2A;&#x9875;&#x9762;&#x4E2D;&#x7684;session&#x5BF9;&#x8C61;&#x662F;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x3002;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;response&#x5BF9;&#x8C61;&#x8C03;&#x7528;encodeURL()&#x6216;encodeRedirectURL()&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;URL&#x91CD;&#x5199;.</li>
+</ul>
+<blockquote>
+<p>jiafei.jsp&#x3001;tom.jsp&#x548C;jerry.jsp&#x4E4B;&#x95F4;&#x5B9E;&#x884C;URL&#x91CD;&#x5199;&#xFF0C;jiafei.jsp&#x5B58;&#x653E;&#x5728;ch4&#x4E2D;&#xFF0C;tom.jsp&#x5B58;&#x653E;&#x5728;ch4&#x7684;&#x5B50;&#x76EE;&#x5F55;two&#x4E2D;&#xFF0C;jerry.jsp&#x5B58;&#x653E;&#x5728;ch4&#x7684;&#x5B50;&#x76EE;&#x5F55;three&#x4E2D;</p>
+<p>jiafei.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY  bgcolor=cyan&gt;
+&lt;%   String str=response.encodeURL(&quot;two/tom.jsp&quot;);
+%&gt;
+   &#x6211;&#x662F;jiafei.jsp&#x9875;&#x9762;,&#x8F93;&#x5165;&#x4F60;&#x7684;&#x59D3;&#x540D;&#x8FDE;&#x63A5;&#x5230;tom.jsp
+   &lt;% String id=session.getId();
+      out.println(&quot;&lt;br&gt;&#x60A8;&#x7684;session&#x5BF9;&#x8C61;&#x7684;ID&#x662F;&#xFF1A;&lt;br&gt;&quot;+id);
+   %&gt;
+  &lt;FORM action=&quot;&lt;%=str%&gt;&quot; method=post name=form&gt;
+      &lt;INPUT type=&quot;text&quot; name=&quot;boy&quot;&gt; 
+      &lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x9001;&#x51FA;&quot; name=submit&gt;
+  &lt;/FORM&gt;  
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>tom.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;Charset=GB2312&quot; %&gt;
+&lt;%   String str=response.encodeURL(&quot;/ch4/three/jerry.jsp&quot;);
+%&gt;
+&lt;HTML&gt;&lt;BODY  bgcolor=cyan&gt;
+   &#x6211;&#x662F;tom.jsp&#x9875;&#x9762;
+   &lt;%  String id=session.getId();
+       out.println(&quot;&#x60A8;&#x7684;session&#x5BF9;&#x8C61;&#x7684;ID&#x662F;&#xFF1A;&lt;br&gt;&quot;+id);
+   %&gt;
+&lt;BR&gt; &#x5355;&#x51FB;&#x8D85;&#x94FE;&#x63A5;&#xFF0C;&#x8FDE;&#x63A5;&#x5230;jerry.jsp&#x7684;&#x9875;&#x9762;&#x3002;
+&lt;BR&gt;&lt;A HREF=&quot;&lt;%=str%&gt;&quot;&gt; &#x6B22;&#x8FCE;&#x53BB;jerry.jsp&#x9875;&#x9762;&#xFF01;&lt;/A&gt;   
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>jerry.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%   String str=response.encodeURL(&quot;/ch4/jiafei.jsp&quot;);
+%&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;
+   &#x6211;&#x662F;jerry.jsp&#x9875;&#x9762;
+   &lt;%  String id=session.getId();
+       out.println(&quot;&#x60A8;&#x7684;session&#x5BF9;&#x8C61;&#x7684;ID&#x662F;&#xFF1A;&lt;br&gt;&quot;+id);
+   %&gt;
+&lt;BR&gt; &#x5355;&#x51FB;&#x8D85;&#x94FE;&#x63A5;&#xFF0C;&#x8FDE;&#x63A5;&#x5230;jiafei.jsp&#x7684;&#x9875;&#x9762;&#x3002;
+&lt;BR&gt;&lt;A HREF=&quot;&lt;%=str%&gt;&quot;&gt;  &#x6B22;&#x8FCE;&#x53BB;jiafeit.jsp&#xFF01;&lt;/A&gt;   
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<h2 id="session&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x6570;&#x636E;">session&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x6570;&#x636E;</h2>
+<ul>
+<li>session&#x5BF9;&#x8C61;&#x4F7F;&#x7528;&#x4E0B;&#x5217;&#x65B9;&#x6CD5;&#x5904;&#x7406;&#x6570;&#x636E;&#xFF1A; </li>
+<li>&#xFF08;1&#xFF09;public void setAttribute(String key, Object obj)<ul>
+<li>session&#x5BF9;&#x8C61;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x5C06;&#x53C2;&#x6570;Object&#x6307;&#x5B9A;&#x7684;&#x5BF9;&#x8C61;obj&#x6DFB;&#x52A0;&#x5230;session&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x5E76;&#x4E3A;&#x6DFB;&#x52A0;&#x7684;&#x5BF9;&#x8C61;&#x6307;&#x5B9A;&#x4E86;&#x4E00;&#x4E2A;&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x5982;&#x679C;&#x6DFB;&#x52A0;&#x7684;&#x4E24;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x5173;&#x952E;&#x5B57;&#x76F8;&#x540C;&#xFF0C;&#x5219;&#x5148;&#x524D;&#x6DFB;&#x52A0;&#x7684;&#x5BF9;&#x8C61;&#x88AB;&#x6E05;&#x9664;&#x3002;</li>
+</ul>
+</li>
+<li>&#xFF08;2&#xFF09;public Object getAttibute(String key)<ul>
+<li>&#x83B7;&#x53D6;session&#x5BF9;&#x8C61;&#x542B;&#x6709;&#x7684;&#x5173;&#x952E;&#x5B57;&#x662F;key&#x7684;&#x5BF9;&#x8C61;&#x3002;&#x7531;&#x4E8E;&#x4EFB;&#x4F55;&#x5BF9;&#x8C61;&#x90FD;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x5230;session&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x56E0;&#x6B64;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x53D6;&#x56DE;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5E94;&#x5F3A;&#x5236;&#x8F6C;&#x5316;&#x4E3A;&#x539F;&#x6765;&#x7684;&#x7C7B;&#x578B;&#x3002;</li>
+</ul>
+</li>
+<li>&#xFF08;3&#xFF09;public Enumeration getAttributeNames()<ul>
+<li>session&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;&#x679A;&#x4E3E;&#x5BF9;&#x8C61;&#xFF0C;&#x8BE5;&#x679A;&#x4E3E;&#x5BF9;&#x8C61;&#x4F7F;&#x7528;nextElemets()&#x904D;&#x5386;session&#x4E2D;&#x7684;&#x5404;&#x4E2A;&#x5BF9;&#x8C61;&#x6240;&#x5BF9;&#x5E94;&#x7684;&#x5173;&#x952E;&#x5B57;&#x3002;</li>
+</ul>
+</li>
+<li>&#xFF08;4&#xFF09;public long getCreationTime() <ul>
+<li>session&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x8BE5;&#x5BF9;&#x8C61;&#x521B;&#x5EFA;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5355;&#x4F4D;&#x662F;&#x6BEB;&#x79D2;&#x3002; </li>
+</ul>
+</li>
+<li>&#xFF08;5&#xFF09;public void removeAttribute(String name)<ul>
+<li>session&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x79FB;&#x6389;&#x5173;&#x952E;&#x5B57;key&#x5BF9;&#x5E94;&#x7684;&#x5BF9;&#x8C61;.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>3&#x4E2A;&#x9875;&#x9762;demo.jsp&#xFF0C;shop.jsp&#x548C;account.jsp&#xFF0C;&#x6211;&#x4EEC;&#x4F7F;&#x7528;session&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x987E;&#x5BA2;&#x7684;&#x59D3;&#x540D;&#x548C;&#x8D2D;&#x4E70;&#x7684;&#x5546;&#x54C1;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT Size=2&gt;
+  &lt;% session.setAttribute(&quot;customer&quot;,&quot;&#x987E;&#x5BA2;&quot;);
+  %&gt;
+ &lt;P&gt;&#x8F93;&#x5165;&#x60A8;&#x7684;&#x59D3;&#x540D;&#x8FDE;&#x63A5;&#x5230;&#x7B2C;&#x4E00;&#x767E;&#x8D27;&#xFF1A;shop.jsp
+   &lt;FORM action=&quot;shop.jsp&quot; method=post name=form&gt;
+       &lt;INPUT type=&quot;text&quot; name=&quot;boy&quot;&gt; 
+       &lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x9001;&#x51FA;&quot; name=submit&gt;
+  &lt;/FORM&gt;  
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>shop.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT Size=2&gt;
+   &lt;% String s=request.getParameter(&quot;boy&quot;);
+      session.setAttribute(&quot;name&quot;,s);
+   %&gt;
+  &#x8FD9;&#x91CC;&#x662F;&#x7B2C;&#x4E00;&#x767E;&#x8D27;&#x3002;&lt;br&gt;&#x8F93;&#x5165;&#x60A8;&#x60F3;&#x8D2D;&#x4E70;&#x7684;&#x5546;&#x54C1;&#x8FDE;&#x63A5;&#x5230;&#x7ED3;&#x8D26;&#xFF1A;account.jsp&#x3002;
+  &lt;FORM action=&quot;account.jsp&quot; method=post name=form&gt;
+    &lt;INPUT type=&quot;text&quot; name=&quot;buy&quot;&gt; 
+    &lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x9001;&#x51FA;&quot; name=submit&gt;
+  &lt;/FORM&gt;  
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>account.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%! //&#x5904;&#x7406;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x65B9;&#x6CD5;
+   public String getString(String s){
+     if(s==null)
+        s=&quot;&quot;;
+     try{ byte b[]=s.getBytes(&quot;ISO-8859-1&quot;);
+          s=new String(b);
+        }
+     catch(Exception e){}
+     return s;
+   }
+%&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT Size=2&gt;
+   &lt;% String s=request.getParameter(&quot;buy&quot;);
+      session.setAttribute(&quot;goods&quot;,s);
+   %&gt;
+&lt;BR&gt; 
+&lt;% String &#x987E;&#x5BA2;=(String)session.getAttribute(&quot;customer&quot;);
+   String &#x59D3;&#x540D;=(String)session.getAttribute(&quot;name&quot;);
+   String &#x5546;&#x54C1;=(String)session.getAttribute(&quot;goods&quot;);
+   &#x59D3;&#x540D;=getString(&#x59D3;&#x540D;);
+   &#x5546;&#x54C1;=getString(&#x5546;&#x54C1;);
+%&gt;
+    &#x8FD9;&#x91CC;&#x662F;&#x7ED3;&#x8D26;&#x5904;,&lt;%=&#x987E;&#x5BA2;%&gt;&#x7684;&#x59D3;&#x540D;&#x662F;&#xFF1A;&lt;%=&#x59D3;&#x540D;%&gt;
+&lt;br&gt;&#x60A8;&#x9009;&#x62E9;&#x8D2D;&#x4E70;&#x7684;&#x5546;&#x54C1;&#x662F;&#xFF1A;&lt;%=&#x5546;&#x54C1;%&gt;
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506205911.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506205944.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506210003.png" alt=""></p>
+<h2 id="session&#x5BF9;&#x8C61;&#x5728;tag&#x6587;&#x4EF6;&#x4E2D;&#x4F7F;&#x7528;">session&#x5BF9;&#x8C61;&#x5728;Tag&#x6587;&#x4EF6;&#x4E2D;&#x4F7F;&#x7528;</h2>
+<ul>
+<li>JSP&#x9875;&#x9762;&#x901A;&#x8FC7;&#x8C03;&#x7528;Tag&#x6587;&#x4EF6;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x4EE3;&#x7801;&#x7684;&#x590D;&#x7528;&#xFF0C;&#x90A3;&#x4E48;&#x5728;&#x53CD;&#x590D;&#x8C03;&#x7528;Tag&#x6587;&#x4EF6;&#x65F6;&#xFF0C;Tag&#x6587;&#x4EF6;&#x5C31;&#x53EF;&#x4EE5;&#x5BF9;session&#x5BF9;&#x8C61;&#x4E2D;&#x5B58;&#x50A8;&#x7684;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x5904;&#x7406;&#xFF0C;&#x5E76;&#x5C06;&#x5FC5;&#x8981;&#x7684;&#x7ED3;&#x679C;&#x8FD4;&#x56DE;&#x7ED9;JSP&#x9875;&#x9762;&#x3002;</li>
+</ul>
+<blockquote>
+<p>&#x731C;&#x6570;&#x5B57;&#x7684;&#x5C0F;&#x6E38;&#x620F;&#x3002;&#x5F53;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;demo.jsp&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x968F;&#x673A;&#x5206;&#x914D;&#x7ED9;&#x7528;&#x6237;&#x4E00;&#x4E2A;1&#x81F3;100&#x4E4B;&#x95F4;&#x7684;&#x6574;&#x6570;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x8FD9;&#x4E2A;&#x6574;&#x6570;&#x5B58;&#x5728;&#x7528;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x4E2D;&#x3002;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT Size=2&gt;
+  &#x968F;&#x673A;&#x5206;&#x7ED9;&#x4E86;&#x4F60;&#x4E00;&#x4E2A;1&#x5230;100&#x4E4B;&#x95F4;&#x7684;&#x6570;&#xFF0C;&#x8BF7;&#x731C;&#xFF01;
+  &lt;% int num=(int)(Math.random()*100)+1;
+     session.setAttribute(&quot;count&quot;,new Integer(0));
+     session.setAttribute(&quot;save&quot;,new Integer(num));
+  %&gt;
+ &lt;BR&gt;&lt;A HREF=&quot;guess.jsp&quot;&gt;&#x53BB;&#x731C;&#x6D4B;&#x8FD9;&#x4E2A;&#x6570;&lt;/A&gt; 
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>guess.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ taglib tagdir=&quot;/WEB-INF/tags&quot; prefix=&quot;guessNumber&quot;%&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT Size=2&gt;
+ &lt;%   String str=request.getParameter(&quot;guessNumber&quot;);
+      if(str==null) 
+        str=&quot;*&quot;;
+      if(str.length()==0)
+        str=&quot;*&quot;;
+ %&gt;
+ &lt;guessNumber:GuessTag number=&quot;&lt;%=str%&gt;&quot; /&gt;
+ &#x5F53;&#x524D;&#x731C;&#x6D4B;&#x7ED3;&#x679C;&#xFF1A;&lt;%=message%&gt;
+ &lt;% if(message.startsWith(&quot;&#x60A8;&#x731C;&#x5BF9;&#x4E86;&quot;)){
+ %&gt;    &lt;br&gt;&lt;A HREF=&quot;demo.jsp&quot;&gt;&#x91CD;&#x65B0;&#x83B7;&#x5F97;&#x968F;&#x673A;&#x6570;&lt;/A&gt; 
+ &lt;% }
+    else{
+ %&gt;   &lt;BR&gt;&#x8F93;&#x5165;&#x60A8;&#x7684;&#x731C;&#x6D4B;&#xFF1A;
+      &lt;FORM action=&quot;&quot; method=&quot;post&quot; name=form&gt;
+         &lt;INPUT type=&quot;text&quot; name=&quot;guessNumber&quot; &gt; 
+         &lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x9001;&#x51FA;&quot; name=&quot;submit&quot;&gt;
+     &lt;/FORM&gt;
+&lt;%  }
+%&gt;
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>WEB-INF/tag/GuessTag.tag</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ tag pageEncoding=<span class="hljs-string">&quot;GB2312&quot;</span> %&gt;
+&lt;%@ attribute name=<span class="hljs-string">&quot;number&quot;</span> required=<span class="hljs-string">&quot;true&quot;</span> %&gt;  
+&lt;%@ variable name-given=<span class="hljs-string">&quot;message&quot;</span> scope=<span class="hljs-string">&quot;AT_END&quot;</span> %&gt;
+  &lt;%  String mess=<span class="hljs-string">&quot;&quot;</span>;
+      Integer integer=(Integer)session.getAttribute(<span class="hljs-string">&quot;save&quot;</span>);
+      <span class="hljs-keyword">int</span> realnumber=integer.intValue();
+      <span class="hljs-keyword">int</span> guessNumber=<span class="hljs-number">0</span>;
+      <span class="hljs-keyword">boolean</span> boo=<span class="hljs-keyword">true</span>;
+      <span class="hljs-keyword">try</span>{  guessNumber=Integer.parseInt(number);
+      }
+      <span class="hljs-keyword">catch</span>(Exception exp){
+            boo=<span class="hljs-keyword">false</span>;
+      }
+      <span class="hljs-keyword">if</span>(boo){
+        <span class="hljs-keyword">if</span>(guessNumber==realnumber){
+           <span class="hljs-keyword">int</span> n=((Integer)session.getAttribute(<span class="hljs-string">&quot;count&quot;</span>)).intValue();
+           n=n+<span class="hljs-number">1</span>;
+           session.setAttribute(<span class="hljs-string">&quot;count&quot;</span>,<span class="hljs-keyword">new</span> Integer(n));
+           mess=<span class="hljs-string">&quot;&#x60A8;&#x731C;&#x5BF9;&#x4E86;,&#x8FD9;&#x662F;&#x7B2C;&quot;</span>+n+<span class="hljs-string">&quot;&#x6B21;&#x731C;&#x6D4B;&quot;</span>;
+        } 
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(guessNumber&gt;realnumber){
+           <span class="hljs-keyword">int</span> n=((Integer)session.getAttribute(<span class="hljs-string">&quot;count&quot;</span>)).intValue();
+           n=n+<span class="hljs-number">1</span>;
+           session.setAttribute(<span class="hljs-string">&quot;count&quot;</span>,<span class="hljs-keyword">new</span> Integer(n));
+           mess=<span class="hljs-string">&quot;&#x60A8;&#x731C;&#x5927;&#x4E86;,&#x8FD9;&#x662F;&#x7B2C;&quot;</span>+n+<span class="hljs-string">&quot;&#x6B21;&#x731C;&#x6D4B;&quot;</span>;
+        }
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(guessNumber&lt;realnumber){
+           <span class="hljs-keyword">int</span> n=((Integer)session.getAttribute(<span class="hljs-string">&quot;count&quot;</span>)).intValue();
+           n=n+<span class="hljs-number">1</span>;
+           session.setAttribute(<span class="hljs-string">&quot;count&quot;</span>,<span class="hljs-keyword">new</span> Integer(n));
+           mess=<span class="hljs-string">&quot;&#x60A8;&#x731C;&#x5C0F;&#x4E86;,&#x8FD9;&#x662F;&#x7B2C;&quot;</span>+n+<span class="hljs-string">&quot;&#x6B21;&#x731C;&#x6D4B;&quot;</span>;
+        }
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(number.equals(<span class="hljs-string">&quot;&#x4F60;&#x8FD8;&#x6CA1;&#x5F00;&#x59CB;&#x731C;&#x6D4B;&quot;</span>)) {
+           mess=<span class="hljs-string">&quot;&#x4F60;&#x8FD8;&#x6CA1;&#x5F00;&#x59CB;&#x731C;&#x6D4B;&quot;</span>;
+        }
+        jspContext.setAttribute(<span class="hljs-string">&quot;message&quot;</span>,mess); <span class="hljs-comment">//&#x5C06;&#x5BF9;&#x8C61;message&#x8FD4;&#x56DE;&#x7ED9;JSP&#x9875;&#x9762;</span>
+      }
+      <span class="hljs-keyword">else</span>{
+         jspContext.setAttribute(<span class="hljs-string">&quot;message&quot;</span>,<span class="hljs-string">&quot;&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x7684;&#x731C;&#x6D4B;&quot;</span>);<span class="hljs-comment">//&#x5C06;&#x5BF9;&#x8C61;message&#x8FD4;&#x56DE;&#x7ED9;JSP&#x9875;&#x9762;</span>
+      }
+  %&gt;
+</code></pre>
+<h2 id="session&#x5BF9;&#x8C61;&#x7684;&#x751F;&#x5B58;&#x671F;&#x9650;">session&#x5BF9;&#x8C61;&#x7684;&#x751F;&#x5B58;&#x671F;&#x9650;</h2>
+<ul>
+<li><p>&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x5728;&#x67D0;&#x4E2A;web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;session&#x5BF9;&#x8C61;&#x7684;&#x751F;&#x5B58;&#x671F;&#x9650;</p>
+<ul>
+<li>&#x4F9D;&#x8D56;&#x4E8E;session&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x8C03;&#x7528;invalidate()&#x65B9;&#x6CD5;&#x4F7F;&#x5F97;session&#x65E0;&#x6548;</li>
+<li>&#x4F9D;&#x8D56;&#x4E8E;session&#x5BF9;&#x8C61;&#x8FBE;&#x5230;&#x4E86;&#x8BBE;&#x7F6E;&#x7684;&#x6700;&#x957F;&#x7684;&#x201C;&#x53D1;&#x5446;&#x201D;&#x72B6;&#x6001;&#x65F6;&#x95F4;</li>
+<li>&#x4F9D;&#x8D56;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5426;&#x88AB;&#x5173;&#x95ED;&#x3002;</li>
+</ul>
+</li>
+<li><p>&#x91CD;&#x65B0;&#x8BBE;&#x7F6E;&#x5404;&#x4E2A;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x4E0B;&#x7684;session&#x5BF9;&#x8C61;&#x7684;&#x6700;&#x957F;&#x201C;&#x53D1;&#x5446;&#x201D;&#x65F6;&#x95F4;&#x3002;&#x6253;&#x5F00;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;conf&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;web.xml&#xFF0C;&#x627E;&#x5230;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">session-config</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">session-timeout</span>&gt;</span>30<span class="hljs-tag">&lt;/<span class="hljs-name">session-timeout</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">session-config</span>&gt;</span>
+</code></pre>
+<p>&#x5C06;&#x5176;&#x4E2D;&#x7684;30&#x4FEE;&#x6539;&#x6210;&#x6240;&#x8981;&#x6C42;&#x7684;&#x503C;&#x5373;&#x53EF;,&#x5982;&#x679C;&#x65F6;&#x95F4;&#x4FEE;&#x6539;&#x4E3A;&#x8D1F;&#x6570;,&#x53D1;&#x5446;&#x65F6;&#x95F4;&#x4E0D;&#x53D7;&#x9650;&#x5236;&#x3002;</p>
+</li>
+<li><p>session&#x5BF9;&#x8C61;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E0B;&#x5217;&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x6216;&#x8BBE;&#x7F6E;&#x548C;&#x751F;&#x5B58;&#x65F6;&#x95F4;&#x6709;&#x5173;&#x7684;&#x4FE1;&#x606F;&#xFF1A;</p>
+<ul>
+<li><code>public long getCreationTime()</code> &#x83B7;&#x53D6;session&#x521B;&#x5EFA;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5355;&#x4F4D;&#x662F;&#x6BEB;&#x79D2;&#x3002;</li>
+<li><code>public long getLastAccessedTime()</code> &#x83B7;&#x53D6;session&#x6700;&#x540E;&#x4E00;&#x6B21;&#x88AB;&#x64CD;&#x4F5C;&#x7684;&#x65F6;&#x95F4;&#x3002;</li>
+<li><code>public int getMaxInactiveInterval()</code> &#x83B7;&#x53D6;session&#xFF08;&#x5355;&#x4F4D;&#x662F;&#x79D2;&#xFF09;&#x3002;&#x6700;&#x957F;&#x7684;&#x201C;&#x53D1;&#x5446;&#x201D;&#x65F6;&#x95F4;</li>
+<li><code>public void setMaxInactiveInterval(int interval)</code> &#x8BBE;&#x7F6E;session&#x6700;&#x957F;&#x7684;&#x201C;&#x53D1;&#x5446;&#x201D;&#x65F6;&#x95F4;</li>
+<li><code>public boolean isNew()</code> &#x5224;&#x65AD;session&#x662F;&#x5426;&#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x5EFA;&#x7684;&#x5BF9;&#x8C61;&#x3002;</li>
+<li><code>invalidate()</code> &#x4F7F;session&#x65E0;&#x6548;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>session&#x5BF9;&#x8C61;&#x4F7F;&#x7528;setMaxInactiveInterval(int interval)&#x65B9;&#x6CD5;&#x8BBE;&#x7F6E;&#x6700;&#x957F;&#x7684;&#x201C;&#x53D1;&#x5446;&#x201D;&#x72B6;&#x6001;&#x65F6;&#x95F4;&#x4E3A;10&#x79D2;&#x3002;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5237;&#x65B0;&#x9875;&#x9762;&#x68C0;&#x67E5;&#x662F;&#x5426;&#x8FBE;&#x5230;&#x4E86;&#x6700;&#x957F;&#x7684;&#x201C;&#x53D1;&#x5446;&#x201D;&#x65F6;&#x95F4;&#xFF0C;&#x5982;&#x679C;&#x4E24;&#x6B21;&#x5237;&#x65B0;&#x4E4B;&#x95F4;&#x7684;&#x95F4;&#x9694;&#x8D85;&#x8FC7;10&#x79D2;&#xFF0C;&#x7528;&#x6237;&#x5148;&#x524D;&#x7684;session&#x5C06;&#x88AB;&#x53D6;&#x6D88;&#xFF0C;&#x7528;&#x6237;&#x5C06;&#x83B7;&#x5F97;&#x4E00;&#x4E2A;&#x65B0;&#x7684;session&#x5BF9;&#x8C61;&#x3002;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.util.*&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;&lt;FONT Size=3&gt;
+ &lt;%  session.setMaxInactiveInterval(10);
+     boolean boo=session.isNew();
+     out.println(&quot;&lt;br&gt;&#x5982;&#x679C;&#x4F60;&#x7B2C;&#x4E00;&#x6B21;&#x8BBF;&#x95EE;&#x5F53;&#x524D;web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#xFF0C;&#x60A8;&#x7684;&#x4F1A;&#x8BDD;&#x662F;&#x65B0;&#x7684;&quot;);
+     out.println(&quot;&lt;br&gt;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x662F;&#x9996;&#x6B21;&#x8BBF;&#x95EE;&#x5F53;&#x524D;web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#xFF0C;&#x60A8;&#x7684;&#x4F1A;&#x8BDD;&#x4E0D;&#x662F;&#x65B0;&#x7684;&quot;);
+     out.println(&quot;&lt;br&gt;&#x4F1A;&#x8BDD;&#x662F;&#x65B0;&#x7684;&#x5417;&#xFF1F;&#xFF1A;&quot;+boo);
+     out.println(&quot;&lt;br&gt;&#x6B22;&#x8FCE;&#x6765;&#x5230;&#x672C;&#x9875;&#x9762;&#xFF0C;&#x60A8;&#x7684;session&#x5141;&#x8BB8;&#x7684;&#x6700;&#x957F;&#x53D1;&#x5446;&#x65F6;&#x95F4;&#x4E3A;&quot;+
+                        session.getMaxInactiveInterval()+&quot;&#x79D2;&quot;);
+     out.println(&quot;&lt;br&gt;&#x60A8;&#x7684;session&#x7684;&#x521B;&#x5EFA;&#x65F6;&#x95F4;&#x662F;&quot;+new Date(session.getCreationTime()));
+     out.println(&quot;&lt;br&gt;&#x60A8;&#x7684;session&#x7684;Id&#x662F;&quot;+session.getId()); 
+     Long lastTime=(Long)session.getAttribute(&quot;lastTime&quot;);
+     if(lastTime==null){
+         long n=session.getLastAccessedTime();
+         session.setAttribute(&quot;lastTime&quot;,new Long(n));
+     } 
+     else{
+         long m=session.getLastAccessedTime();
+         long n=((Long)session.getAttribute(&quot;lastTime&quot;)).longValue();
+         out.println(&quot;&lt;br&gt;&#x60A8;&#x7684;&#x53D1;&#x5446;&#x65F6;&#x95F4;&#x5927;&#x7EA6;&#x662F;&quot;+(m-n)+&quot;&#x6BEB;&#x79D2;,&#x5927;&#x7EA6;&quot;+(m-n)/1000+&quot;&#x79D2;&quot;);
+         session.setAttribute(&quot;lastTime&quot;,new Long(m)); 
+     } 
+ %&gt;
+&lt;FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<h2 id="&#x4F7F;&#x7528;session&#x8BBE;&#x7F6E;&#x65F6;&#x95F4;&#x95F4;&#x9694;">&#x4F7F;&#x7528;session&#x8BBE;&#x7F6E;&#x65F6;&#x95F4;&#x95F4;&#x9694;</h2>
+<ul>
+<li>&#x4E3A;&#x4E86;&#x9650;&#x5236;&#x7528;&#x6237;&#x5728;&#x5F88;&#x77ED;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x5185;&#x4E0D;&#x65AD;&#x5730;&#x4F7F;&#x7528;&#x67D0;&#x9875;&#x9762;&#x6240;&#x63D0;&#x4F9B;&#x7684;&#x67D0;&#x79CD;&#x529F;&#x80FD;&#xFF0C;&#x800C;&#x5F71;&#x54CD;&#x5176;&#x4ED6;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x8BE5;&#x9875;&#x9762;&#x6240;&#x63D0;&#x4F9B;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x7528;&#x6237;&#x7684;session&#x6765;&#x8BBE;&#x7F6E;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x9875;&#x9762;&#x6240;&#x63D0;&#x4F9B;&#x529F;&#x80FD;&#x7684;&#x95F4;&#x9694;&#x65F6;&#x95F4;&#xFF0C;&#x4ECE;&#x800C;&#x9650;&#x5236;&#x8BE5;&#x7528;&#x6237;&#x7B49;&#x5F85;&#x82E5;&#x5E72;&#x201C;&#x65F6;&#x95F4;&#x201D;&#x540E;&#xFF0C;&#x518D;&#x6B21;&#x4F7F;&#x7528;&#x8BE5;&#x9875;&#x9762;&#x6240;&#x63D0;&#x4F9B;&#x7684;&#x529F;&#x80FD;&#x3002; </li>
+</ul>
+<blockquote>
+<p>demo.jsp&#x63D0;&#x4F9B;&#x8BA1;&#x7B97;&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7ED9;&#x5F53;&#x524D;&#x9875;&#x9762;&#x3002;demo.jsp&#x5229;&#x7528;&#x7528;&#x6237;&#x7684;session&#x6765;&#x8BBE;&#x7F6E;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x9875;&#x9762;&#x7684;&#x6240;&#x63D0;&#x4F9B;&#x529F;&#x80FD;&#x7684;&#x95F4;&#x9694;&#x65F6;&#x95F4;&#xFF08;&#x95F4;&#x9694;&#x65F6;&#x95F4;&#x662F;5&#x79D2;&#xFF09;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.util.*&quot; %&gt;
+&lt;HTML&gt;&lt;BODY&gt; 
+&lt;br&gt;&#x53CD;&#x590D;&#x4F7F;&#x7528;&#x8BE5;&#x9875;&#x9762;&#x63D0;&#x4F9B;&#x7684;&#x8BA1;&#x7B97;&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;&#x529F;&#x80FD;&#x7684;&#x95F4;&#x9694;&#x65F6;&#x95F4;&#x5FC5;&#x987B;&#x5927;&#x4E8E;5&#x79D2;&#x3002;&lt;br&gt;
+&lt;br&gt;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x9875;&#x9762;&#x5C06;&#x8BA1;&#x7B97;&#x5B83;&#x7684;&#x957F;&#x5EA6;&#xFF1A;&lt;br&gt;
+   &lt;FORM action=&quot;&quot; method=&quot;get&quot; name=form&gt;
+     &lt;INPUT TYPE=&quot;text&quot; name=&quot;boy&quot;&gt;
+     &lt;INPUT TYPE=&quot;submit&quot; value=&quot;Enter&quot;&gt;
+   &lt;/FORM&gt;
+   &lt;% int time=5;
+      String str=null;
+      str=request.getParameter(&quot;boy&quot;);
+      if(str==null) str=&quot;&quot;;
+      Date date=(Date)session.getAttribute(&quot;date&quot;); 
+      if(date==null){
+          date=new Date();
+          session.setAttribute(&quot;date&quot;,date);
+      }
+      date=(Date)session.getAttribute(&quot;date&quot;); 
+      Calendar calendar=Calendar.getInstance(); 
+      calendar.setTime(date); 
+      long timeInSession=calendar.getTimeInMillis();
+      long currentTime=0;
+      if(session.isNew()==false)
+        currentTime=System.currentTimeMillis();
+      session.setAttribute(&quot;date&quot;,new Date(currentTime));
+      long intervalTime=(currentTime-timeInSession)/1000;
+      if(intervalTime&lt;=time&amp;&amp;session.isNew()==false){
+         out.println(&quot;&#x8BF7;&quot;+time+&quot;&#x79D2;&#x540E;&#x518D;&#x8BBF;&#x95EE;&#x672C;&#x9875;&quot;);
+      }
+      else{
+         out.println(&quot;&#x60A8;&#x8F93;&#x5165;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x957F;&#x5EA6;:&quot;+str.length()); 
+      }
+   %&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<h2 id="&#x8BA1;&#x6570;&#x5668;">&#x8BA1;&#x6570;&#x5668;</h2>
+<ul>
+<li>&#x4F7F;&#x7528;session&#x5B9E;&#x73B0;&#x8BA1;&#x6570;&#x5668;&#x7684;&#x6B65;&#x9AA4;&#x662F;&#xFF1A;&#x5F53;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x8BF7;&#x6C42;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;JSP&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x9996;&#x5148;&#x68C0;&#x67E5;&#x8BE5;&#x7528;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x4E2D;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x6709;&#x8BA1;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x8BA1;&#x6570;&#xFF0C;&#x7ACB;&#x523B;&#x5C06;&#x5F53;&#x524D;&#x7684;&#x8BA1;&#x6570;&#x589E;1&#xFF0C;&#x5E76;&#x5C06;&#x8BA1;&#x6570;&#x5B58;&#x5230;&#x7528;&#x6237;&#x7684;session&#x4E2D;&#xFF0C;&#x5426;&#x5219;&#x4E0D;&#x6539;&#x53D8;&#x5F53;&#x524D;&#x7684;&#x8BA1;&#x6570;&#x3002;</li>
+</ul>
+<blockquote>
+<p>Web&#x670D;&#x52A1;&#x76EE;&#x5F55;ch4&#x6709;&#x4E24;&#x4E2A;JSP&#x9875;&#x9762;&#xFF1A;one.jsp&#x3001;two.jsp&#x548C;&#x4E00;&#x4E2A;tag&#x6587;&#x4EF6;&#xFF1A;Count.tag &#x3002;Count.tag&#x6587;&#x4EF6;&#x8D1F;&#x8D23;&#x8BA1;&#x6570;&#x3002;one.jsp&#x3001;two.jsp&#x4F7F;&#x7528;Count.tag&#x5B9E;&#x73B0;&#x8BA1;&#x6570;&#x3002;&#x7528;&#x6237;&#x9996;&#x6B21;&#x8BF7;&#x6C42;one.jsp&#x548C;two.jsp&#x7684;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#xFF0C;&#x90FD;&#x4F1A;&#x4F7F;&#x5F97;&#x7F51;&#x7AD9;&#x7684;&#x8BA1;&#x6570;&#x589E;1 </p>
+<p>one.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ taglib prefix=&quot;person&quot; tagdir=&quot;/WEB-INF/tags&quot; %&gt;
+&lt;HTML&gt;&lt;BODY size=3&gt;
+&lt;P&gt;&#x6B22;&#x8FCE;&#x8BBF;&#x95EE;&#x672C;&#x7AD9;
+   &lt;person:Count/&gt;
+   &lt;A href=&quot;two.jsp&quot;&gt;&#x6B22;&#x8FCE;&#x53BB;two.jsp&#x53C2;&#x89C2;&lt;/A&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>two.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ taglib prefix=&quot;person&quot; tagdir=&quot;/WEB-INF/tags&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow size=3&gt;
+&lt;P&gt;&#x6B22;&#x8FCE;&#x8BBF;&#x95EE;&#x672C;&#x7AD9;
+   &lt;person:Count/&gt;
+   &lt;A href=&quot;one.jsp&quot;&gt;&#x6B22;&#x8FCE;&#x53BB;one.jsp&#x53C2;&#x89C2;&lt;/A&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p><code>WEB-INF/tags/Count.tag</code></p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ tag import=&quot;java.io.*&quot; %&gt;
+&lt;FONT Size=4&gt;
+&lt;%!  int number=0; 
+     File file=new File(&quot;count.txt&quot;) ;   
+     synchronized void countPeople(){ //&#x8BA1;&#x7B97;&#x8BBF;&#x95EE;&#x6B21;&#x6570;&#x7684;&#x540C;&#x6B65;&#x65B9;&#x6CD5;
+        if(!file.exists()){
+           number++;
+           try { file.createNewFile();
+                 FileOutputStream out=new FileOutputStream(&quot;count.txt&quot;);
+                 DataOutputStream dataOut=new DataOutputStream(out);
+                 dataOut.writeInt(number);
+                 out.close();
+                 dataOut.close();
+           }
+           catch(IOException ee){}
+           }
+        else{
+           try{  FileInputStream in=new FileInputStream(&quot;count.txt&quot;);
+                 DataInputStream dataIn=new DataInputStream(in);
+                 number=dataIn.readInt();
+                 number++;
+                 in.close();
+                 dataIn.close();
+                 FileOutputStream out=new FileOutputStream(&quot;count.txt&quot;);
+                 DataOutputStream dataOut=new DataOutputStream(out);
+                 dataOut.writeInt(number);
+                 out.close();
+                 dataOut.close();
+           }
+           catch(IOException ee){}
+        }
+     }
+%&gt;
+&lt;%   String str=(String)session.getAttribute(&quot;count&quot;);
+     if(str==null){
+        countPeople();
+        String personCount=String.valueOf(number);
+        session.setAttribute(&quot;count&quot;,personCount);
+     }
+%&gt;
+&lt;P&gt;&lt;P&gt;&#x60A8;&#x662F;&#x7B2C;&lt;%=(String)session.getAttribute(&quot;count&quot;)%&gt;
+      &#x4E2A;&#x8BBF;&#x95EE;&#x672C;&#x7F51;&#x7AD9;&#x7684;&#x7528;&#x6237;&#x3002;
+&lt;/Font&gt;
+</code></pre>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1028.html" class="navigation navigation-prev " aria-label="Previous page: response">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1030.html" class="navigation navigation-next " aria-label="Next page: application">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"session","level":"1.4.2.4.3","depth":4,"next":{"title":"application","level":"1.4.2.4.4","depth":4,"path":"page/1030.md","ref":"page/1030.md","articles":[]},"previous":{"title":"response","level":"1.4.2.4.2","depth":4,"path":"page/1028.md","ref":"page/1028.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1029.md","mtime":"2020-05-06T13:32:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T13:34:57.978Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-gtag/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

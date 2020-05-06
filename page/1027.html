@@ -1,0 +1,1000 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>request · learn-jsp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Zander Zhao">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/css/gitalk.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1028.html" />
+    
+    
+    <link rel="prev" href="1026.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    本书简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1011.html">
+            
+                <a href="1011.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="1012.html">
+            
+                <a href="1012.html">
+            
+                    
+                    环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1014.html">
+            
+                <a href="1014.html">
+            
+                    
+                    原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1015.html">
+            
+                <a href="1015.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1036.html">
+            
+                <a href="1036.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="1037.html">
+            
+                <a href="1037.html">
+            
+                    
+                    文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="1013.html">
+            
+                <a href="1013.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1016.html">
+            
+                <a href="1016.html">
+            
+                    
+                    HTML部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="1019.html">
+            
+                <a href="1019.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="1017.html">
+            
+                <a href="1017.html">
+            
+                    
+                    Java部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="1021.html">
+            
+                <a href="1021.html">
+            
+                    
+                    声明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1.1" data-path="1022.html">
+            
+                <a href="1022.html">
+            
+                    
+                    变量声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.1.2" data-path="1023.html">
+            
+                <a href="1023.html">
+            
+                    
+                    方法声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="1024.html">
+            
+                <a href="1024.html">
+            
+                    
+                    程序片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="1025.html">
+            
+                <a href="1025.html">
+            
+                    
+                    表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="1026.html">
+            
+                <a href="1026.html">
+            
+                    
+                    内置对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.2.4.1" data-path="1027.html">
+            
+                <a href="1027.html">
+            
+                    
+                    request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.2" data-path="1028.html">
+            
+                <a href="1028.html">
+            
+                    
+                    response
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.3" data-path="1029.html">
+            
+                <a href="1029.html">
+            
+                    
+                    session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.4" data-path="1030.html">
+            
+                <a href="1030.html">
+            
+                    
+                    application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.5" data-path="1031.html">
+            
+                <a href="1031.html">
+            
+                    
+                    out
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="1018.html">
+            
+                <a href="1018.html">
+            
+                    
+                    JSP部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="1033.html">
+            
+                <a href="1033.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1.1" data-path="1034.html">
+            
+                <a href="1034.html">
+            
+                    
+                    指令标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.1.2" data-path="1035.html">
+            
+                <a href="1035.html">
+            
+                    
+                    动作标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >request</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <ul>
+<li><p>&#x7B80;&#x4ECB;</p>
+<ul>
+<li>&#x5728;JSP&#x4E2D;&#xFF0C;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;request&#x5C01;&#x88C5;&#x4E86;&#x7528;&#x6237;&#x8BF7;&#x6C42;&#x9875;&#x9762;&#x65F6;&#x6240;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x8BE5;&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x76F8;&#x5E94;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5C01;&#x88C5;&#x7684;&#x4FE1;&#x606F;.</li>
+<li>&#x5373;request&#x5BF9;&#x8C61;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#x3002;</li>
+<li>JSP&#x9875;&#x9762;&#x4F7F;&#x7528;request&#x5BF9;&#x8C61;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;Tag&#x6807;&#x8BB0;&#x8C03;&#x7528;Tag&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5C06;&#x5FC5;&#x8981;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;&#x7ED9;Tag&#x6587;&#x4EF6;&#x3002;Tag&#x6587;&#x4EF6;&#x8D1F;&#x8D23;&#x5904;&#x7406;&#x6570;&#x636E;&#xFF0C;&#x6839;&#x636E;&#x9700;&#x8981;&#x5C06;&#x5904;&#x7406;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x7ED9;&#x7528;&#x6237;&#x6216;&#x8FD4;&#x56DE;&#x7ED9;&#x8C03;&#x7528;&#x5B83;&#x7684;JSP&#x9875;&#x9762;&#x3002;</li>
+</ul>
+</li>
+<li><p>&#x65B9;&#x6CD5;</p>
+<ul>
+<li>request&#x5BF9;&#x8C61;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x7684;&#x6700;&#x5E38;&#x7528;&#x7684;&#x65B9;&#x6CD5;&#x662F;<code>getParameter(String s)</code>.</li>
+<li>&#x53EF;&#x4EE5;&#x7528;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;request&#x5BF9;&#x8C61;&#x6765;&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x6240;&#x63D0;&#x4EA4;&#x7684;&#x5404;&#x7C7B;&#x4FE1;&#x606F;&#xFF0C;request&#x5BF9;&#x8C61;&#x7684;&#x5E38;&#x7528;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A; <ul>
+<li>getProtocol()&#xFF1A;&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x4F7F;&#x7528;&#x7684;&#x901A;&#x4FE1;&#x534F;&#x8BAE;&#xFF0C;&#x5982;http/1.1&#x7B49;&#x3002;</li>
+<li>getServletPath()&#xFF1A;&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x6240;&#x5728;&#x7684;&#x76EE;&#x5F55;&#x3002;</li>
+<li>getContentLength()&#xFF1A;&#x83B7;&#x53D6;HTTP&#x8BF7;&#x6C42;&#x7684;&#x957F;&#x5EA6;&#x3002;</li>
+<li>getMethod()&#xFF1A;&#x83B7;&#x53D6;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x5982;POST&#x6216;GET&#x3002;</li>
+<li>getHeader(String s)&#xFF1A;&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x4E2D;&#x5934;&#x7684;&#x503C;&#x3002;</li>
+<li>getHeaderNames()&#xFF1A;&#x83B7;&#x53D6;&#x5934;&#x540D;&#x5B57;&#x7684;&#x4E00;&#x4E2A;&#x679A;&#x4E3E;&#x3002;</li>
+<li>getHeaders(String s)&#xFF1A;&#x83B7;&#x53D6;&#x5934;&#x7684;&#x5168;&#x90E8;&#x503C;&#x7684;&#x4E00;&#x4E2A;&#x679A;&#x4E3E;&#x3002;</li>
+<li>getRemoteAddr()&#xFF1A;&#x83B7;&#x53D6;&#x5BA2;&#x6237;&#x7684;IP&#x5730;&#x5740;&#x3002;</li>
+<li>getRemoteHost()&#xFF1A;&#x83B7;&#x53D6;&#x5BA2;&#x6237;&#x673A;&#x7684;&#x540D;&#x79F0;(&#x5982;&#x679C;&#x83B7;&#x53D6;&#x4E0D;&#x5230;&#xFF0C;&#x5C31;&#x83B7;&#x53D6;IP&#x5730;&#x5740;).</li>
+<li>getServerName()&#xFF1A;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x7684;&#x540D;&#x79F0;&#x3002;</li>
+<li>getServerPort()&#xFF1A;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x7684;&#x7AEF;&#x53E3;&#x53F7;&#x3002;</li>
+<li>getParameterNames()&#xFF1A;&#x83B7;&#x53D6;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#x4F53;&#x90E8;&#x5206;&#x4E2D;name&#x53C2;&#x6570;&#x503C;&#x7684;&#x4E00;&#x4E2A;&#x679A;&#x4E3E;.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>&#x6CE8;&#x610F;</p>
+<ul>
+<li><p>&#x7F16;&#x7801;&#x95EE;&#x9898;</p>
+<ul>
+<li><p>&#x5F53;&#x7528;request&#x5BF9;&#x8C61;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x6C49;&#x5B57;&#x5B57;&#x7B26;&#x65F6;,&#x4F1A;&#x51FA;&#x73B0;&#x4E71;&#x7801;&#x95EE;&#x9898;,&#x6240;&#x4EE5;&#x5BF9;&#x542B;&#x6709;&#x6C49;&#x5B57;&#x5B57;&#x7B26;&#x7684;&#x4FE1;&#x606F;&#x5FC5;&#x987B;&#x8FDB;&#x884C;&#x7279;&#x6B8A;&#x7684;&#x5904;&#x7406;&#x3002;</p>
+</li>
+<li><p>&#x9996;&#x5148;,&#x5C06;&#x83B7;&#x53D6;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x7528;ISO-8859-1&#x8FDB;&#x884C;&#x7F16;&#x7801;&#xFF0C;&#x5E76;&#x5C06;&#x7F16;&#x7801;&#x5B58;&#x653E;&#x5230;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x6570;&#x7EC4;&#x4E2D;</p>
+</li>
+<li><p>&#x7136;&#x540E;&#x518D;&#x5C06;&#x8FD9;&#x4E2A;&#x6570;&#x7EC4;&#x8F6C;&#x5316;&#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#x5BF9;&#x8C61;&#x5373;&#x53EF;</p>
+</li>
+<li><blockquote>
+<pre><code class="lang-java">String str=request.getParameter(<span class="hljs-string">&quot;girl&quot;</span>);
+<span class="hljs-keyword">byte</span> b[]=str.getBytes(<span class="hljs-string">&quot;ISO-8859-1&quot;</span>);
+str=<span class="hljs-keyword">new</span> String(b);
+</code></pre>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>&#x7528;&#x6237;&#x5728;&#x8BF7;&#x6C42;JSP&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x901A;&#x5E38;&#x4F1A;&#x4F7F;&#x7528;HTML&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#xFF0C;&#x8868;&#x5355;&#x7684;&#x4E00;&#x822C;&#x683C;&#x5F0F;&#x662F;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">FORM</span>  <span class="hljs-attr">method</span>=<span class="hljs-string">get|post</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x7684;&#x76EE;&#x7684;&#x5730;&#x9875;&#x9762;&quot;</span>&gt;</span>
+       &#x63D0;&#x4EA4;&#x7684;&#x5177;&#x4F53;&#x5185;&#x5BB9;
+<span class="hljs-tag">&lt;/<span class="hljs-name">FORM</span>&gt;</span>
+</code></pre>
+<p>&#x4F8B;&#x5982;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x8868;&#x5355;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">FORM</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;tom.jsp&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">post</span> &gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">INPUT</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;boy&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;ok&quot;</span> &gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-name">INPUT</span> <span class="hljs-attr">TYPE</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x9001;&#x51FA;&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;submit&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">FORM</span>&gt;</span>
+</code></pre>
+<p>tom.jsp&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5185;&#x7F6E;request&#x5BF9;&#x8C61;&#x83B7;&#x5F97;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;<code>request.getParameter(&quot;boy&quot;);</code> </p>
+</blockquote>
+<hr>
+<blockquote>
+<p>demo.jsp&#x9875;&#x9762;&#x901A;&#x8FC7;&#x8868;&#x5355;&#x5411;tree.jsp&#x9875;&#x9762;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;<code>I am a student</code>&#xFF0C;tree.jsp&#x9875;&#x9762;&#x901A;&#x8FC7;request&#x5BF9;&#x8C61;&#x83B7;&#x53D6;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5305;&#x62EC;text&#x7684;&#x503C;&#x4EE5;&#x53CA;&#x6309;&#x94AE;&#x7684;&#x503C;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=3&gt;
+   &lt;FORM action=&quot;tree.jsp&quot; method=post name=form&gt;
+       &lt;INPUT type=&quot;text&quot; name=&quot;boy&quot;&gt; 
+       &lt;INPUT TYPE=&quot;submit&quot; value=&quot;Enter&quot; name=&quot;submit&quot;&gt;
+   &lt;/FORM&gt; 
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>tree.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=4&gt;   
+   &#x83B7;&#x53D6;&#x6587;&#x672C;&#x6846;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#xFF1A;
+   &lt;%  String textContent=request.getParameter(&quot;boy&quot;);
+   %&gt;
+   &lt;%=textContent%&gt; 
+&lt;BR&gt;&#x83B7;&#x53D6;&#x6309;&#x94AE;&#x7684;&#x540D;&#x5B57;&#xFF1A;
+   &lt;%  String buttonName=request.getParameter(&quot;submit&quot;);
+   %&gt;
+   &lt;%=buttonName%&gt; 
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506161627.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506161639.png" alt=""></p>
+<hr>
+<blockquote>
+<p>demo.jsp&#x9875;&#x9762;&#x901A;&#x8FC7;&#x8868;&#x5355;&#x5411;&#x81EA;&#x5DF1;&#x63D0;&#x4EA4;&#x4E00;&#x4E2A;&#x6B63;&#x6570;&#xFF0C;demo.jsp&#x9875;&#x9762;&#x83B7;&#x53D6;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7684;&#x6B63;&#x6570;&#xFF0C;&#x5E76;&#x8BA1;&#x7B97;&#x8FD9;&#x4E2A;&#x6570;&#x7684;&#x5E73;&#x65B9;&#x6839;&#x3002;</p>
+<p>&#x8868;&#x5355;&#x4E2D;&#x7684;action&#x662F;&#x6240;&#x8BF7;&#x6C42;&#x7684;&#x9875;&#x9762;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x53CC;&#x5F15;&#x53F7;&#xFF1A;<code>&quot;&quot;</code>&#x4EE3;&#x66FF;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF0C;&#x6CE8;&#x610F;&#x53CC;&#x5F15;&#x53F7;&#x4E2D;&#x4E0D;&#x80FD;&#x542B;&#x6709;&#x7A7A;&#x683C;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=3&gt;
+   &lt;FORM  action=&quot;&quot; method=post name=form&gt;
+         &lt;INPUT type=&quot;text&quot; name=&quot;girl&quot;&gt; 
+         &lt;INPUT TYPE=&quot;submit&quot; value=&quot;Enter&quot; name=&quot;submit&quot;&gt;
+   &lt;/FORM&gt;  
+   &lt;%   String textContent=request.getParameter(&quot;girl&quot;);
+           double number=0,r=0;
+        if(textContent==null)
+             textContent=&quot;&quot;;
+        try{   number=Double.parseDouble(textContent);
+                if(number&gt;=0){
+                     r=Math.sqrt(number) ;
+                    out.print(&quot;&lt;BR&gt;&quot;+number+&quot;&#x7684;&#x5E73;&#x65B9;&#x6839;&#xFF1A;&quot;);
+                    out.print(&quot;&lt;BR&gt;&quot;+r);
+                }
+                else
+                   out.print(&quot;&lt;BR&gt;&quot;+&quot;&#x8BF7;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x6B63;&#x6570;&quot;);
+        }
+        catch(NumberFormatException e){
+              out.print(&quot;&lt;BR&gt;&quot;+&quot;&#x8BF7;&#x8F93;&#x5165;&#x6570;&#x5B57;&#x5B57;&#x7B26;&quot;);
+        }
+    %&gt;
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506162515.png" alt=""></p>
+<hr>
+<blockquote>
+<p>&#x4F7F;&#x7528;request&#x5BF9;&#x8C61;&#x7684;&#x4E00;&#x4E9B;&#x5E38;&#x7528;&#x65B9;&#x6CD5;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=1&gt;
+&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+   &lt;FORM action=&quot;mess.jsp&quot; method=post name=form&gt;
+       &lt;INPUT type=&quot;text&quot; name=&quot;boy&quot; &gt; 
+       &lt;INPUT TYPE=&quot;submit&quot; value=&quot;enter&quot; name=&quot;submit&quot; &gt;
+   &lt;/FORM&gt; 
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>mess.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.util.*&quot; %&gt;
+&lt;MHML&gt;&lt;BODY bgcolor=white&gt;&lt;Font size=5&gt;   
+&lt;BR&gt;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x7684;&#x534F;&#x8BAE;&#x662F;:
+   &lt;% String protocol=request.getProtocol();
+       out.println(protocol);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;&#x63A5;&#x53D7;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x7684;&#x9875;&#x9762;&#xFF1A;
+   &lt;%  String path=request.getServletPath();
+       out.println(path);
+   %&gt;
+&lt;BR&gt;&#x63A5;&#x53D7;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x7684;&#x957F;&#x5EA6;&#xFF1A;
+   &lt;% int length=request.getContentLength();
+       out.println(length);
+   %&gt;
+&lt;BR&gt;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x7684;&#x65B9;&#x5F0F;&#xFF1A;
+   &lt;% String method=request.getMethod();
+      out.println(method);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;HTTP&#x5934;&#x6587;&#x4EF6;&#x4E2D;User-Agent&#x7684;&#x503C;&#xFF1A;
+   &lt;% String header1=request.getHeader(&quot;User-Agent&quot;);
+       out.println(header1);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;HTTP&#x5934;&#x6587;&#x4EF6;&#x4E2D;accept&#x7684;&#x503C;&#xFF1A;
+   &lt;% String header2=request.getHeader(&quot;accept&quot;);
+       out.println(header2);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;HTTP&#x5934;&#x6587;&#x4EF6;&#x4E2D;Host&#x7684;&#x503C;&#xFF1A;
+   &lt;% String header3=request.getHeader(&quot;Host&quot;);
+       out.println(header3);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;HTTP&#x5934;&#x6587;&#x4EF6;&#x4E2D;accept-encoding&#x7684;&#x503C;&#xFF1A;
+   &lt;% String header4=request.getHeader(&quot;accept-encoding&quot;);
+       out.println(header4);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x7684;IP&#x5730;&#x5740;&#xFF1A;
+   &lt;% String  IP=request.getRemoteAddr();
+       out.println(IP);
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x673A;&#x7684;&#x540D;&#x79F0;&#xFF1A;
+   &lt;% String clientName=request.getRemoteHost();
+       out.println(clientName);
+   %&gt; 
+&lt;BR&gt;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x7684;&#x540D;&#x79F0;&#xFF1A;
+   &lt;%  String serverName=request.getServerName();
+        out.println(serverName);
+   %&gt; 
+&lt;BR&gt;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x7684;&#x7AEF;&#x53E3;&#x53F7;&#xFF1A;
+   &lt;% int serverPort=request.getServerPort();
+       out.println(serverPort);
+   %&gt; 
+&lt;BR&gt;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x7AEF;&#x63D0;&#x4EA4;&#x7684;&#x6240;&#x6709;&#x53C2;&#x6570;&#x7684;&#x540D;&#x5B57;&#xFF1A;
+   &lt;%  Enumeration en=request.getParameterNames();
+       while(en.hasMoreElements())
+        {  String s=(String)en.nextElement();
+           out.println(s);
+        }      
+      %&gt; 
+&lt;BR&gt;&#x83B7;&#x53D6;&#x5934;&#x540D;&#x5B57;&#x7684;&#x4E00;&#x4E2A;&#x679A;&#x4E3E;&#xFF1A;
+   &lt;% Enumeration enum_headed=request.getHeaderNames();
+      while(enum_headed.hasMoreElements())
+       {  String s=(String)enum_headed.nextElement();
+          out.println(s);
+       }      
+
+   %&gt;
+&lt;BR&gt;&#x83B7;&#x53D6;&#x5934;&#x6587;&#x4EF6;&#x4E2D;&#x6307;&#x5B9A;&#x5934;&#x540D;&#x5B57;&#x7684;&#x5168;&#x90E8;&#x503C;&#x7684;&#x4E00;&#x4E2A;&#x679A;&#x4E3E;&#xFF1A;
+   &lt;% Enumeration enum_headedValues=request.getHeaders(&quot;cookie&quot;);
+      while(enum_headedValues.hasMoreElements())
+      {  String s=(String)enum_headedValues.nextElement();
+         out.println(s);
+      }      
+   %&gt;
+&lt;BR&gt;
+   &lt;P&gt; &#x6587;&#x672C;&#x6846;text&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#xFF1A;
+   &lt;%  String str=request.getParameter(&quot;boy&quot;);
+        byte  b[]=str.getBytes(&quot;ISO-8859-1&quot;);
+        str=new String(b);
+   %&gt;
+ &lt;BR&gt;  &lt;%=str%&gt; 
+&lt;BR&gt; &#x6309;&#x94AE;&#x7684;&#x540D;&#x5B57;&#xFF1A;
+   &lt;% String buttonName=request.getParameter(&quot;submit&quot;);
+       byte  c[]=buttonName.getBytes(&quot;ISO-8859-1&quot;);
+       buttonName=new String(c);
+   %&gt;
+&lt;BR&gt; &lt;%=buttonName%&gt; 
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506164149.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506164208.png" alt=""></p>
+<hr>
+<blockquote>
+<p>&#x7528;&#x6237;&#x901A;&#x8FC7;demo.jsp&#x4E2D;&#x7684;&#x8868;&#x5355;&#x5C06;&#x4E09;&#x89D2;&#x5F62;&#x7684;&#x4E09;&#x8FB9;&#x7684;&#x957F;&#x5EA6;&#x63D0;&#x4EA4;&#x7ED9;get.jsp&#xFF0C;get.jsp&#x4F7F;&#x7528;Tag&#x6807;&#x8BB0;&#x8C03;&#x7528;Tag&#x6587;&#x4EF6;Computer.tag&#xFF0C;&#x5E76;&#x5C06;&#x4E09;&#x89D2;&#x5F62;&#x4E09;&#x8FB9;&#x7684;&#x957F;&#x5EA6;&#x4F20;&#x9012;&#x7ED9;Computer.tag&#xFF0C;Computer.tag&#x6587;&#x4EF6;&#x8D1F;&#x8D23;&#x8BA1;&#x7B97;&#x4E09;&#x89D2;&#x5F62;&#x7684;&#x9762;&#x79EF;&#xFF0C;&#x5E76;&#x5C06;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;&#x8FD4;&#x56DE;&#x7ED9;get.jsp&#x9875;&#x9762;&#x3002;</p>
+<p><img src="https://img1.zlogs.net/20/20200506192014.png" alt=""></p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY &gt;&lt;Font size=2&gt;
+&lt;FORM action=&quot;get.jsp&quot; Method=&quot;post&quot; &gt;
+  &lt;P&gt;&#x8F93;&#x5165;&#x4E09;&#x89D2;&#x5F62;&#x4E09;&#x8FB9;&#xFF1A;
+  &lt;BR&gt; &#x8FB9;A:&lt;Input type=text name=&quot;sideA&quot; value=0 size=5&gt;
+       &#x8FB9;B:&lt;Input type=text name=&quot;sideB&quot; value=0 size=5&gt;
+       &#x8FB9;C:&lt;Input type=text name=&quot;sideC&quot; value=0 size=5&gt;
+  &lt;Input type=submit value=&quot;&#x63D0;&#x4EA4;&quot;&gt;
+&lt;/FORM&gt;
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>get.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ taglib prefix=&quot;computer&quot; tagdir=&quot;/WEB-INF/tags&quot; %&gt;
+&lt;%  String a=request.getParameter(&quot;sideA&quot;);
+       String b=request.getParameter(&quot;sideB&quot;);
+       String c=request.getParameter(&quot;sideC&quot;);
+%&gt; 
+&lt;computer:Triangle a=&quot;&lt;%=a%&gt;&quot; b=&quot;&lt;%=b%&gt;&quot; c=&quot;&lt;%=c%&gt;&quot;/&gt;
+&lt;HTML&gt;&lt;BODY&gt; 
+&lt;table border=1&gt;
+  &lt;tr&gt;&lt;td width=30&gt;&#x8FB9;A&lt;/td&gt;
+      &lt;td width=30&gt;&#x8FB9;B&lt;/td&gt;
+      &lt;td width=30&gt;&#x8FB9;C&lt;/td&gt;
+      &lt;td&gt;&#x9762;&#x79EF;&lt;/td&gt;
+  &lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;&lt;%=a%&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;%=b%&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;%=c%&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;%=result%&gt;&lt;/td&gt;   &lt;%-- result&#x662F;Tag&#x6587;&#x4EF6;&#x8FD4;&#x56DE;&#x7684;&#x5BF9;&#x8C61; --%&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p><code>/WEB-INF/tags/Computer.jsp</code></p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ tag pageEncoding=<span class="hljs-string">&quot;gb2312&quot;</span>%&gt; 
+&lt;%@ attribute name=<span class="hljs-string">&quot;numberA&quot;</span> required=<span class="hljs-string">&quot;true&quot;</span> %&gt;  
+&lt;%@ attribute name=<span class="hljs-string">&quot;numberB&quot;</span> required=<span class="hljs-string">&quot;true&quot;</span> %&gt;
+&lt;%@ attribute name=<span class="hljs-string">&quot;operator&quot;</span> required=<span class="hljs-string">&quot;true&quot;</span> %&gt;
+&lt;%@ variable name-given=<span class="hljs-string">&quot;result&quot;</span> scope=<span class="hljs-string">&quot;AT_END&quot;</span> %&gt;
+&lt;%  <span class="hljs-keyword">try</span>{
+        <span class="hljs-keyword">double</span> a=Double.parseDouble(numberA);
+        <span class="hljs-keyword">double</span> b=Double.parseDouble(numberB);
+        <span class="hljs-keyword">double</span> r=<span class="hljs-number">0</span>;
+        <span class="hljs-keyword">if</span>(operator.equals(<span class="hljs-string">&quot;+&quot;</span>))
+           r=a+b;
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(operator.equals(<span class="hljs-string">&quot;-&quot;</span>))
+           r=a-b;
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(operator.equals(<span class="hljs-string">&quot;*&quot;</span>))
+           r=a*b;
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(operator.equals(<span class="hljs-string">&quot;/&quot;</span>))
+           r=a/b;
+        jspContext.setAttribute(<span class="hljs-string">&quot;result&quot;</span>,String.valueOf(r));
+    }
+    <span class="hljs-keyword">catch</span>(Exception e){
+       jspContext.setAttribute(<span class="hljs-string">&quot;result&quot;</span>,<span class="hljs-string">&quot;&#x53D1;&#x751F;&#x5F02;&#x5E38;:&quot;</span>+e);
+    }
+%&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;  demo.jsp</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506192521.png" alt=""></p>
+<blockquote>
+<p>&#x6548;&#x679C;  get.jsp</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506192535.png" alt=""></p>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1026.html" class="navigation navigation-prev " aria-label="Previous page: 内置对象">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1028.html" class="navigation navigation-next " aria-label="Next page: response">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"request","level":"1.4.2.4.1","depth":4,"next":{"title":"response","level":"1.4.2.4.2","depth":4,"path":"page/1028.md","ref":"page/1028.md","articles":[]},"previous":{"title":"内置对象","level":"1.4.2.4","depth":3,"path":"page/1026.md","ref":"page/1026.md","articles":[{"title":"request","level":"1.4.2.4.1","depth":4,"path":"page/1027.md","ref":"page/1027.md","articles":[]},{"title":"response","level":"1.4.2.4.2","depth":4,"path":"page/1028.md","ref":"page/1028.md","articles":[]},{"title":"session","level":"1.4.2.4.3","depth":4,"path":"page/1029.md","ref":"page/1029.md","articles":[]},{"title":"application","level":"1.4.2.4.4","depth":4,"path":"page/1030.md","ref":"page/1030.md","articles":[]},{"title":"out","level":"1.4.2.4.5","depth":4,"path":"page/1031.md","ref":"page/1031.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1027.md","mtime":"2020-05-06T13:32:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T13:34:57.978Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-gtag/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

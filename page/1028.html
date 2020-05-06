@@ -1,0 +1,872 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>response · learn-jsp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Zander Zhao">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/css/gitalk.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1029.html" />
+    
+    
+    <link rel="prev" href="1027.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    本书简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1011.html">
+            
+                <a href="1011.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="1012.html">
+            
+                <a href="1012.html">
+            
+                    
+                    环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1014.html">
+            
+                <a href="1014.html">
+            
+                    
+                    原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1015.html">
+            
+                <a href="1015.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1036.html">
+            
+                <a href="1036.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="1037.html">
+            
+                <a href="1037.html">
+            
+                    
+                    文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="1013.html">
+            
+                <a href="1013.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1016.html">
+            
+                <a href="1016.html">
+            
+                    
+                    HTML部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="1019.html">
+            
+                <a href="1019.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="1017.html">
+            
+                <a href="1017.html">
+            
+                    
+                    Java部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="1021.html">
+            
+                <a href="1021.html">
+            
+                    
+                    声明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1.1" data-path="1022.html">
+            
+                <a href="1022.html">
+            
+                    
+                    变量声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.1.2" data-path="1023.html">
+            
+                <a href="1023.html">
+            
+                    
+                    方法声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="1024.html">
+            
+                <a href="1024.html">
+            
+                    
+                    程序片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="1025.html">
+            
+                <a href="1025.html">
+            
+                    
+                    表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="1026.html">
+            
+                <a href="1026.html">
+            
+                    
+                    内置对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.4.1" data-path="1027.html">
+            
+                <a href="1027.html">
+            
+                    
+                    request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2.4.2" data-path="1028.html">
+            
+                <a href="1028.html">
+            
+                    
+                    response
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.3" data-path="1029.html">
+            
+                <a href="1029.html">
+            
+                    
+                    session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.4" data-path="1030.html">
+            
+                <a href="1030.html">
+            
+                    
+                    application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.5" data-path="1031.html">
+            
+                <a href="1031.html">
+            
+                    
+                    out
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="1018.html">
+            
+                <a href="1018.html">
+            
+                    
+                    JSP部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="1033.html">
+            
+                <a href="1033.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1.1" data-path="1034.html">
+            
+                <a href="1034.html">
+            
+                    
+                    指令标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.1.2" data-path="1035.html">
+            
+                <a href="1035.html">
+            
+                    
+                    动作标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >response</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="response">response</h1>
+<ul>
+<li>&#x53EF;&#x4EE5;&#x7528;response&#x5BF9;&#x8C61;&#x5BF9;&#x7528;&#x6237;&#x7684;&#x8BF7;&#x6C42;&#x505A;&#x51FA;&#x52A8;&#x6001;&#x54CD;&#x5E94;&#xFF0C;&#x5411;&#x7528;&#x6237;&#x7AEF;&#x53D1;&#x9001;&#x6570;&#x636E;&#x3002; </li>
+</ul>
+<h2 id="&#x52A8;&#x6001;&#x54CD;&#x5E94;contenttype&#x5C5E;&#x6027;">&#x52A8;&#x6001;&#x54CD;&#x5E94;contentType&#x5C5E;&#x6027;</h2>
+<ul>
+<li>&#x7531;&#x4E8E;page&#x6307;&#x4EE4;&#x53EA;&#x80FD;&#x4E3A;contentType&#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x503C;&#x6765;&#x51B3;&#x5B9A;&#x54CD;&#x5E94;&#x7684;MIME&#x7C7B;&#x578B;&#x3002;</li>
+<li>&#x5982;&#x679C;&#x60F3;&#x52A8;&#x6001;&#x5730;&#x6539;&#x53D8;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x503C;&#x6765;&#x54CD;&#x5E94;&#x7528;&#x6237;,&#x5C31;&#x9700;&#x8981;&#x4F7F;&#x7528;response&#x5BF9;&#x8C61;&#x7684;<code>setContentType(String s)</code>&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;contentType&#x7684;&#x5C5E;&#x6027;&#x503C;&#x3002;</li>
+<li><code>public void setContentType(String  s)</code>&#x65B9;&#x6CD5;&#x52A8;&#x6001;&#x8BBE;&#x7F6E;&#x54CD;&#x5E94;&#x7684;MIME&#x7C7B;&#x578B;&#xFF0C;&#x53C2;&#x6570;s&#x53EF;&#x53D6;:<ul>
+<li>text/html&#x3001;text/plain</li>
+<li>image/gif&#x3001;image/x-xbitmap&#x3001;image/jpeg&#x3001;image/pjpeg&#x3001;</li>
+<li>application/x-shockwave-flash</li>
+<li>application/vnd.ms-powerpoint&#x3001; application/vnd.ms-excel&#x3001;application/msword&#x3002;</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>&#x5F53;&#x7528;&#x6237;&#x5355;&#x51FB;&#x6309;&#x94AE;&#xFF0C;&#x9009;&#x62E9;&#x5C06;&#x5F53;&#x524D;&#x9875;&#x9762;&#x4FDD;&#x5B58;&#x4E3A;&#x4E00;&#x4E2A;Word&#x6587;&#x6863;&#x65F6;,JSP&#x9875;&#x9762;&#x52A8;&#x6001;&#x5730;&#x6539;&#x53D8;contentType&#x5C5E;&#x6027;&#x7684;&#x503C;&#x4E3A;application/msword&#x3002;&#x8FD9;&#x65F6;,&#x7528;&#x6237;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x63D0;&#x793A;&#x7528;&#x6237;&#x7528;MS-Word&#x7A0B;&#x5E8F;&#x6765;&#x663E;&#x793A;&#x6216;&#x4FDD;&#x5B58;&#x5F53;&#x524D;&#x9875;&#x9762;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;
+&lt;BODY bgcolor=cyan&gt;&lt;FONT size=3&gt;
+ &lt;P&gt;&#x6211;&#x6B63;&#x5728;&#x5B66;&#x4E60;response&#x5BF9;&#x8C61;&#x7684;
+ &lt;BR&gt;setContentType&#x65B9;&#x6CD5;
+ &lt;P&gt;&#x5C06;&#x5F53;&#x524D;&#x9875;&#x9762;&#x4FDD;&#x5B58;&#x4E3A;word&#x6587;&#x6863;&#x5417;&#xFF1F;
+  &lt;FORM action=&quot;&quot; method=&quot;get&quot; name=form&gt;
+     &lt;INPUT TYPE=&quot;submit&quot; value=&quot;yes&quot; name=&quot;submit&quot;&gt;
+   &lt;/FORM&gt;
+ &lt;%   String str=request.getParameter(&quot;submit&quot;);
+      if(str==null) 
+        str=&quot;&quot;;
+      if(str.equals(&quot;yes&quot;))
+        response.setContentType(&quot;application/msword;charset=GB2312&quot;);
+ %&gt; 
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506193440.png" alt=""></p>
+<p><img src="https://img1.zlogs.net/20/20200506193630.png" alt=""></p>
+<blockquote>
+<p>&#x7528;response&#x5BF9;&#x8C61;&#x5C06;contentType&#x5C5E;&#x6027;&#x7684;&#x503C;&#x8BBE;&#x4E3A;image/jpeg&#xFF0C;&#x4F7F;&#x5F97;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x770B;&#x5230;Java&#x7A0B;&#x5E8F;&#x7247;&#x6240;&#x7ED8;&#x5236;&#x7684;&#x56FE;&#x5F62; </p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.awt.*&quot; %&gt;
+&lt;%@ page import=&quot;java.io.*&quot; %&gt;
+&lt;%@ page import=&quot;java.awt.image.*&quot; %&gt;
+&lt;%@ page import=&quot;java.awt.geom.*&quot; %&gt;
+&lt;%@ page import=&quot;com.sun.image.codec.jpeg.*&quot; %&gt;
+&lt;HTML&gt;&lt;BODY&gt;  &lt;BR&gt; &#x89C2;&#x770B;&#x65CB;&#x8F6C;&#x7684;&#x692D;&#x5706;
+  &lt;FORM action=&quot;&quot; method=&quot;post&quot; name=form&gt;
+     &lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x89C2;&#x770B;&quot; name=&quot;submit&quot;&gt;
+  &lt;/FORM&gt;
+&lt;% String str=request.getParameter(&quot;submit&quot;);
+   if(str!=null){
+     response.setContentType(&quot;image/jpeg&quot;);            //&#x6539;&#x53D8;MIME&#x7C7B;&#x578B;
+     int width=260, height=260;
+     BufferedImage image=new BufferedImage(width,height,BufferedImage.TYPE_INT_RGB);
+     Graphics g = image.getGraphics();
+     g.setColor(Color.white);
+     g.fillRect(0, 0, width, height);
+     Graphics2D g_2d=(Graphics2D)g; 
+     Ellipse2D ellipse=new Ellipse2D. Double (20,50,120,50);
+     g_2d.setColor(Color.blue);
+     AffineTransform trans=new  AffineTransform(); 
+     for(int i=1;i&lt;=24;i++){
+       trans.rotate(15.0*Math.PI/180,75,75);
+       g_2d.setTransform(trans);
+       g_2d.draw(ellipse);
+     }
+     g.dispose();
+     OutputStream outClient= response.getOutputStream();//&#x83B7;&#x53D6;&#x6307;&#x5411;&#x7528;&#x6237;&#x7AEF;&#x7684;&#x8F93;&#x51FA;&#x6D41;
+     JPEGImageEncoder encoder=JPEGCodec.createJPEGEncoder(outClient);
+     encoder.encode(image);
+   }
+%&gt; 
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="../home/zander/.config/Typora/typora-user-images/image-20200506194019095.png" alt="image-20200506194019095"></p>
+<p><img src="https://img1.zlogs.net/20/20200506194031.png" alt=""></p>
+<h2 id="response&#x7684;http&#x6587;&#x4EF6;&#x5934;">response&#x7684;HTTP&#x6587;&#x4EF6;&#x5934;</h2>
+<ul>
+<li>response&#x5BF9;&#x8C61;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#xFF1A;<code>addHeader(String head,String value);</code>&#x6216;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#xFF1A;<code>setHeader(String head ,String value);</code>&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x65B0;&#x7684;&#x54CD;&#x5E94;&#x5934;&#x548C;&#x5934;&#x7684;&#x503C;&#xFF0C;&#x5E76;&#x5C06;&#x8FD9;&#x4E9B;&#x5934;&#x53D1;&#x9001;&#x7ED9;&#x7528;&#x6237;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x3002;&#x5982;&#x679C;&#x6DFB;&#x52A0;&#x7684;&#x5934;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#xFF0C;&#x5219;&#x5148;&#x524D;&#x7684;&#x5934;&#x88AB;&#x8986;&#x76D6;&#x3002;</li>
+</ul>
+<blockquote>
+<p>response&#x5BF9;&#x8C61;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x54CD;&#x5E94;&#x5934;refresh&#xFF0C;&#x5176;&#x5934;&#x503C;&#x662F;5&#xFF0C;&#x90A3;&#x4E48;&#x7528;&#x6237;&#x6536;&#x5230;&#x8FD9;&#x4E2A;&#x5934;&#x4E4B;&#x540E;&#xFF0C;5&#x79D2;&#x949F;&#x540E;&#x5C06;&#x518D;&#x6B21;&#x5237;&#x65B0;&#x8BE5;&#x9875;&#x9762;&#xFF0C;&#x5BFC;&#x81F4;&#x8BE5;&#x7F51;&#x9875;&#x6BCF;5&#x79D2;&#x5237;&#x65B0;&#x4E00;&#x6B21; &#x3002;  </p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.util.*&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=4&gt;
+&lt;P&gt;&#x73B0;&#x5728;&#x7684;&#x65F6;&#x95F4;&#x662F;&#xFF1A;&lt;BR&gt;
+&lt;%   out.println(&quot;&quot;+new Date());
+     response.setHeader(&quot;Refresh&quot;,&quot;5&quot;);
+ %&gt;
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506194614.gif" alt=""></p>
+<h2 id="response&#x91CD;&#x5B9A;&#x5411;">response&#x91CD;&#x5B9A;&#x5411;</h2>
+<ul>
+<li>&#x5728;&#x67D0;&#x4E9B;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;JSP&#x5F15;&#x64CE;&#x5728;&#x54CD;&#x5E94;&#x7528;&#x6237;&#x65F6;&#xFF0C;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x5C06;&#x7528;&#x6237;&#x91CD;&#x65B0;&#x5F15;&#x5BFC;&#x81F3;&#x53E6;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x3002;</li>
+<li>&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x8868;&#x5355;&#x4FE1;&#x606F;&#x4E0D;&#x5B8C;&#x6574;&#xFF0C;&#x5C31;&#x4F1A;&#x518D;&#x6B21;&#x88AB;&#x5F15;&#x5BFC;&#x5230;&#x8BE5;&#x8868;&#x5355;&#x7684;&#x8F93;&#x5165;&#x9875;&#x9762;&#x3002;</li>
+<li>&#x4F7F;&#x7528;response&#x5BF9;&#x8C61;&#x7684;sendRedirect(URL url)&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x7528;&#x6237;&#x7684;&#x91CD;&#x5B9A;&#x5411;&#x3002;</li>
+<li>forward&#x52A8;&#x4F5C;&#x6807;&#x8BB0;&#x4E0D;&#x6539;&#x53D8;url,response&#x6539;&#x53D8;</li>
+</ul>
+<blockquote>
+<p>&#x7528;&#x6237;&#x5728;demo.jsp&#x9875;&#x9762;&#x586B;&#x5199;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7ED9;verify.jsp&#x9875;&#x9762;&#xFF0C;&#x5982;&#x679C;&#x586B;&#x5199;&#x7684;&#x8868;&#x5355;&#x4E0D;&#x5B8C;&#x6574;&#x5C31;&#x4F1A;&#x88AB;&#x91CD;&#x65B0;&#x5B9A;&#x5411;&#x5230;demo.jsp&#x9875;&#x9762;</p>
+<p>demo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY&gt; 
+&lt;P&gt;&#xCC;&#xEE;&#xD0;&#xB4;&#xD0;&#xD5;&#xC3;&#xFB;&#xA3;&#xBA;&lt;BR&gt;
+   &lt;FORM action=&quot;verify.jsp&quot; method=&quot;get&quot; name=form&gt;
+     &lt;INPUT TYPE=&quot;text&quot;   name=&quot;boy&quot;&gt;
+     &lt;INPUT TYPE=&quot;submit&quot; value=&quot;Enter&quot;&gt;
+   &lt;/FORM&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>verify.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY&gt; 
+ &#x3000;&lt;% String str=null;
+      str=request.getParameter(&quot;boy&quot;);
+      if(str==null)
+        str=&quot;&quot;;
+      byte b[]=str.getBytes(&quot;ISO-8859-1&quot;);
+      str=new String(b);
+      if(str.equals(&quot;&quot;))
+         response.sendRedirect(&quot;example4_13.jsp&quot;); 
+      else{ 
+         out.print(&quot;&#x6B22;&#x8FCE;&#x60A8;&#x6765;&#x5230;&#x672C;&#x7F51;&#x9875;&#xFF01;&quot;);
+         out.print(str);
+      }
+%&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506195202.gif" alt=""></p>
+<h2 id="response&#x7684;&#x72B6;&#x6001;&#x884C;">response&#x7684;&#x72B6;&#x6001;&#x884C;</h2>
+<ul>
+<li><p>&#x5F53;JSP&#x5F15;&#x64CE;&#x5BF9;&#x7528;&#x6237;&#x8BF7;&#x6C42;&#x8FDB;&#x884C;&#x54CD;&#x5E94;&#x65F6;&#xFF0C;&#x5B83;&#x53D1;&#x9001;&#x7684;&#x9996;&#x884C;&#x79F0;&#x505A;&#x72B6;&#x6001;&#x884C;&#x3002;</p>
+</li>
+<li><p>&#x72B6;&#x6001;&#x884C;&#x5305;&#x62EC;3&#x4F4D;&#x6570;&#x5B57;&#x7684;&#x72B6;&#x6001;&#x4EE3;&#x7801;&#x548C;&#x5BF9;&#x72B6;&#x6001;&#x4EE3;&#x7801;&#x7684;&#x63CF;&#x8FF0;&#xFF08;&#x79F0;&#x505A;&#x539F;&#x56E0;&#x77ED;&#x8BED;&#xFF09;&#x3002;</p>
+</li>
+</ul>
+<p><img src="https://img1.zlogs.net/20/20200506195357.png" alt=""></p>
+<blockquote>
+<p>&#x4F7F;&#x7528;<code>setStatus(int n)</code>&#x8BBE;&#x7F6E;&#x54CD;&#x5E94;&#x7684;&#x72B6;&#x6001;&#x884C;&#x6765;&#x9632;&#x6B62;&#x672C;&#x7F51;&#x7AD9;&#x7684;JSP&#x9875;&#x9762;&#x88AB;&#x201C;&#x76D7;&#x94FE;&#x201D;&#x3002;<code>other.jsp</code>&#x5B58;&#x653E;&#x5728;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;ch3&#x4E2D;(&#x4E00;&#x4E2A;&#x7F51;&#x7AD9;)&#xFF1B;sameWebOne.jsp&#x548C;sameWebTwo.jsp&#x5B58;&#x653E;&#x5728;&#x540C;&#x4E00;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;ch4&#x4E2D;(&#x4E00;&#x4E2A;&#x7F51;&#x7AD9;)&#x3002;other.jsp&#x548C;sameWebOne.jsp&#x90FD;&#x63D0;&#x4F9B;&#x4E86;&#x5173;&#x4E8E;sameWebTwo.jsp&#x7684;&#x8D85;&#x94FE;&#x63A5;&#x3002;sameWebTwo.jsp&#x5141;&#x8BB8;sameWebOne.jsp&#x901A;&#x8FC7;&#x5176;&#x4E2D;&#x7684;&#x8D85;&#x94FE;&#x63A5;&#x8BBF;&#x95EE;&#x5B83;,&#x4F46;&#x4E0D;&#x5141;&#x8BB8;other.jsp&#x901A;&#x8FC7;&#x5176;&#x4E2D;&#x7684;&#x8D85;&#x94FE;&#x63A5;&#x8BBF;&#x95EE;&#x5B83;  &#x3002;</p>
+<p>sameWebTwo.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=2&gt; 
+&lt;%  String mess=request.getHeader(&quot;referer&quot;);
+    if(mess==null){
+       mess=&quot;&quot;;
+       response.setStatus(404);
+    }
+    if(!(mess.startsWith(&quot;http://127.0.0.1:8080/ch4&quot;))) //&#x4E0D;&#x5141;&#x8BB8;&#x7F51;&#x7AD9;ch4&#x4EE5;&#x5916;&#x7684;&#x5176;&#x4ED6;&#x7F51;&#x7AD9;&#x76D7;&#x94FE;&#x672C;&#x9875;&#x9762;
+       response.setStatus(404);
+%&gt;
+&lt;P&gt; &#x6B22;&#x8FCE;&#x8BBF;&#x95EE;&#x672C;&#x9875;&#x9762;!&lt;BR&gt;
+    &#x60A8;&#x6765;&#x81EA;:&lt;%=mess%&gt;
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>other.jsp &#x548C; sameWebOne.jsp</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;FONT size=2&gt; 
+&lt;P&gt;&#x6211;&#x662F;ch4&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x9875;&#x9762;
+&lt;br&gt;&#x5355;&#x51FB;&#x4E0B;&#x9762;&#x7684;&#x8D85;&#x94FE;&#x63A5;&#xFF1A;&lt;BR&gt;
+   &lt;A HREF=&quot;http://127.0.0.1:8080/ch4/sameWebTwo.jsp&quot;&gt;&#x8BBF;&#x95EE;sameWebTwo.jsp
+&lt;/FONT&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x6548;&#x679C;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200506201407.png" alt=""></p>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1027.html" class="navigation navigation-prev " aria-label="Previous page: request">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1029.html" class="navigation navigation-next " aria-label="Next page: session">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"response","level":"1.4.2.4.2","depth":4,"next":{"title":"session","level":"1.4.2.4.3","depth":4,"path":"page/1029.md","ref":"page/1029.md","articles":[]},"previous":{"title":"request","level":"1.4.2.4.1","depth":4,"path":"page/1027.md","ref":"page/1027.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1028.md","mtime":"2020-05-06T13:32:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-06T13:34:57.978Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-gtag/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
