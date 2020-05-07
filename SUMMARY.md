@@ -6,7 +6,6 @@
     * [原理](page/1014.md)
     * [配置](page/1015.md)
     * [目录](page/1036.md)
-    * [文件](page/1037.md)
 * [语法](page/1013.md)
     * [HTML部分](page/1016.md)
         * [标记](page/1019.md)
