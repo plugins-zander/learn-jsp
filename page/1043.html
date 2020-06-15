@@ -1,0 +1,1786 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>MVC · learn-jsp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Zander Zhao">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/css/gitalk.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="1042.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    本书简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1011.html">
+            
+                <a href="1011.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="1012.html">
+            
+                <a href="1012.html">
+            
+                    
+                    环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1014.html">
+            
+                <a href="1014.html">
+            
+                    
+                    原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1015.html">
+            
+                <a href="1015.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1036.html">
+            
+                <a href="1036.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="1013.html">
+            
+                <a href="1013.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1016.html">
+            
+                <a href="1016.html">
+            
+                    
+                    HTML部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="1019.html">
+            
+                <a href="1019.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="1017.html">
+            
+                <a href="1017.html">
+            
+                    
+                    Java部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="1021.html">
+            
+                <a href="1021.html">
+            
+                    
+                    声明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1.1" data-path="1022.html">
+            
+                <a href="1022.html">
+            
+                    
+                    变量声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.1.2" data-path="1023.html">
+            
+                <a href="1023.html">
+            
+                    
+                    方法声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="1024.html">
+            
+                <a href="1024.html">
+            
+                    
+                    程序片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="1025.html">
+            
+                <a href="1025.html">
+            
+                    
+                    表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="1026.html">
+            
+                <a href="1026.html">
+            
+                    
+                    内置对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.4.1" data-path="1027.html">
+            
+                <a href="1027.html">
+            
+                    
+                    request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.2" data-path="1028.html">
+            
+                <a href="1028.html">
+            
+                    
+                    response
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.3" data-path="1029.html">
+            
+                <a href="1029.html">
+            
+                    
+                    session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.4" data-path="1030.html">
+            
+                <a href="1030.html">
+            
+                    
+                    application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.5" data-path="1031.html">
+            
+                <a href="1031.html">
+            
+                    
+                    out
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="1037.html">
+            
+                <a href="1037.html">
+            
+                    
+                    Javabean
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.6" data-path="1038.html">
+            
+                <a href="1038.html">
+            
+                    
+                    JavaServlet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.7" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="1018.html">
+            
+                <a href="1018.html">
+            
+                    
+                    JSP部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="1033.html">
+            
+                <a href="1033.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1.1" data-path="1034.html">
+            
+                <a href="1034.html">
+            
+                    
+                    指令标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.1.2" data-path="1035.html">
+            
+                <a href="1035.html">
+            
+                    
+                    动作标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="1039.html">
+            
+                <a href="1039.html">
+            
+                    
+                    资源处理(java)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="1040.html">
+            
+                <a href="1040.html">
+            
+                    
+                    文件操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="1041.html">
+            
+                <a href="1041.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="1042.html">
+            
+                <a href="1042.html">
+            
+                    
+                    XML
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="1043.html">
+            
+                <a href="1043.html">
+            
+                    
+                    MVC
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >MVC</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mvc">MVC</h1>
+<p>&#x200B;    MVC&#x6A21;&#x5F0F;&#x7684;&#x6838;&#x5FC3;&#x601D;&#x60F3;&#x662F;&#x6709;&#x6548;&#x5730;&#x7EC4;&#x5408;&#x201C;&#x89C6;&#x56FE;&#x201D;&#x3001;&#x201C;&#x6A21;&#x578B;&#x201D;&#x548C;&#x201C;&#x63A7;&#x5236;&#x5668;&#x201D;&#x3002;
+   &#x672C;&#x7AE0;&#x5C06;&#x4ECB;&#x7ECD;MVC&#x6A21;&#x5F0F;&#xFF0C;&#x638C;&#x63E1;&#x8BE5;&#x6A21;&#x5F0F;&#x5BF9;&#x4E8E;&#x8BBE;&#x8BA1;&#x5408;&#x7406;&#x7684;Web&#x5E94;&#x7528;&#x4EE5;&#x53CA;&#x5B66;&#x4E60;&#x4F7F;&#x7528;&#x67D0;&#x4E9B;&#x6D41;&#x884C;&#x7684;Web&#x6846;&#x67B6;&#xFF0C;&#x5982;Hibernate&#xFF0C;Spring&#xFF0C;Struts&#x7B49;&#xFF0C;&#x90FD;&#x6709;&#x7740;&#x5341;&#x5206;&#x91CD;&#x8981;&#x7684;&#x610F;&#x4E49;&#x3002;</p>
+<h2 id="mvc&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;">MVC&#x6A21;&#x5F0F;&#x4ECB;&#x7ECD;</h2>
+<p>&#x200B;    MVC&#x662F;&#x4E00;&#x79CD;&#x901A;&#x8FC7;&#x4E09;&#x4E2A;&#x4E0D;&#x540C;&#x90E8;&#x5206;&#x6784;&#x9020;&#x4E00;&#x4E2A;&#x8F6F;&#x4EF6;&#x6216;&#x7EC4;&#x4EF6;&#x7684;&#x7406;&#x60F3;&#x529E;&#x6CD5;&#xFF1A;
+&#x6A21;&#x578B;&#xFF08;Model&#xFF09;&#x2014;&#x2014;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x7684;&#x5BF9;&#x8C61;&#x3002;
+&#x89C6;&#x56FE;&#xFF08;View&#xFF09;&#x2014;&#x2014;&#x4E3A;&#x6A21;&#x578B;&#x63D0;&#x4F9B;&#x6570;&#x636E;&#x663E;&#x793A;&#x7684;&#x5BF9;&#x8C61;&#x3002;
+&#x63A7;&#x5236;&#x5668;&#xFF08;Controller&#xFF09;&#x2014;&#x2014;&#x8D1F;&#x8D23;&#x5177;&#x4F53;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x64CD;&#x4F5C;&#xFF0C;&#x5373;&#x63A7;&#x5236;&#x5668;&#x6839;&#x636E;&#x89C6;&#x56FE;&#x63D0;&#x51FA;&#x7684;&#x8981;&#x6C42;&#x5BF9;&#x6570;&#x636E;&#x505A;&#x51FA;&#x5904;&#x7406;&#xFF0C;&#x5E76;&#x5C06;&#x6709;&#x5173;&#x7ED3;&#x679C;&#x5B58;&#x50A8;&#x5230;&#x6A21;&#x578B;&#x4E2D;&#xFF0C;&#x540C;&#x65F6;&#x8D1F;&#x8D23;&#x8BA9;&#x6A21;&#x578B;&#x548C;&#x89C6;&#x56FE;&#x8FDB;&#x884C;&#x5FC5;&#x8981;&#x7684;&#x4EA4;&#x4E92;&#xFF0C;&#x5F53;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x53D8;&#x5316;&#x65F6;&#xFF0C;&#x8BA9;&#x89C6;&#x56FE;&#x66F4;&#x65B0;&#x663E;&#x793A;&#x3002;</p>
+<h2 id="jsp&#x4E2D;&#x7684;mvc&#x6A21;&#x5F0F;">JSP&#x4E2D;&#x7684;MVC&#x6A21;&#x5F0F;</h2>
+<p>&#x200B;    &#x5728;JSP&#x6280;&#x672F;&#x4E2D;&#xFF0C;&#x201C;&#x89C6;&#x56FE;&#x201D;&#x3001;&#x201C;&#x6A21;&#x578B;&#x201D;&#x548C;&#x201C;&#x63A7;&#x5236;&#x5668;&#x201D;&#x7684;&#x5177;&#x4F53;&#x5B9E;&#x73B0;&#x5982;&#x4E0B;&#xFF1A; 
+&#x6A21;&#x578B;&#xFF08;Model&#xFF09;&#xFF1A;
+   &#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;JavaBean&#x5BF9;&#x8C61;&#xFF0C;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x6570;&#x636E;&#xFF0C;JavaBean&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x7B80;&#x5355;&#x7684;setXXX()&#x65B9;&#x6CD5;&#x548C;getXXX()&#x65B9;&#x6CD5;&#xFF0C;&#x5728;&#x8FD9;&#x4E9B;&#x65B9;&#x6CD5;&#x4E2D;&#x4E0D;&#x6D89;&#x53CA;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5177;&#x4F53;&#x5904;&#x7406;&#x7EC6;&#x8282;&#x3002;
+&#x89C6;&#x56FE;&#xFF08;View&#xFF09;&#xFF1A;
+&#x200B;    &#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;JSP&#x9875;&#x9762;&#xFF0C;&#x4E3A;&#x6A21;&#x578B;&#x63D0;&#x4F9B;&#x6570;&#x636E;&#x663E;&#x793A;&#xFF0C;JSP&#x9875;&#x9762;&#x4E3B;&#x8981;&#x4F7F;&#x7528; HTML&#x6807;&#x8BB0;&#x548C;JavaBean&#x6807;&#x8BB0;&#x6765;&#x663E;&#x793A;&#x6570;&#x636E;&#x3002;
+&#x63A7;&#x5236;&#x5668;&#xFF08;Controller&#xFF09;&#xFF1A;
+&#x200B;    &#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;Servlet&#x5BF9;&#x8C61;&#xFF0C;&#x6839;&#x636E;&#x89C6;&#x56FE;&#x63D0;&#x4EA4;&#x7684;&#x8981;&#x6C42;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5904;&#x7406;&#x64CD;&#x4F5C;&#xFF0C;&#x5E76;&#x5C06;&#x6709;&#x5173;&#x7684;&#x7ED3;&#x679C;&#x5B58;&#x50A8;&#x5230;JavaBean&#x4E2D;&#xFF0C;&#x7136;&#x540E;Servlet&#x4F7F;&#x7528;&#x91CD;&#x5B9A;&#x5411;&#x65B9;&#x5F0F;&#x8BF7;&#x6C42;&#x89C6;&#x56FE;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;JSP&#x9875;&#x9762;&#x66F4;&#x65B0;&#x663E;&#x793A;.</p>
+<p><img src="https://img1.zlogs.net/20/20200615200919.png" alt="image"></p>
+<h2 id="&#x6A21;&#x578B;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E0E;&#x89C6;&#x56FE;&#x66F4;&#x65B0;">&#x6A21;&#x578B;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E0E;&#x89C6;&#x56FE;&#x66F4;&#x65B0;</h2>
+<p>&#x200B;      &#x5728;JSP+Javabean&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x7531;JSP&#x9875;&#x9762;&#x901A;&#x8FC7;&#x4F7F;&#x7528;useBean&#x6807;&#x8BB0;&#xFF1A;
+<code>&lt;jsp:useBean id=&quot;&#x540D;&#x5B57;&quot; class=&quot;&#x521B;&#x5EFA;bean&#x7684;&#x7C7B;&quot; scope=&quot;&#x751F;&#x547D;&#x5468;&#x671F;&quot;/&gt;</code>&#x521B;&#x5EFA;Javabean&#x3002;</p>
+<p>&#x200B;    JSP&#x4E2D;&#x7684;MVC&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7531;&#x63A7;&#x5236;&#x5668;servet&#x521B;&#x5EFA;Javabean&#xFF0C;&#x5E76;&#x5C06;&#x6709;&#x5173;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5230;&#x6240;&#x521B;&#x5EFA;&#x7684;Javabean&#x4E2D;&#xFF0C;&#x7136;&#x540E;servlet&#x8BF7;&#x6C42;&#x67D0;&#x4E2A;JSP&#x9875;&#x9762;&#x4F7F;&#x7528;Javabean&#x7684;getProperty&#x52A8;&#x4F5C;&#x6807;&#x8BB0;&#xFF1A;
+<code>&lt;jsp:getProperty name= &quot;&#x540D;&#x5B57;&quot; property=&quot;bean&#x7684;&#x5C5E;&#x6027;&quot;/&gt;</code>
+&#x663E;&#x793A;Javabean&#x7684;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002; </p>
+<p>&#x200B;    &#x5728;JSP&#x4E2D;&#x7684;MVC&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x975E;&#x5E38;&#x91CD;&#x8981;&#x7684;&#x624B;&#x6BB5;&#x662F;&#x7531;servlet&#x8D1F;&#x8D23;&#x7528;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x521B;&#x5EFA;Javabean&#xFF0C;&#x56E0;&#x6B64;&#x5141;&#x8BB8;&#x521B;&#x5EFA;Javabean&#x7684;&#x7C7B;&#x53EF;&#x4EE5;&#x6709;&#x5E26;&#x53C2;&#x6570;&#x7684;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x200B;     &#x5728;JSP&#x4E2D;&#x7684;MVC&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;servet&#x521B;&#x5EFA;&#x7684;Javabean&#x4E5F;&#x6D89;&#x53CA;&#x5230;&#x751F;&#x547D;&#x5468;&#x671F;(&#x6709;&#x6548;&#x671F;&#x9650;)&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x5206;&#x4E3A;request&#x3001;session&#x548C;application&#x3002;&#x4EE5;&#x4E0B;&#x5047;&#x8BBE;&#x521B;&#x5EFA;Javabean&#x7684;&#x7C7B;&#x7684;&#x540D;&#x5B57;&#x662F;BeanClass&#xFF0C;&#x8BE5;&#x7C7B;&#x7684;&#x5305;&#x540D;&#x4E3A;user.yourbean &#x3002;</p>
+<h3 id="request&#x5468;&#x671F;&#x7684;javabean">request&#x5468;&#x671F;&#x7684;Javabean</h3>
+<h4 id="javabean&#x7684;&#x521B;&#x5EFA;">Javabean&#x7684;&#x521B;&#x5EFA;</h4>
+<p>   servlet&#x8D1F;&#x8D23;&#x521B;&#x5EFA;bean&#x3002;&#x90A3;&#x4E48;&#x521B;&#x5EFA;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;request&#x7684;bean&#x7684;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;
+&#xFF08;1&#xFF09;&#x7528;BeanClass&#x7C7B;&#x7684;&#x67D0;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x521B;&#x5EFA;bean&#x5BF9;&#x8C61;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;
+         <code>BeanClass bean=new BeanClass();</code>
+&#xFF08;2&#xFF09;&#x5C06;&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x5BF9;&#x8C61;&#x5B58;&#x653E;&#x5230;HttpSerletRequest&#x5BF9;&#x8C61;request&#x4E2D;&#xFF0C;&#x5E76;&#x6307;&#x5B9A;&#x67E5;&#x627E;&#x8BE5;bean&#x7684;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x8BE5;&#x6B65;&#x9AA4;&#x51B3;&#x5B9A;&#x4E86;bean&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;request&#x3002;&#x4F8B;&#x5982;&#xFF1A;
+        <code>request.setAttribute(&quot;keyWord&quot;,bean);</code>
+&#x6267;&#x884C;&#x4E0A;&#x8FF0;&#x64CD;&#x4F5C;&#xFF0C;&#x5C31;&#x4F1A;&#x628A;bean&#x5B58;&#x653E;&#x5230;Tomcat&#x5F15;&#x64CE;&#x7BA1;&#x7406;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;pageContext&#x4E2D;&#xFF0C;&#x8BE5;bean&#x88AB;&#x6307;&#x5B9A;&#x7684;id&#x662F;&quot;keyWord&quot;&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x662F;<br>       <code>PageContext.REQUEST_SCOPE&#xFF08;request&#xFF09;</code>&#x3002;</p>
+<h4 id="&#x89C6;&#x56FE;&#x66F4;&#x65B0;">&#x89C6;&#x56FE;&#x66F4;&#x65B0;</h4>
+<p>&#x200B;    servlet&#x8BF7;&#x6C42;&#x4E00;&#x4E2A;JSP&#x9875;&#x9762;&#xFF0C;&#x6BD4;&#x5982;show.jsp&#x7684;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;
+<code>RequestDispatcher dispatcher= request.getRequestDispatcher(&quot;show.jsp&quot;);
+dispatcher.forward(request,response);</code></p>
+<p>&#x200B;    servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x6807;&#x8BB0;&#x83B7;&#x5F97;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7684;&#x5F15;&#x7528;&#xFF08;type&#x5C5E;&#x6027;&#x4F7F;&#x5F97;&#x8BE5;JSP&#x9875;&#x9762;&#x4E0D;&#x8D1F;&#x8D23;&#x521B;&#x5EFA;bean&#xFF09;&#xFF1A;
+<code>&lt;jsp:useBean id=&quot;keyWord&quot; type=&quot;user.yourbean.BeanClass&quot; scope=&quot;request&quot;/&gt;</code>
+&#x8BE5;&#x6807;&#x8BB0;&#x4E2D;&#x7684;id&#x662F;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#x3002;&#x7136;&#x540E;JSP&#x9875;&#x9762;&#x4F7F;&#x7528;<code>&lt;jsp:getProperty name=&quot;keyWord&quot; property=&quot;bean&#x7684;&#x53D8;&#x91CF;&quot;/&gt;</code>&#x6807;&#x8BB0;&#x663E;&#x793A;bean&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;&#x5982;&#x679C;&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x6267;&#x884C;&#x6210;&#x529F;&#xFF0C;&#x7528;&#x6237;&#x5C31;&#x770B;&#x5230;&#x4E86;show.jsp&#x9875;&#x9762;&#x7684;&#x6267;&#x884C;&#x6548;&#x679C;&#x3002;
+&#x200B;    &#x7279;&#x522B;&#x6CE8;&#x610F;: &#x5982;&#x679C;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;,&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x6807;&#x8BB0;&#x83B7;&#x5F97;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7684;&#x5F15;&#x7528;(&#x6CE8;&#x610F;&#x6CA1;&#x6709;&#x7528;type&#x5C5E;&#x6027;&#x800C;&#x662F;&#x7528;class&#x5C5E;&#x6027;)&#xFF1A;
+  <code>&lt;jsp:useBean id=&quot;keyWord&quot; class=&quot;user.yourbean.BeanClass&quot; scope=&quot;request&quot;/&gt;</code>
+&#x8BE5;&#x6807;&#x8BB0;&#x4E2D;&#x7684;id&#x662F;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#x3002;&#x90A3;&#x4E48;&#x5373;&#x4F7F;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x4E8B;&#x5148;&#x5DF2;&#x7ECF;&#x6709;&#x4E86;id&#x662F;&quot;keyWord&quot;&#xFF0C;scope&#x662F;&quot;request&quot;&#x7684;bean&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;bean&#x4E5F;&#x4F1A;&#x88AB;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x66FF;&#x6362;&#x3002;
+&#x200B;     &#x539F;&#x56E0;&#x662F;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x4F1A;&#x88AB;&#x5237;&#x65B0;&#xFF0C;&#x5C31;&#x4F1A;&#x6839;&#x636E;&#x5F53;&#x524D;&#x9875;&#x9762;&#x4F7F;&#x7528;&#x7684;<code>&lt;jsp:useBean id=&quot;keyWord&quot; class=&quot;user.yourbean.BeanClass&quot; scope=&quot;request&quot;/&gt;</code> &#x6807;&#x8BB0;&#x5230;Tomcat&#x5F15;&#x64CE;&#x7BA1;&#x7406;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;PageContext&#x4E2D;&#x5BFB;&#x627E;id&#x662F;&quot;keyWord&quot;&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x662F;request&#xFF0C;&#x800C;&#x8BE5;bean&#x5DF2;&#x7ECF;&#x88AB;servlet&#x66F4;&#x65B0;&#x4E86;&#x3002;</p>
+<h3 id="session&#x5468;&#x671F;&#x7684;javabean">session&#x5468;&#x671F;&#x7684;Javabean</h3>
+<h4 id="javabean&#x7684;&#x521B;&#x5EFA;">Javabean&#x7684;&#x521B;&#x5EFA;</h4>
+<p>   servet&#x521B;&#x5EFA;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;session&#x7684;bean&#x7684;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;
+&#xFF08;1&#xFF09;&#x7528;BeanClass&#x7C7B;&#x7684;&#x67D0;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x521B;&#x5EFA;bean&#x5BF9;&#x8C61;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;
+   <code>BeanClass bean=new BeanClass();</code>
+&#xFF08;2&#xFF09;&#x5C06;&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x5BF9;&#x8C61;&#x5B58;&#x653E;&#x5230;HttpSerletSession&#x5BF9;&#x8C61;&#xFF1A;session&#x4E2D;&#xFF0C;&#x5E76;&#x6307;&#x5B9A;&#x67E5;&#x627E;&#x8BE5;bean&#x7684;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x8BE5;&#x6B65;&#x9AA4;&#x51B3;&#x5B9A;&#x4E86;bean&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;session&#x3002;&#x4F8B;&#x5982;&#xFF1A;
+     <code>HttpSession session=request.getSession(true);
+     session.setAttribute(&quot;keyWord&quot;,bean);</code>
+   &#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#x6267;&#x884C;&#x4E0A;&#x8FF0;&#x64CD;&#x4F5C;&#xFF0C;&#x5C31;&#x4F1A;&#x628A;bean&#x5B58;&#x653E;&#x5230;Tomcat&#x5F15;&#x64CE;&#x7BA1;&#x7406;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;pageContext&#x4E2D;&#xFF0C;&#x8BE5;bean&#x88AB;&#x6307;&#x5B9A;&#x7684;id&#x662F;&quot;keyWord&quot;&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x662F;<code>PageContext.SESSION_SCOPE&#xFF08;session&#xFF09;</code>&#x3002;</p>
+<h4 id="&#x89C6;&#x56FE;&#x66F4;&#x65B0;">&#x89C6;&#x56FE;&#x66F4;&#x65B0;</h4>
+<p>&#x200B;    servelt&#x521B;&#x5EFA;bean,bean&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;session&#xFF0C;&#x53EA;&#x8981;&#x7528;&#x6237;&#x7684;session&#x6CA1;&#x6709;&#x6D88;&#x5931;&#xFF0C;&#x8BE5;bean&#x5C31;&#x4E00;&#x76F4;&#x5B58;&#x5728;&#xFF0C;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x5728;&#x8BBF;&#x95EE;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;&#x5404;&#x4E2A;JSP&#x4E2D;&#x90FD;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<jsp:usebean id="keyWord" type="usern.yourbean.BeanClass" scope="session"> &#x6807;&#x8BB0;&#x83B7;&#x5F97;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;<jsp:getproperty name="keyWord" property="bean&#x7684;&#x53D8;&#x91CF;">&#x6807;&#x8BB0;&#x663E;&#x793A;&#x8BE5;bean&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x8BE5;&#x6807;&#x8BB0;&#x4E2D;&#x7684;id&#x662F;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#x3002;
+&#x200B;    &#x5BF9;&#x4E8E;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;session&#x7684;bean&#xFF0C;&#x5982;&#x679C;servlet&#x5E0C;&#x671B;&#x67D0;&#x4E2A;JSP&#x663E;&#x793A;&#x5176;&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;RequestDispatcher&#x5BF9;&#x8C61;&#x5411;&#x8BE5;JSP&#x9875;&#x9762;&#x53D1;&#x51FA;&#x8BF7;&#x6C42;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;HttpServletResponse&#x7C7B;&#x4E2D;&#x7684;&#x91CD;&#x5B9A;&#x5411;&#x65B9;&#x6CD5;&#xFF08;sendRedirect&#xFF09;&#x3002;
+&#x200B;    show.jsp&#x9875;&#x9762;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x6807;&#x8BB0;&#x83B7;&#x5F97;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7684;&#x5F15;&#x7528;(&#x6CE8;&#x610F;&#x6CA1;&#x6709;&#x7528;type&#x5C5E;&#x6027;&#x800C;&#x662F;&#x7528;class&#x5C5E;&#x6027;)&#xFF1A;<jsp:usebean id="keyWord" class="user.yourbean.BeanClass" scope="session">&#x8BE5;&#x6807;&#x8BB0;&#x4E2D;&#x7684;id&#x662F;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#x3002;&#x90A3;&#x4E48;&#x5373;&#x4F7F;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x6216;&#x5176;&#x4ED6;&#x9875;&#x9762;&#x4E8B;&#x5148;&#x5DF2;&#x7ECF;&#x6709;&#x4E86;id&#x662F;&quot;keyWord&quot;&#xFF0C;scope&#x662F;&quot; session &quot;&#x7684;bean&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;bean&#x4E5F;&#x4F1A;&#x88AB;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x66FF;&#x6362;&#x3002;
+&#x200B;     &#x539F;&#x56E0;&#x662F;&#xFF0C;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x6216;&#x5176;&#x4ED6;&#x9875;&#x9762;&#x88AB;&#x5237;&#x65B0;&#x65F6;&#xFF0C;&#x5C31;&#x4F1A;&#x6839;&#x636E;&#x5F53;&#x524D;&#x9875;&#x9762;&#x4F7F;&#x7528;&#x7684;<jsp:usebean id="keyWord" class="user.yourbean.BeanClass" scope=" session ">&#x6807;&#x8BB0;&#x5230;Tomcat&#x5F15;&#x64CE;&#x7BA1;&#x7406;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;PageContext&#x4E2D;&#x5BFB;&#x627E;id&#x662F;&quot;keyWord&quot;&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x662F;session,&#x800C;&#x8BE5;bean&#x5DF2;&#x7ECF;&#x88AB;servlet&#x66F4;&#x65B0;&#x4E86;&#x3002;</jsp:usebean></jsp:usebean></jsp:getproperty></jsp:usebean></p>
+<h3 id="application&#x5468;&#x671F;&#x7684;javabean">application&#x5468;&#x671F;&#x7684;Javabean</h3>
+<h4 id="javabean&#x7684;&#x521B;&#x5EFA;">Javabean&#x7684;&#x521B;&#x5EFA;</h4>
+<p>&#x200B;    servet&#x521B;&#x5EFA;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;application&#x7684;bean&#x7684;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;
+&#xFF08;1&#xFF09;&#x7528;BeanClass&#x7C7B;&#x7684;&#x67D0;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x521B;&#x5EFA;bean&#x5BF9;&#x8C61;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;
+&#x200B;         BeanClass bean=new BeanClass();
+&#xFF08;2&#xFF09;servlet&#x4F7F;&#x7528;getServletContext()&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x670D;&#x52A1;&#x5668;&#x7684;ServletContext&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x5C06;&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x5BF9;&#x8C61;&#x5B58;&#x653E;&#x5230;&#x670D;&#x52A1;&#x5668;&#x8FD9;&#x4E2A;ServletContext&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x5E76;&#x6307;&#x5B9A;&#x67E5;&#x627E;&#x8BE5;bean&#x7684;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x8BE5;&#x6B65;&#x9AA4;&#x51B3;&#x5B9A;&#x4E86;bean&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;application&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;
+&#x200B;      getServletContext().setAttribute(&quot;keyWord&quot;,bean);
+&#x4E0A;&#x8FF0;&#x64CD;&#x4F5C;&#xFF0C;&#x5C31;&#x4F1A;&#x628A;bean&#x5B58;&#x653E;&#x5230;Tomcat&#x5F15;&#x64CE;&#x7BA1;&#x7406;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;pageContext&#x4E2D;&#xFF0C;&#x8BE5;bean&#x88AB;&#x6307;&#x5B9A;&#x7684;id&#x662F;&quot;keyWord&quot;&#xFF0C;&#x6709;&#x6548;&#x671F;&#x9650;&#x662F;&#xFF08;&#x751F;&#x547D;&#x5468;&#x671F;&#xFF09;PageContext.APPLICATION_SCOPE&#xFF08;application&#xFF09;&#x3002;</p>
+<h4 id="&#x89C6;&#x56FE;&#x66F4;&#x65B0;">&#x89C6;&#x56FE;&#x66F4;&#x65B0;</h4>
+<p>&#x200B;    &#x5F53;servlet&#x521B;&#x5EFA;&#x521B;&#x5EFA;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;application&#x7684;bean&#x540E;&#xFF0C;&#x53EA;&#x8981;Web&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E0D;&#x7ED3;&#x675F;&#xFF0C;&#x8BE5;bean&#x5C31;&#x4E00;&#x76F4;&#x5B58;&#x5728;&#x3002;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x5728;&#x8BBF;&#x95EE;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;&#x5404;&#x4E2A;JSP&#x4E2D;&#x90FD;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>&lt;jsp:useBean id=&quot;keyWord&quot; type=&quot;user.yourbean.BeanClass&quot; scope=&quot;application&quot;/&gt;</code>  &#x6807;&#x8BB0;&#x83B7;&#x5F97;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;
+<code>&lt;jsp:getProperty name=&quot;keyWord&quot; property=&quot;bean&#x7684;&#x53D8;&#x91CF;&quot;/&gt;</code>&#x6807;&#x8BB0;&#x663E;&#x793A;&#x8BE5;Javabean&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x8BE5;&#x6807;&#x8BB0;&#x4E2D;&#x7684;id&#x662F;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#x3002;
+&#x200B;    &#x5BF9;&#x4E8E;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;application&#x7684;bean&#xFF0C;&#x5982;&#x679C;servlet&#x5E0C;&#x671B;&#x67D0;&#x4E2A;JSP&#x663E;&#x793A;&#x5176;&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;RequestDispatcher&#x5BF9;&#x8C61;&#x5411;&#x8BE5;JSP&#x9875;&#x9762;&#x53D1;&#x51FA;&#x8BF7;&#x6C42;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;HttpServletResponse&#x7C7B;&#x4E2D;&#x7684;&#x91CD;&#x5B9A;&#x5411;&#x65B9;&#x6CD5;&#xFF08;sendRedirect&#xFF09;&#x3002;
+&#x200B;    &#x6CE8;&#x610F;:&#x6240;&#x6709;&#x7528;&#x6237;&#x5728;&#x540C;&#x4E00;&#x4E2A;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x4E2D;&#x7684;application&#x751F;&#x547D;&#x5468;&#x671F;&#x7684;bean&#x662F;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x5373;&#x5360;&#x6709;&#x76F8;&#x540C;&#x7684;&#x5185;&#x5B58;&#x7A7A;&#x95F4;&#x3002;&#x53E6;&#x5916;,&#x5982;&#x679C;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#xFF0C;&#x6BD4;&#x5982;show.jsp&#x9875;&#x9762;&#xFF0C;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x6807;&#x8BB0;&#x83B7;&#x5F97;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7684;&#x5F15;&#x7528;(&#x6CE8;&#x610F;&#x6CA1;&#x6709;&#x7528;type&#x5C5E;&#x6027;&#x800C;&#x662F;&#x7528;class&#x5C5E;&#x6027;)&#xFF1A;<code>&lt;jsp:useBean id=&quot;keyWord&quot; class=&quot;user.yourbean.BeanClass&quot; scope=&quot;application&quot;/&gt;</code>&#x8BE5;&#x6807;&#x8BB0;&#x4E2D;&#x7684;id&#x662F;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x7D22;&#x5F15;&#x5173;&#x952E;&#x5B57;&#x3002;&#x90A3;&#x4E48;&#x5373;&#x4F7F;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x6216;&#x5176;&#x4ED6;&#x4E8B;&#x5148;&#x5DF2;&#x7ECF;&#x6709;&#x4E86;id&#x662F;&quot;keyWord&quot;&#xFF0C;scope&#x662F;&quot;application&quot;&#x7684;bean&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;bean&#x4E5F;&#x4F1A;&#x88AB;servlet&#x6240;&#x521B;&#x5EFA;&#x7684;bean&#x66FF;&#x6362;&#x3002;
+   &#x539F;&#x56E0;&#x662F;&#xFF0C;servlet&#x6240;&#x8BF7;&#x6C42;&#x7684;JSP&#x9875;&#x9762;&#x6216;&#x5176;&#x4ED6;&#x9875;&#x9762;&#x88AB;&#x5237;&#x65B0;&#x65F6;&#xFF0C;&#x5C31;&#x4F1A;&#x6839;&#x636E;&#x5F53;&#x524D;&#x9875;&#x9762;&#x4F7F;&#x7528;&#x7684;&#xFF1A;<code>&lt;jsp:useBean id=&quot;keyWord&quot; class=&quot;user.yourbean.BeanClass&quot; scope=&quot;application&quot;/&gt;</code>&#x6807;&#x8BB0;&#x5230;Tomcat&#x5F15;&#x64CE;&#x7BA1;&#x7406;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;PageContext&#x4E2D;&#x5BFB;&#x627E;id&#x662F;&quot;keyWord&quot;&#xFF0C;&#x751F;&#x547D;&#x5468;&#x671F;&#x662F;application&#xFF0C;&#x800C;&#x8BE5;bean&#x5DF2;&#x7ECF;&#x88AB;servlet&#x66F4;&#x65B0;&#x4E86;&#x3002;</p>
+<blockquote>
+<p>MVC&#x6A21;&#x5F0F;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x4F8B; </p>
+<p>   &#x672C;&#x8282;&#x7ED3;&#x5408;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x5B9E;&#x4F8B;&#x4F53;&#x73B0;MVC&#x4E09;&#x4E2A;&#x90E8;&#x5206;&#x7684;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;&#x3002;<br>       &#x8BA1;&#x7B97;&#x4E09;&#x89D2;&#x5F62;&#x548C; &#x68AF;&#x5F62;&#x7684;&#x9762;&#x79EF; </p>
+<p>Javabean&#x548C;Servlet&#x4E0E;&#x914D;&#x7F6E;&#x6587;&#x4EF6; </p>
+<p>   &#x6309;&#x7740;&#x672C;&#x7AE0;&#x7684;&#x7EA6;&#x5B9A;Javabean&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;mybean.data&#xFF1B;Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;myservlet.control&#x3002; 
+1&#xFF0E;&#x4FDD;&#x5B58;Javabean&#x7C7B;&#x548C;Servlet&#x7C7B;&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+    D:\ mybean\data  &#x548C;  D:\myservlet\control
+2&#xFF0E;&#x7F16;&#x8BD1;Javabean&#x7C7B; 
+    D:&gt; javac mybean\data\Javabean&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+3&#xFF0E;&#x7F16;&#x8BD1;Servlet&#x7C7B; 
+    D:&gt; javac myservlet\control\servlet&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+4&#xFF0E;&#x5C06;&#x7C7B;&#x7684;&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;&#x670D;&#x52A1;&#x5668; 
+     ch9\WEB-INF\classes\mybean\data 
+     &#x548C;ch9\WEB-INF\classes\myservlet\control 
+5&#xFF0E;web.xml&#x6587;&#x4EF6; 
+   &#x7F16;&#x5199;web.xml&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x4FDD;&#x5B58;&#x5230;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;WEB-INF&#x5B50;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x5373;ch9\WEB-INF&#x4E2D; &#x3002;</p>
+<p>&#x8BA1;&#x7B97;&#x4E09;&#x89D2;&#x5F62;&#x548C;&#x68AF;&#x5F62;&#x7684;&#x9762;&#x79EF; </p>
+<p>   &#x8BBE;&#x8BA1;&#x4E00;&#x4E2A;Web&#x5E94;&#x7528;&#xFF0C;&#x8BE5;Web&#x5E94;&#x7528;&#x63D0;&#x4F9B;&#x4E24;&#x4E2A;JSP&#x9875;&#x9762;&#xFF0C;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x4F7F;&#x5F97;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x8F93;&#x5165;&#x4E09;&#x89D2;&#x5F62;&#x4E09;&#x8FB9;&#x7684;&#x503C;&#x548C;&#x68AF;&#x5F62;&#x7684;&#x4E0A;&#x5E95;&#x3001;&#x4E0B;&#x5E95;&#x548C;&#x9AD8;&#x7684;&#x503C;&#xFF1B;&#x53E6;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x663E;&#x793A;&#x4E09;&#x89D2;&#x5F62;&#x548C;&#x68AF;&#x5F62;&#x7684;&#x9762;&#x79EF;&#x3002;Web&#x5E94;&#x7528;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x540D;&#x5B57;&#x4E3A;computerArea&#x7684;servlet&#x5BF9;&#x8C61;&#xFF0C;computerArea&#x8D1F;&#x8D23;&#x8BA1;&#x7B97;&#x4E09;&#x89D2;&#x5F62;&#x548C;&#x68AF;&#x5F62;&#x7684;&#x9762;&#x79EF;&#xFF08;computerArea&#x7531;HandleArea&#x7C7B;&#x8D1F;&#x8D23;&#x521B;&#x5EFA;&#xFF0C;&#x8BBF;&#x95EE;&#x5B83;&#x7684;url-pattern&#x4E3A;lookArea&#xFF0C;&#x89C1;&#x524D;&#x9762;&#x7684;web.xml&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x6709;&#x5173;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5230;Javabean&#x4E2D;&#x3002;Web&#x5E94;&#x7528;&#x63D0;&#x4F9B;&#x7684;Javabean&#x8D1F;&#x8D23;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x7ED3;&#x679C;&#xFF0C;&#x8BE5;Javabean&#x63D0;&#x4F9B;&#x7B80;&#x5355;&#x7684;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x548C;&#x4FEE;&#x6539;&#x6570;&#x636E;&#x7684;&#x65B9;&#x6CD5;&#x3002; </p>
+<p>1&#xFF0E;&#x6A21;&#x578B;&#xFF08;Javabean&#xFF09; </p>
+<p>Area.java </p>
+<p>   &#x672C;&#x6A21;&#x578B;Area.java&#x4E2D;&#x7684;getXxx&#x548C;setXxx&#x65B9;&#x6CD5;&#x4E0D;&#x6D89;&#x53CA;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5177;&#x4F53;&#x5904;&#x7406;&#x7EC6;&#x8282;&#xFF0C;&#x4EE5;&#x4FBF;&#x589E;&#x5F3A;&#x6A21;&#x578B;&#x7684;&#x901A;&#x7528;&#x6027;&#x3002; </p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> mybean.data;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Area</span></span>{
+   <span class="hljs-keyword">double</span> a,b,c,area; 
+   String mess;
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setMess</span><span class="hljs-params">(String mess)</span></span>{
+      <span class="hljs-keyword">this</span>.mess=mess;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getMess</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> mess;
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setA</span><span class="hljs-params">(<span class="hljs-keyword">double</span> a)</span></span>{
+      <span class="hljs-keyword">this</span>.a=a;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setB</span><span class="hljs-params">(<span class="hljs-keyword">double</span> b)</span></span>{
+      <span class="hljs-keyword">this</span>.b=b;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setC</span><span class="hljs-params">(<span class="hljs-keyword">double</span> c)</span></span>{
+      <span class="hljs-keyword">this</span>.c=c;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setArea</span><span class="hljs-params">(<span class="hljs-keyword">double</span> s)</span></span>{
+      area=s;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">double</span> <span class="hljs-title">getArea</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> area;
+   }
+}
+</code></pre>
+<blockquote>
+<p>2&#xFF0E;&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09; </p>
+<p>HandleArea .java
+    &#x63A7;&#x5236;&#x5668;&#x662F;&#x540D;&#x5B57;&#x4E3A;computerArea&#x7684;servlet&#x5BF9;&#x8C61;&#xFF08;&#x89C1;web.xml&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#xFF09;&#xFF0C;&#x7531;&#x4E0B;&#x9762;&#x7684;Servlet&#x7C7B;&#x8D1F;&#x8D23;&#x521B;&#x5EFA;&#x3002;&#x63A7;&#x5236;&#x5668;&#x4F7F;&#x7528;doPost&#x65B9;&#x6CD5;&#x8BA1;&#x7B97;&#x4E09;&#x89D2;&#x5F62;&#x7684;&#x9762;&#x79EF;&#xFF1B;&#x4F7F;&#x7528;doGet&#x65B9;&#x6CD5;&#x8BA1;&#x7B97;&#x68AF;&#x5F62;&#x7684;&#x9762;&#x79EF; &#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.Area;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HandleArea</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      Area dataBean=<span class="hljs-keyword">new</span> Area();              <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+      request.setAttribute(<span class="hljs-string">&quot;data&quot;</span>,dataBean);<span class="hljs-comment">//&#x5C06;dataBean&#x5B58;&#x50A8;&#x5230;request&#x5BF9;&#x8C61;&#x4E2D;</span>
+      <span class="hljs-keyword">try</span>{  <span class="hljs-keyword">double</span> a=Double.parseDouble(request.getParameter(<span class="hljs-string">&quot;a&quot;</span>));
+            <span class="hljs-keyword">double</span> b=Double.parseDouble(request.getParameter(<span class="hljs-string">&quot;b&quot;</span>));
+            <span class="hljs-keyword">double</span> c=Double.parseDouble(request.getParameter(<span class="hljs-string">&quot;c&quot;</span>));
+            dataBean.setA(a);            <span class="hljs-comment">//&#x5C06;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;dataBean&#x4E2D; </span>
+            dataBean.setB(b);            
+            dataBean.setC(c); 
+            <span class="hljs-keyword">double</span> s=-<span class="hljs-number">1</span>;
+            <span class="hljs-keyword">double</span> p=(a+b+c)/<span class="hljs-number">2.0</span>;
+            <span class="hljs-keyword">if</span>(a+b&gt;c&amp;&amp;a+c&gt;b&amp;&amp;b+c&gt;a)
+              s=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+            dataBean.setArea(s);         <span class="hljs-comment">//&#x5C06;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;dataBean&#x4E2D;</span>
+            dataBean.setMess(<span class="hljs-string">&quot;&#x4E09;&#x89D2;&#x5F62;&#x9762;&#x79EF;&quot;</span>);  
+      }
+      <span class="hljs-keyword">catch</span>(Exception e){
+            dataBean.setArea(-<span class="hljs-number">1</span>);
+            dataBean.setMess(<span class="hljs-string">&quot;&quot;</span>+e);  
+      }
+      RequestDispatcher dispatcher=request.getRequestDispatcher(<span class="hljs-string">&quot;showResult.jsp&quot;</span>);
+       <span class="hljs-comment">//&#x8BF7;&#x6C42;showResult.jsp&#x663E;&#x793A;dataBean&#x4E2D;&#x7684;&#x6570;&#x636E;:</span>
+       dispatcher.forward(request,response);  
+    } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      Area dataBean=<span class="hljs-keyword">new</span> Area();             <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+      request.setAttribute(<span class="hljs-string">&quot;data&quot;</span>,dataBean);<span class="hljs-comment">//&#x5C06;dataBean&#x5B58;&#x50A8;&#x5230;request&#x5BF9;&#x8C61;&#x4E2D;</span>
+      <span class="hljs-keyword">try</span>{  <span class="hljs-keyword">double</span> a=Double.parseDouble(request.getParameter(<span class="hljs-string">&quot;a&quot;</span>));
+            <span class="hljs-keyword">double</span> b=Double.parseDouble(request.getParameter(<span class="hljs-string">&quot;b&quot;</span>));
+            <span class="hljs-keyword">double</span> c=Double.parseDouble(request.getParameter(<span class="hljs-string">&quot;c&quot;</span>));
+            dataBean.setA(a);            <span class="hljs-comment">//&#x5C06;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;dataBean&#x4E2D; </span>
+            dataBean.setB(b);            
+            dataBean.setC(c); 
+            <span class="hljs-keyword">double</span> s=-<span class="hljs-number">1</span>;
+            s=(a+b)*c/<span class="hljs-number">2.0</span>;
+            dataBean.setArea(s);         <span class="hljs-comment">//&#x5C06;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;dataBean&#x4E2D; </span>
+            dataBean.setMess(<span class="hljs-string">&quot;&#x68AF;&#x5F62;&#x9762;&#x79EF;&quot;</span>);   
+      }
+      <span class="hljs-keyword">catch</span>(Exception e){
+            dataBean.setArea(-<span class="hljs-number">1</span>);
+            dataBean.setMess(<span class="hljs-string">&quot;&quot;</span>+e);  
+      }
+      RequestDispatcher dispatcher=request.getRequestDispatcher(<span class="hljs-string">&quot;showResult.jsp&quot;</span>);
+      <span class="hljs-comment">//&#x8BF7;&#x6C42;showResult.jsp&#x663E;&#x793A;dataBean&#x4E2D;&#x7684;&#x6570;&#x636E; :</span>
+      dispatcher.forward(request,response);  
+  }
+}
+</code></pre>
+<blockquote>
+<p>3&#xFF0E;&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09; </p>
+<p>   &#x5728;inputData.jsp&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x8F93;&#x5165;&#x4E09;&#x89D2;&#x5F62;&#x4E09;&#x8FB9;&#x7684;&#x503C;&#x6216;&#x68AF;&#x5F62;&#x7684;&#x4E0A;&#x3001;&#x4E0B;&#x5E95;&#x548C;&#x9AD8;&#x7684;&#x503C;&#xFF0C;&#x5E76;&#x5C06;&#x6240;&#x8F93;&#x5165;&#x7684;&#x4E09;&#x89D2;&#x5F62;&#x4E09;&#x8FB9;&#x7684;&#x503C;&#x548C;&#x68AF;&#x5F62;&#x7684;&#x4E0A;&#x3001;&#x4E0B;&#x5E95;&#x548C;&#x9AD8;&#x7684;&#x503C;&#x5206;&#x522B;&#x7528;post&#x65B9;&#x6CD5;&#x548C;get&#x65B9;&#x6CD5;&#x63D0;&#x4EA4;&#x7ED9;&#x540D;&#x5B57;&#x4E3A;computerArea&#x7684;servlet&#x5BF9;&#x8C61;&#x3002;computerArea&#x4F7F;&#x7528;doPost&#x65B9;&#x6CD5;&#x8BA1;&#x7B97;&#x4E09;&#x89D2;&#x5F62;&#x7684;&#x9762;&#x79EF;&#xFF1B;&#x4F7F;&#x7528;doGet&#x65B9;&#x6CD5;&#x8BA1;&#x7B97;&#x68AF;&#x5F62;&#x7684;&#x9762;&#x79EF;&#xFF0C;&#x5E76;&#x5C06;&#x7ED3;&#x679C;&#x5B58;&#x50A8;&#x5230;&#x6570;&#x636E;&#x6A21;&#x578B;bean&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x8BF7;&#x6C42;showResult.jsp&#x9875;&#x9762;&#x663E;&#x793A;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;
+  inputData.jsp&#xFF08;&#x6548;&#x679C;&#x5982;&#x56FE;9-3&#xFF09;<br>  showResult.jsp&#xFF08;&#x6548;&#x679C;&#x5982;&#x56FE;9-4&#xFF09; </p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200615202217.png" alt="image"></p>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;Font size=2&gt;
+&lt;FORM action=&quot;lookArea&quot; Method=&quot;post&quot; &gt;
+   &#x4E09;&#x89D2;&#x5F62;&#xFF1A;
+  &lt;BR&gt;&#x8F93;&#x5165;&#x8FB9;A:&lt;Input type=text name=&quot;a&quot; size=4&gt;
+      &#x8F93;&#x5165;&#x8FB9;B:&lt;Input type=text name=&quot;b&quot; size=4&gt;
+      &#x8F93;&#x5165;&#x8FB9;C:&lt;Input type=text name=&quot;c&quot; size=4&gt;
+  &lt;Input type=submit value=&quot;&#x63D0;&#x4EA4;&quot;&gt;
+&lt;/FORM&gt;
+&lt;FORM action=&quot;lookArea&quot; Method=&quot;get&quot; &gt;
+   &#x68AF;&#x5F62;&#xFF1A;
+  &lt;BR&gt;&#x8F93;&#x5165;&#x4E0A;&#x5E95;:&lt;Input type=text name=&quot;a&quot; size=4&gt;
+      &#x8F93;&#x5165;&#x4E0B;&#x5E95;:&lt;Input type=text name=&quot;b&quot; size=4&gt;
+      &#x8F93;&#x5165;&#x9AD8;:  &lt;Input type=text name=&quot;c&quot; size=4&gt;
+  &lt;Input type=submit value=&quot;&#x63D0;&#x4EA4;&quot;&gt;
+&lt;/FORM&gt;
+&lt;/Font&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;mybean.data.Area&quot;%&gt; 
+&lt;jsp:useBean id=&quot;data&quot; type=&quot;mybean.data.Area&quot; scope=&quot;request&quot;/&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;
+   &lt;jsp:getProperty name=&quot;data&quot; property=&quot;mess&quot;/&gt;:
+   &lt;jsp:getProperty name=&quot;data&quot; property=&quot;area&quot;/&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<h2 id="mvc&#x6A21;&#x5F0F;&#x4E0E;&#x6CE8;&#x518C;&#x767B;&#x5F55;">MVC&#x6A21;&#x5F0F;&#x4E0E;&#x6CE8;&#x518C;&#x767B;&#x5F55;</h2>
+<p>&#x200B;    &#x5927;&#x90E8;&#x5206;Web&#x5E94;&#x7528;&#x90FD;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x6CE8;&#x518C;&#x4E0E;&#x767B;&#x5F55;&#x6A21;&#x5757;&#x3002;&#x672C;&#x8282;&#x4F7F;&#x7528;MVC&#x6A21;&#x5F0F;&#x8BB2;&#x8FF0;&#x600E;&#x6837;&#x8BBE;&#x8BA1;&#x6CE8;&#x518C;&#x3001;&#x767B;&#x5F55;&#x6A21;&#x5757;&#x3002;&#x4E3A;ch9\WEB-INF&#x4E2D;&#x7684;web.xml&#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5B50;&#x6807;&#x8BB0; </p>
+<blockquote>
+<p>Javabean&#x4E0E;Servlet&#x7BA1;&#x7406; </p>
+<p>&#x672C;&#x8282;&#x7684;Javabean&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;mybean.data&#xFF1B;Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;myservlet.control&#x3002;</p>
+<p>1&#xFF0E;&#x4FDD;&#x5B58;Javabean&#x7C7B;&#x548C;Servlet&#x7C7B;&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+   D:\ mybean\data &#x548C; D:\myservlet\control
+2&#xFF0E;&#x7F16;&#x8BD1;Javabean&#x7C7B; 
+     D:&gt; javac mybean\data\Javabean&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+3&#xFF0E;&#x7F16;&#x8BD1;Servlet&#x7C7B; 
+      D:&gt; javac myservlet\control\servlet&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+4&#xFF0E;&#x5C06;&#x7C7B;&#x7684;&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;&#x670D;&#x52A1;&#x5668; 
+     ch9\WEB-INF\classes\mybean\data   &#x548C;
+     ch9\WEB-INF\classes\myservlet\control</p>
+<p>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7BA1;&#x7406; </p>
+<p>   &#x672C;&#x8282;&#x7684;Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;myservlet.control&#xFF0C;&#x9700;&#x8981;&#x914D;&#x7F6E;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;web.xml&#x6587;&#x4EF6;&#xFF0C;&#x5373;&#x5C06;&#x4E0B;&#x9762;&#x7684;web.xml&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x7684;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;ch9&#x4E2D;&#x3002;&#x6839;&#x636E;&#x672C;&#x4E66;&#x4F7F;&#x7528;&#x7684;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x53CA;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#xFF0C;&#x9700;&#x8981;&#x5C06;web.xml&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;D:\apache-tomcat-8.0.3\webapps\ch9\WEB-INF&#x76EE;&#x5F55;&#x4E2D;&#x3002;</p>
+</blockquote>
+<p>web.xml </p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>register<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.HandleRegister<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>register<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/helpRegister<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>login<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.HandleLogin<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>login<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/helpLogin<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+</code></pre>
+<blockquote>
+<p>&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x4E0E;&#x8FDE;&#x63A5; </p>
+<p>   &#x4F7F;&#x7528;MySQL&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5E93;student&#xFF0C;&#x8BE5;&#x5E93;&#x5171;&#x6709;&#x4E00;&#x4E2A;user&#x8868; &#x3002;</p>
+<p>&#x200B;    user&#x8868;&#x7684;&#x7528;&#x9014;&#xFF1A;&#x5B58;&#x50A8;&#x7528;&#x6237;&#x7684;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x3002;&#x5373;&#x4F1A;&#x5458;&#x7684;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x5B58;&#x5165;user&#x8868;&#x4E2D;&#xFF0C;user&#x8868;&#x7684;&#x4E3B;&#x952E;&#x662F;logname&#xFF0C;&#x5404;&#x4E2A;&#x5B57;&#x6BB5;&#x503C;&#x7684;&#x8BF4;&#x660E;&#x5982;&#x4E0B;&#xFF1A;
+logname &#xFF1A;&#x5B58;&#x50A8;&#x6CE8;&#x518C;&#x7684;&#x7528;&#x6237;&#x540D;&#xFF08;&#x5C5E;&#x6027;&#x662F;&#x5B57;&#x7B26;&#x578B;&#xFF0C;&#x4E3B;&#x952E;&#xFF09;&#x3002;
+password &#xFF1A;&#x5B58;&#x50A8;&#x5BC6;&#x7801;&#xFF08;&#x5C5E;&#x6027;&#x662F;&#x5B57;&#x7B26;&#x578B;&#xFF09;&#x3002;
+email &#xFF1A;&#x5B58;&#x50A8;email&#xFF08;&#x5C5E;&#x6027;&#x662F;&#x5B57;&#x7B26;&#x578B;&#xFF09;&#x3002;</p>
+<p>&#x200B;    &#x907F;&#x514D;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;&#x51FA;&#x73B0;&#x4E2D;&#x6587;&#x4E71;&#x7801;&#xFF0C;&#x9700;&#x8981;&#x4F7F;&#x7528;
+&#x200B;      Connection getConnection(java.lang.String) &#x65B9;&#x6CD5;&#x5EFA;&#x7ACB;&#x8FDE;&#x63A5;&#xFF0C;&#x8FDE;&#x63A5;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x662F;&#xFF08;&#x7528;&#x6237;&#x662F;root&#xFF0C;&#x5176;&#x5BC6;&#x7801;&#x662F;&#x7A7A;&#xFF09;&#xFF1A;</p>
+<pre><code class="lang-java"> String uri = <span class="hljs-string">&quot;jdbc:mysql://127.0.0.1/student?&quot;</span>+
+             <span class="hljs-string">&quot;user=root&amp;password=&amp;characterEncoding=gb2312&quot;</span>;
+Connection con = DriverManager.getConnection(uri);
+</code></pre>
+<p>&#x6CE8;&#x518C;</p>
+<p>&#x200B;    &#x5F53;&#x65B0;&#x4F1A;&#x5458;&#x6CE8;&#x518C;&#x65F6;&#xFF0C;&#x8BE5;&#x6A21;&#x5757;&#x8981;&#x6C42;&#x7528;&#x6237;&#x5FC5;&#x987B;&#x8F93;&#x5165;&#x4F1A;&#x5458;&#x540D;&#x3001;&#x5BC6;&#x7801;&#x4FE1;&#x606F;&#xFF0C;&#x5426;&#x5219;&#x4E0D;&#x5141;&#x8BB8;&#x6CE8;&#x518C;&#x3002;&#x7528;&#x6237;&#x7684;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x88AB;&#x5B58;&#x5165;&#x6570;&#x636E;&#x5E93;&#x7684;user&#x8868;&#x4E2D;&#x3002; 
+&#x200B;    &#x8BE5;&#x6A21;&#x5757;&#x89C6;&#x56FE;&#x90E8;&#x5206;&#x7531;&#x4E00;&#x4E2A;JSP&#x9875;&#x9762;&#x6784;&#x6210;&#xFF0C;&#x8FD9;&#x4E2A;JSP&#x9875;&#x9762;register.jsp&#x8D1F;&#x8D23;&#x63D0;&#x4EA4;&#x7528;&#x6237;&#x7684;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x5230;servlet&#x63A7;&#x5236;&#x5668;register&#xFF08;&#x89C1;&#x914D;&#x7F6E;&#x6587;&#x4EF6;web.xml&#xFF09;&#xFF0C;&#x5E76;&#x8D1F;&#x8D23;&#x663E;&#x793A;&#x6CE8;&#x518C;&#x662F;&#x5426;&#x6210;&#x529F;&#x7684;&#x4FE1;&#x606F;&#x3002;&#x8BE5;&#x6A21;&#x5757;&#x7684;Javabean&#x6A21;&#x578B;userBean&#x5B58;&#x50A8;&#x7528;&#x6237;&#x7684;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x3002;servlet&#x63A7;&#x5236;&#x5668;register&#x8D1F;&#x8D23;&#x5C06;&#x89C6;&#x56FE;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#x5199;&#x5165;&#x6570;&#x636E;&#x5E93;&#x7684;user&#x8868;&#x4E2D;&#xFF0C;&#x5E76;&#x5C06;&#x6709;&#x5173;&#x53CD;&#x9988;&#x4FE1;&#x606F;&#x5B58;&#x50A8;&#x5230;Javabean&#x6A21;&#x578B;userBean&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x7528;&#x6237;&#x8F6C;&#x53D1;&#x5230;register.jsp&#xFF0C;register.jsp&#x5C06;&#x663E;&#x793A;Javabean&#x6A21;&#x578B;userBean&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF08;&#x66F4;&#x65B0;&#x89C6;&#x56FE;&#xFF09;,&#x6548;&#x679C;&#x5982;&#x56FE;9-6&#x6240;&#x793A;&#x3002; </p>
+<p>1&#xFF0E;&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09; 
+      register .jsp
+2&#xFF0E;&#x6A21;&#x578B;&#xFF08;Javabean&#xFF09; 
+   Register .java 
+3&#xFF0E;&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09;
+  HandleRegister .java </p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200615202953.png" alt="image"></p>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;jsp:useBean id=&quot;userBean&quot; class=&quot;mybean.data.Register&quot; scope=&quot;request&quot;/&gt;
+&lt;title&gt;&#x6CE8;&#x518C;&#x9875;&#x9762;&lt;/title&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;&lt;Font size=2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;FORM action=&quot;helpRegister&quot; method=&quot;post&quot; name=form&gt;
+&lt;table&gt;
+    &#x7528;&#x6237;&#x540D;&#x7531;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x3001;&#x4E0B;&#x5212;&#x7EBF;&#x6784;&#x6210;&#xFF0C;*&#x6CE8;&#x91CA;&#x7684;&#x9879;&#x5FC5;&#x987B;&#x586B;&#x5199;&#x3002;
+   &lt;tr&gt;&lt;td&gt;*&#x7528;&#x6237;&#x540D;&#x79F0;:&lt;/td&gt;&lt;td&gt;&lt;Input type=text name=&quot;logname&quot; &gt;&lt;/td&gt;
+       &lt;td&gt;*&#x7528;&#x6237;&#x5BC6;&#x7801;:&lt;/td&gt;&lt;td&gt;&lt;Input type=password name=&quot;password&quot;&gt;
+       &lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;*&#x91CD;&#x590D;&#x5BC6;&#x7801;:&lt;/td&gt;&lt;td&gt;
+       &lt;Input type=password name=&quot;again_password&quot;&gt;&lt;/td&gt;
+       &lt;td&gt;email:&lt;/td&gt;&lt;td&gt;&lt;Input type=text name=&quot;email&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+       &lt;tr&gt;&lt;td&gt;&lt;Input type=submit name=&quot;g&quot; value=&quot;&#x63D0;&#x4EA4;&quot;&gt;&lt;/td&gt; &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/Form&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;p&gt; &#x6CE8;&#x518C;&#x53CD;&#x9988;&#xFF1A;
+&lt;jsp:getProperty name=&quot;userBean&quot;  property=&quot;backNews&quot; /&gt; 
+&lt;table border=3&gt;
+     &lt;tr&gt;&lt;td&gt;&#x4F1A;&#x5458;&#x540D;&#x79F0;:&lt;/td&gt;
+     &lt;td&gt;&lt;jsp:getProperty name=&quot;userBean&quot; property=&quot;logname&quot;/&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;&lt;td&gt;email&#x5730;&#x5740;:&lt;/td&gt;
+     &lt;td&gt;&lt;jsp:getProperty name=&quot;userBean&quot; property=&quot;email&quot;/&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+&lt;/table&gt;&lt;/div &gt;
+&lt;/Body&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> mybean.data;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Register</span></span>{  
+   String  logname=<span class="hljs-string">&quot;&quot;</span> , email=<span class="hljs-string">&quot;&quot;</span>,
+           backNews=<span class="hljs-string">&quot;&#x8BF7;&#x586B;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&quot;</span>; 
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setLogname</span><span class="hljs-params">(String logname)</span></span>{  
+      <span class="hljs-keyword">this</span>.logname=logname;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getLogname</span><span class="hljs-params">()</span></span>{  
+      <span class="hljs-keyword">return</span> logname;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setEmail</span><span class="hljs-params">(String email)</span></span>{  
+      <span class="hljs-keyword">this</span>.email=email;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getEmail</span><span class="hljs-params">()</span></span>{  
+      <span class="hljs-keyword">return</span> email;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setBackNews</span><span class="hljs-params">(String backNews)</span></span>{  
+      <span class="hljs-keyword">this</span>.backNews=backNews;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getBackNews</span><span class="hljs-params">()</span></span>{  
+      <span class="hljs-keyword">return</span> backNews;
+   }
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.*;
+<span class="hljs-keyword">import</span> java.sql.*;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HandleRegister</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span> </span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException </span>{ 
+      <span class="hljs-keyword">super</span>.init(config);
+      <span class="hljs-keyword">try</span> {  Class.forName(<span class="hljs-string">&quot;com.mysql.jdbc.Driver&quot;</span>);
+      }
+      <span class="hljs-keyword">catch</span>(Exception e){} 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">handleString</span><span class="hljs-params">(String s)</span>
+   </span>{   <span class="hljs-keyword">try</span>{ <span class="hljs-keyword">byte</span> bb[]=s.getBytes(<span class="hljs-string">&quot;iso-8859-1&quot;</span>);
+            s=<span class="hljs-keyword">new</span> String(bb);
+       }
+       <span class="hljs-keyword">catch</span>(Exception ee){} 
+       <span class="hljs-keyword">return</span> s;  
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException </span>{
+      String uri=<span class="hljs-string">&quot;jdbc:mysql://127.0.0.1/student?&quot;</span>+
+                             <span class="hljs-string">&quot;user=root&amp;password=&amp;characterEncoding=gb2312&quot;</span>;
+      Connection con; 
+      PreparedStatement sql; 
+      Register userBean=<span class="hljs-keyword">new</span> Register();  <span class="hljs-comment">//&#x521B;&#x5EFA;&#x7684;Javabean&#x6A21;&#x578B;</span>
+      request.setAttribute(<span class="hljs-string">&quot;userBean&quot;</span>,userBean);<span class="hljs-comment">//&#x5C06;&#x4F1A;&#x66F4;&#x65B0;id&#x662F;&quot;userBean&quot;&#x7684;bean</span>
+      String logname=request.getParameter(<span class="hljs-string">&quot;logname&quot;</span>).trim();
+      String password=request.getParameter(<span class="hljs-string">&quot;password&quot;</span>).trim();
+      String again_password=request.getParameter(<span class="hljs-string">&quot;again_password&quot;</span>).trim();
+      String email=request.getParameter(<span class="hljs-string">&quot;email&quot;</span>).trim();
+      <span class="hljs-keyword">if</span>(logname==<span class="hljs-keyword">null</span>)
+           logname=<span class="hljs-string">&quot;&quot;</span>;
+      <span class="hljs-keyword">if</span>(password==<span class="hljs-keyword">null</span>)
+           password=<span class="hljs-string">&quot;&quot;</span>;
+      <span class="hljs-keyword">if</span>(!password.equals(again_password)) { 
+         userBean.setBackNews(<span class="hljs-string">&quot;&#x4E24;&#x6B21;&#x5BC6;&#x7801;&#x4E0D;&#x540C;&#xFF0C;&#x6CE8;&#x518C;&#x5931;&#x8D25;&#xFF0C;&quot;</span>);
+         RequestDispatcher dispatcher= 
+         request.getRequestDispatcher(<span class="hljs-string">&quot;register.jsp&quot;</span>);
+         dispatcher.forward(request, response);<span class="hljs-comment">//&#x8F6C;&#x53D1;</span>
+         <span class="hljs-keyword">return</span>;
+      }
+      <span class="hljs-keyword">boolean</span> isLD=<span class="hljs-keyword">true</span>;
+      <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=<span class="hljs-number">0</span>;i&lt;logname.length();i++){
+          <span class="hljs-keyword">char</span> c=logname.charAt(i);
+           <span class="hljs-keyword">if</span>(!((c&lt;=<span class="hljs-string">&apos;z&apos;</span>&amp;&amp;c&gt;=<span class="hljs-string">&apos;a&apos;</span>)||(c&lt;=<span class="hljs-string">&apos;Z&apos;</span>&amp;&amp;c&gt;=<span class="hljs-string">&apos;A&apos;</span>)||(c&lt;=<span class="hljs-string">&apos;9&apos;</span>&amp;&amp;c&gt;=<span class="hljs-string">&apos;0&apos;</span>))) 
+             isLD=<span class="hljs-keyword">false</span>;
+      } 
+      <span class="hljs-keyword">boolean</span> boo=logname.length()&gt;<span class="hljs-number">0</span>&amp;&amp;password.length()&gt;<span class="hljs-number">0</span>&amp;&amp;isLD;
+      String backNews=<span class="hljs-string">&quot;&quot;</span>;
+      <span class="hljs-keyword">try</span>{   con=DriverManager.getConnection(uri);
+             String insertCondition=<span class="hljs-string">&quot;INSERT INTO user VALUES (?,?,?)&quot;</span>;
+             sql=con.prepareStatement(insertCondition);
+             <span class="hljs-keyword">if</span>(boo)
+             { sql.setString(<span class="hljs-number">1</span>,handleString(logname));
+               sql.setString(<span class="hljs-number">2</span>,handleString(password));
+               sql.setString(<span class="hljs-number">3</span>,handleString(email));
+               <span class="hljs-keyword">int</span> m=sql.executeUpdate();
+               <span class="hljs-keyword">if</span>(m!=<span class="hljs-number">0</span>){
+                  backNews=<span class="hljs-string">&quot;&#x6CE8;&#x518C;&#x6210;&#x529F;&quot;</span>;
+                  userBean.setBackNews(backNews);
+                  userBean.setLogname(logname);
+                  userBean.setEmail(handleString(email));
+               }
+             }
+             <span class="hljs-keyword">else</span> {
+                 backNews=<span class="hljs-string">&quot;&#x4FE1;&#x606F;&#x586B;&#x5199;&#x4E0D;&#x5B8C;&#x6574;&#x6216;&#x540D;&#x5B57;&#x4E2D;&#x6709;&#x975E;&#x6CD5;&#x5B57;&#x7B26;&quot;</span>;
+                 userBean.setBackNews(backNews);  
+             }
+             con.close();
+      }
+      <span class="hljs-keyword">catch</span>(SQLException exp){
+             backNews=<span class="hljs-string">&quot;&#x8BE5;&#x4F1A;&#x5458;&#x540D;&#x5DF2;&#x88AB;&#x4F7F;&#x7528;&#xFF0C;&#x8BF7;&#x60A8;&#x66F4;&#x6362;&#x540D;&#x5B57;&quot;</span>+exp;
+             userBean.setBackNews(backNews); 
+      }
+      RequestDispatcher dispatcher= 
+      request.getRequestDispatcher(<span class="hljs-string">&quot;register.jsp&quot;</span>);
+      dispatcher.forward(request, response);<span class="hljs-comment">//&#x8F6C;&#x53D1;</span>
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+                        <span class="hljs-keyword">throws</span> ServletException,IOException </span>{
+      doPost(request,response);
+   }
+}
+</code></pre>
+<blockquote>
+<p>&#x767B;&#x5F55;&#x4E0E;&#x9A8C;&#x8BC1; </p>
+<p>&#x200B;    &#x7528;&#x6237;&#x53EF;&#x5728;&#x8BE5;&#x6A21;&#x5757;&#x8F93;&#x5165;&#x81EA;&#x5DF1;&#x7684;&#x4F1A;&#x5458;&#x540D;&#x548C;&#x5BC6;&#x7801;,&#x7CFB;&#x7EDF;&#x5C06;&#x5BF9;&#x4F1A;&#x5458;&#x540D;&#x548C;&#x5BC6;&#x7801;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;,&#x5982;&#x679C;&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;&#x6216;&#x5BC6;&#x7801;&#x6709;&#x9519;&#x8BEF;,&#x5C06;&#x63D0;&#x793A;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x7528;&#x6237;&#x540D;&#x6216;&#x5BC6;&#x7801;&#x4E0D;&#x6B63;&#x786E;&#x3002;
+&#x200B;    &#x8BE5;&#x6A21;&#x5757;&#x89C6;&#x56FE;&#x90E8;&#x5206;&#x7531;2&#x4E2A;JSP&#x9875;&#x9762;longin.jsp&#x548C;lookPic.jsp&#x6784;&#x6210;&#xFF0C;longin.jsp&#x9875;&#x9762;&#x8D1F;&#x8D23;&#x63D0;&#x4EA4;&#x7528;&#x6237;&#x7684;&#x767B;&#x5F55;&#x4FE1;&#x606F;&#x5230;&#x63A7;&#x5236;&#x5668;&#xFF0C;&#x5E76;&#x663E;&#x793A;&#x767B;&#x5F55;&#x662F;&#x5426;&#x6210;&#x529F;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x767B;&#x5F55;&#x6210;&#x529F;&#x540E;lookPic.jsp&#x9875;&#x9762;&#x8D1F;&#x8D23;&#x663E;&#x793A;&#x4E00;&#x5E45;&#x56FE;&#x50CF;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x767B;&#x5F55;&#xFF0C;&#x7528;&#x6237;&#x8BBF;&#x95EE;lookPic.jsp&#x9875;&#x9762;&#x4F1A;&#x88AB;&#x8F6C;&#x53D1;&#x5230;longin.jsp&#x767B;&#x5F55;&#x9875;&#x9762;&#x3002;&#x8BE5;&#x6A21;&#x5757;&#x7684;Javabean&#x6A21;&#x578B;loginBean&#x5B58;&#x50A8;&#x7528;&#x6237;&#x767B;&#x5F55;&#x7684;&#x4FE1;&#x606F;&#x3002;&#x8BE5;&#x6A21;&#x5757;&#x7684;servlet&#x63A7;&#x5236;&#x5668;login&#x8D1F;&#x8D23;&#x9A8C;&#x8BC1;&#x4F1A;&#x5458;&#x540D;&#x548C;&#x5BC6;&#x7801;&#x662F;&#x5426;&#x6B63;&#x786E;&#xFF0C;&#x5E76;&#x8D1F;&#x8D23;&#x66F4;&#x65B0;&#x89C6;&#x56FE;&#x3002;</p>
+<p>1&#xFF0E;&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09; 
+      login.jsp
+2&#xFF0E;&#x6A21;&#x578B;&#xFF08;Javabean&#xFF09; 
+   Login.java 
+3&#xFF0E;&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09;
+     HandleLogin.java 
+4&#xFF0E;&#x9A8C;&#x8BC1; 
+   lookPic.jsp </p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200615203058.png" alt="image"></p>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;jsp:useBean id=&quot;loginBean&quot; class=&quot;mybean.data.Login&quot; scope=&quot;session&quot;/&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;font size=2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;table border=2&gt;
+&lt;tr&gt; &lt;th&gt;&#x767B;&#x5F55;&lt;/th&gt;&lt;/tr&gt;
+&lt;FORM action=&quot;helpLogin&quot; Method=&quot;post&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&#x767B;&#x5F55;&#x540D;&#x79F0;:&lt;Input type=text name=&quot;logname&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&#x8F93;&#x5165;&#x5BC6;&#x7801;:&lt;Input type=password name=&quot;password&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;Input type=submit name=&quot;g&quot; value=&quot;&#x63D0;&#x4EA4;&quot;&gt;
+&lt;/form&gt;
+&lt;a href = &quot;lookPic.jsp?logname=&lt;jsp:getProperty name=&quot;loginBean&quot;
+                                property=&quot;logname&quot;/&gt;&quot;&gt;
+   &#x767B;&#x5F55;&#x540E;&#x770B;&#x56FE;&#x7247;&lt;/a&gt;
+&lt;/div &gt;
+&lt;div align=&quot;center&quot; &gt;
+&#x767B;&#x5F55;&#x53CD;&#x9988;&#x4FE1;&#x606F;:&lt;br&gt;
+&lt;jsp:getProperty name=&quot;loginBean&quot; property=&quot;backNews&quot;/&gt;
+&lt;br&gt;&#x767B;&#x5F55;&#x540D;&#x79F0;:&lt;br&gt;&lt;jsp:getProperty name=&quot;loginBean&quot; property=&quot;logname&quot;/&gt;
+&lt;div &gt;&lt;/font&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> mybean.data;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> </span>{
+   String logname=<span class="hljs-string">&quot;&quot;</span>,
+          backNews=<span class="hljs-string">&quot;&#x672A;&#x767B;&#x5F55;&quot;</span>;   
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setLogname</span><span class="hljs-params">(String logname)</span></span>{  
+      <span class="hljs-keyword">this</span>.logname=logname;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getLogname</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">return</span> logname;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setBackNews</span><span class="hljs-params">(String s)</span> </span>{
+       backNews=s;
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getBackNews</span><span class="hljs-params">()</span> </span>{
+      <span class="hljs-keyword">return</span> backNews;
+   }
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.*;
+<span class="hljs-keyword">import</span> java.sql.*;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HandleLogin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+      <span class="hljs-keyword">try</span>{ 
+           Class.forName(<span class="hljs-string">&quot;com.mysql.jdbc.Driver&quot;</span>);
+      }
+      <span class="hljs-keyword">catch</span>(Exception e){} 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">handleString</span><span class="hljs-params">(String s)</span></span>{
+      <span class="hljs-keyword">try</span>{  <span class="hljs-keyword">byte</span> bb[]=s.getBytes(<span class="hljs-string">&quot;iso-8859-1&quot;</span>);
+            s=<span class="hljs-keyword">new</span> String(bb);
+      }
+      <span class="hljs-keyword">catch</span>(Exception ee){} 
+      <span class="hljs-keyword">return</span> s;  
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      Connection con; 
+      Statement sql; 
+      String logname=request.getParameter(<span class="hljs-string">&quot;logname&quot;</span>).trim(),
+      password=request.getParameter(<span class="hljs-string">&quot;password&quot;</span>).trim();
+      logname=handleString(logname);
+      password=handleString(password);
+      String uri=<span class="hljs-string">&quot;jdbc:mysql://127.0.0.1/student?&quot;</span>+
+                             <span class="hljs-string">&quot;user=root&amp;password=&amp;characterEncoding=gb2312&quot;</span>;
+      <span class="hljs-keyword">boolean</span> boo=(logname.length()&gt;<span class="hljs-number">0</span>)&amp;&amp;(password.length()&gt;<span class="hljs-number">0</span>);  
+      <span class="hljs-keyword">try</span>{ 
+           con=DriverManager.getConnection(uri);
+           String condition=<span class="hljs-string">&quot;select * from user where logname = &apos;&quot;</span>+logname+
+            <span class="hljs-string">&quot;&apos; and password =&apos;&quot;</span>+password+<span class="hljs-string">&quot;&apos;&quot;</span>;
+           sql=con.createStatement();  
+           <span class="hljs-keyword">if</span>(boo){
+              ResultSet rs=sql.executeQuery(condition);
+              <span class="hljs-keyword">boolean</span> m=rs.next();
+              <span class="hljs-keyword">if</span>(m==<span class="hljs-keyword">true</span>){ 
+                  <span class="hljs-comment">//&#x8C03;&#x7528;&#x767B;&#x5F55;&#x6210;&#x529F;&#x7684;&#x65B9;&#x6CD5;:</span>
+                  success(request,response,logname,password); 
+                  RequestDispatcher dispatcher=
+                  request.getRequestDispatcher(<span class="hljs-string">&quot;login.jsp&quot;</span>);<span class="hljs-comment">//&#x8F6C;&#x53D1;</span>
+                  dispatcher.forward(request,response);
+              }
+              <span class="hljs-keyword">else</span>{
+                  String backNews=<span class="hljs-string">&quot;&#x60A8;&#x8F93;&#x5165;&#x7684;&#x7528;&#x6237;&#x540D;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x6216;&#x5BC6;&#x7801;&#x4E0D;&#x822C;&#x914D;&quot;</span>;
+                  <span class="hljs-comment">//&#x8C03;&#x7528;&#x767B;&#x5F55;&#x5931;&#x8D25;&#x7684;&#x65B9;&#x6CD5;:</span>
+                  fail(request,response,logname,backNews); 
+              }
+           }
+           <span class="hljs-keyword">else</span>{
+                  String backNews=<span class="hljs-string">&quot;&#x8BF7;&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;&#x548C;&#x5BC6;&#x7801;&quot;</span>;
+                  fail(request,response,logname,backNews);
+           }
+           con.close();
+      }
+      <span class="hljs-keyword">catch</span>(SQLException exp){
+          String backNews=<span class="hljs-string">&quot;&quot;</span>+exp;
+          fail(request,response,logname,backNews);
+      }
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      doPost(request,response);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">success</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response
+                      ,String logname,String password)</span> </span>{
+      Login loginBean=<span class="hljs-keyword">null</span>;
+      HttpSession session=request.getSession(<span class="hljs-keyword">true</span>);
+      <span class="hljs-keyword">try</span>{  loginBean=(Login)session.getAttribute(<span class="hljs-string">&quot;loginBean&quot;</span>);
+            <span class="hljs-keyword">if</span>(loginBean==<span class="hljs-keyword">null</span>){
+               loginBean=<span class="hljs-keyword">new</span> Login();  <span class="hljs-comment">//&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x6570;&#x636E;&#x6A21;&#x578B; </span>
+               session.setAttribute(<span class="hljs-string">&quot;loginBean&quot;</span>,loginBean);
+               loginBean=(Login)session.getAttribute(<span class="hljs-string">&quot;loginBean&quot;</span>);
+            }
+            String name =loginBean.getLogname();
+            <span class="hljs-keyword">if</span>(name.equals(logname)) {
+               loginBean.setBackNews(logname+<span class="hljs-string">&quot;&#x5DF2;&#x7ECF;&#x767B;&#x5F55;&#x4E86;&quot;</span>);
+               loginBean.setLogname(logname);
+            }
+            <span class="hljs-keyword">else</span> {  <span class="hljs-comment">//&#x6570;&#x636E;&#x6A21;&#x578B;&#x5B58;&#x50A8;&#x65B0;&#x7684;&#x767B;&#x5F55;&#x7528;&#x6237;</span>
+                loginBean.setBackNews(logname+<span class="hljs-string">&quot;&#x767B;&#x5F55;&#x6210;&#x529F;&quot;</span>);
+                loginBean.setLogname(logname);
+            }
+      }
+      <span class="hljs-keyword">catch</span>(Exception ee){
+            loginBean=<span class="hljs-keyword">new</span> Login();  
+            session.setAttribute(<span class="hljs-string">&quot;loginBean&quot;</span>,loginBean);
+            loginBean.setBackNews(logname+<span class="hljs-string">&quot;&#x767B;&#x5F55;&#x6210;&#x529F;&quot;</span>);
+            loginBean.setLogname(logname);
+      }
+   }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">fail</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response
+                      ,String logname,String backNews)</span> </span>{
+        response.setContentType(<span class="hljs-string">&quot;text/html;charset=GB2312&quot;</span>);
+        <span class="hljs-keyword">try</span> {
+         PrintWriter out=response.getWriter();
+         out.println(<span class="hljs-string">&quot;&lt;html&gt;&lt;body&gt;&quot;</span>);
+         out.println(<span class="hljs-string">&quot;&lt;h2&gt;&quot;</span>+logname+<span class="hljs-string">&quot;&#x767B;&#x5F55;&#x53CD;&#x9988;&#x7ED3;&#x679C;&lt;br&gt;&quot;</span>+backNews+<span class="hljs-string">&quot;&lt;/h2&gt;&quot;</span>) ;
+         out.println(<span class="hljs-string">&quot;&#x8FD4;&#x56DE;&#x767B;&#x5F55;&#x9875;&#x9762;&#x6216;&#x4E3B;&#x9875;&lt;br&gt;&quot;</span>);
+         out.println(<span class="hljs-string">&quot;&lt;a href =login.jsp&gt;&#x767B;&#x5F55;&#x9875;&#x9762;&lt;/a&gt;&quot;</span>);
+         out.println(<span class="hljs-string">&quot;&lt;/body&gt;&lt;/html&gt;&quot;</span>);
+        }
+        <span class="hljs-keyword">catch</span>(IOException exp){}
+    }
+}
+</code></pre>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;mybean.data.Login&quot; %&gt;
+&lt;jsp:useBean id=&quot;loginBean&quot; class=&quot;mybean.data.Login&quot; scope=&quot;session&quot;/&gt;
+&lt;%@ page import=&quot;java.util.*&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;Font size=2&gt;&lt;CENTER&gt;
+&lt;table&gt;
+ &lt;td&gt;&lt;A href=&quot;register.jsp&quot;&gt;&lt;font size=2&gt;&#x7528;&#x6237;&#x6CE8;&#x518C;&lt;/font&gt;&lt;/A&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;A href=&quot;login.jsp&quot;&gt;&lt;font size=2&gt;&#x7528;&#x6237;&#x767B;&#x5F55;&lt;/font&gt;&lt;/A&gt;&lt;/td&gt;
+&lt;/table&gt;
+&lt;%   if(loginBean==null){
+        response.sendRedirect(&quot;login.jsp&quot;);//&#x91CD;&#x5B9A;&#x5411;&#x5230;&#x767B;&#x5F55;&#x9875;&#x9762;
+     }
+     else {
+       boolean b =loginBean.getLogname()==null||
+                  loginBean.getLogname().length()==0;
+       if(b)
+         response.sendRedirect(&quot;login.jsp&quot;);//&#x91CD;&#x5B9A;&#x5411;&#x5230;&#x767B;&#x5F55;&#x9875;&#x9762;
+     }
+%&gt;        
+ &lt;image src=&quot;image.jpg&quot; width=220 height=200&gt;&lt;/image&gt;
+&lt;/CENTER&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<p>image.jpg</p>
+<p><img src="https://img1.zlogs.net/20/20200615204633.jpg" alt="image"></p>
+<h2 id="mvc&#x6A21;&#x5F0F;&#x4E0E;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;">MVC&#x6A21;&#x5F0F;&#x4E0E;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;</h2>
+<p>&#x200B;       &#x672C;&#x8282;&#x7684;&#x4E3B;&#x8981;&#x76EE;&#x7684;&#x662F;&#x5B66;&#x4E60;&#x4F7F;&#x7528;MVC&#x6A21;&#x5F0F;&#x5206;&#x9875;&#x663E;&#x793A;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4E2D;&#x7684;&#x8BB0;&#x5F55;&#x3002; </p>
+<blockquote>
+<p>Javabean&#x4E0E;Servlet&#x7BA1;&#x7406; </p>
+<p>&#x200B;    &#x672C;&#x8282;&#x7684;Javabean&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;mybean.data&#xFF1B;Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;myservlet.control&#x3002;&#x7531;&#x4E8E;Servlet&#x7C7B;&#x4E2D;&#x8981;&#x4F7F;&#x7528;Javabean&#xFF0C;&#x6240;&#x4EE5;&#x4E3A;&#x4E86;&#x80FD;&#x987A;&#x5229;&#x5730;&#x7F16;&#x8BD1;Servlet&#x7C7B;&#xFF0C;&#x4E0D;&#x8981;&#x5FD8;&#x8BB0;&#x5C06;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;lib&#x5B50;&#x76EE;&#x5F55;&#x4E2D;&#x7684;servlet-api.jar&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5230;Tomcat&#x670D;&#x52A1;&#x5668;&#x6240;&#x4F7F;&#x7528;&#x7684;JDK&#x7684;&#x6269;&#x5C55;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x6BD4;&#x5982;&#xFF0C;&#x590D;&#x5236;&#x5230;D:\jdk1.7\jre\lib\ext&#x4E2D;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x6309;&#x4E0B;&#x5217;&#x6B65;&#x9AA4;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#x548C;&#x4FDD;&#x5B58;&#x6709;&#x5173;&#x7684;&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6; &#x3002;
+1&#xFF0E;&#x4FDD;&#x5B58;Javabean&#x7C7B;&#x548C;Servlet&#x7C7B;&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+   D:\ mybean\data &#x548C; D:\myservlet\control
+2&#xFF0E;&#x7F16;&#x8BD1;Javabean&#x7C7B; 
+&#x200B;     D:&gt; javac mybean\data\Javabean&#x7684;&#x6E90;&#x6587;&#x4EF6;
+3&#xFF0E;&#x7F16;&#x8BD1;Servlet&#x7C7B; 
+&#x200B;      D:&gt; javac myservlet\control\servlet&#x7684;&#x6E90;&#x6587;&#x4EF6; 
+4&#xFF0E;&#x5C06;&#x7C7B;&#x7684;&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;&#x670D;&#x52A1;&#x5668; 
+&#x200B;     ch9\WEB-INF\classes\mybean\data   &#x548C;
+&#x200B;     ch9\WEB-INF\classes\myservlet\control</p>
+<p>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E0E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5; </p>
+<p>   &#x672C;&#x8282;&#x7684;Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5747;&#x4E3A;myservlet.control&#xFF0C;&#x9700;&#x8981;&#x914D;&#x7F6E;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;web.xml&#x6587;&#x4EF6;&#xFF0C;&#x5373;&#x5C06;&#x4E0B;&#x9762;&#x7684;web.xml&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x7684;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;ch9&#x4E2D;&#x3002;&#x6839;&#x636E;&#x672C;&#x4E66;&#x4F7F;&#x7528;&#x7684;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x53CA;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#xFF0C;&#x9700;&#x8981;&#x5C06;web.xml&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;
+D:\apache-tomcat-8.0.3\webapps\ch9\WEB-INF
+&#x76EE;&#x5F55;&#x4E2D;&#x3002;
+  &#x907F;&#x514D;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;&#x51FA;&#x73B0;&#x4E2D;&#x6587;&#x4E71;&#x7801;&#xFF0C;&#x8FDE;&#x63A5;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x662F;&#xFF08;&#x7528;&#x6237;&#x662F;root&#xFF0C;&#x5176;&#x5BC6;&#x7801;&#x662F;&#x7A7A;&#xFF09;&#xFF1A;
+String uri = &quot;jdbc:mysql://127.0.0.1/&#x6570;&#x636E;&#x5E93;&#x540D;?&quot;+
+             &quot;user=root&amp;password=&amp;characterEncoding=gb2312&quot;;
+  Connection con = DriverManager.getConnection(uri); </p>
+</blockquote>
+<p>&#x200B;     web.xml </p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>database<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.HandleDatabase<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>database<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/helpReadRecord<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+</code></pre>
+<blockquote>
+<p>MVC&#x8BBE;&#x8BA1;&#x7EC6;&#x8282;</p>
+<p>&#x200B;    &#x7B2C;7&#x7AE0;&#x66FE;&#x4F7F;&#x7528;bean&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x5E93;&#x7684;&#x8BB0;&#x5F55;&#xFF08;&#x89C1;7.6&#xFF09;&#xFF0C;&#x8BE5;bean&#x4E0D;&#x4EC5;&#x8981;&#x8D1F;&#x8D23;&#x67E5;&#x8BE2;&#x8BB0;&#x5F55;&#xFF0C;&#x800C;&#x4E14;&#x8981;&#x8D1F;&#x8D23;&#x5B58;&#x50A8;&#x6240;&#x67E5;&#x8BE2;&#x5230;&#x7684;&#x8BB0;&#x5F55;&#x3002;&#x5728;MVC&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x67E5;&#x8BE2;&#x8BB0;&#x5F55;&#x7684;&#x4EFB;&#x52A1;&#x7531;servlet&#x5BF9;&#x8C61;&#x8D1F;&#x8D23;&#xFF0C;bean&#x4EC5;&#x4EC5;&#x8D1F;&#x8D23;&#x5B58;&#x50A8;servlet&#x5BF9;&#x8C61;&#x6240;&#x67E5;&#x8BE2;&#x5230;&#x7684;&#x8BB0;&#x5F55;&#x3002;</p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200615203237.png" alt="image"></p>
+<pre><code>1&#xFF0E;&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09; 
+      choiceDatabase.jsp &#xFF0C;showRecord.jsp 
+2&#xFF0E;&#x6A21;&#x578B;&#xFF08;Javabean&#xFF09; 
+   ShowRecordByPage.java 
+3&#xFF0E;&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09;
+     HandleDatabase.java
+</code></pre><pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;Font size=2&gt;
+    &lt;FORM action=&quot;helpReadRecord&quot; method=&quot;post&quot; name=&quot;form&quot;&gt;
+      &#x6570;&#x636E;&#x5E93;&#x7684;&#x540D;&#x5B57;:&lt;BR&gt;&lt;INPUT type=&quot;text&quot; name=&quot;databaseName&quot;&gt;
+     &lt;BR&gt;&#x8868;&#x7684;&#x540D;&#x5B57;: &lt;BR&gt;&lt;INPUT type=&quot;text&quot; name=&quot;tableName&quot;&gt;
+     &lt;BR&gt;&#x6BCF;&#x9875;&#x663E;&#x793A;&#x8BB0;&#x5F55;&#x6570;&#xFF1A;
+        &lt;INPUT type=&quot;text&quot; value=&quot;2&quot; name=&quot;pageSize&quot; size=6&gt; 
+        &lt;INPUT type=&quot;submit&quot; value=&quot;&#x63D0;&#x4EA4;&quot; name=&quot;submit&quot;&gt;
+    &lt;/FORM&gt;
+&lt;/Font&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;mybean.data.ShowRecordByPage&quot; %&gt; 
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;&lt;Font size=2&gt;
+ &lt;jsp:useBean id=&quot;database&quot; 
+      type=&quot;mybean.data.ShowRecordByPage&quot; scope=&quot;session&quot;/&gt;
+   &#x60A8;&#x67E5;&#x8BE2;&#x7684;&#x6570;&#x636E;&#x5E93;&#xFF1A;&lt;jsp:getProperty name=&quot;database&quot; property=&quot;databaseName&quot;/&gt;,
+   &#x67E5;&#x8BE2;&#x7684;&#x8868;&#xFF1A;&lt;jsp:getProperty name=&quot;database&quot; property=&quot;tableName&quot;/&gt;&#x3002;
+   &lt;BR&gt;&#x8BB0;&#x5F55;&#x5206; &lt;jsp:getProperty name=&quot;database&quot; property=&quot;pageAllCount&quot;/&gt; &#x9875;&#xFF0C;
+   &#x6BCF;&#x9875;&#x6700;&#x591A;&#x663E;&#x793A; &lt;jsp:getProperty name=&quot;database&quot; property=&quot;pageSize&quot;/&gt; &#x6761;&#x8BB0;&#x5F55;,
+   &#x76EE;&#x524D;&#x663E;&#x793A;&#x7B2C; &lt;jsp:getProperty name=&quot;database&quot; property=&quot;showPage&quot;/&gt; &#x9875;&#x3002;
+   &lt;table border=1&gt;
+     &lt;jsp:getProperty name=&quot;database&quot; property=&quot;formTitle&quot;/&gt;  
+     &lt;jsp:getProperty name=&quot;database&quot; property=&quot;presentPageResult&quot;/&gt;   
+   &lt;/table&gt;
+    &lt;table&gt; 
+      &lt;tr&gt;&lt;td&gt;
+          &lt;FORM action=&quot;helpReadRecord&quot; method=&quot;post&quot; name=&quot;form&quot;&gt;
+          &lt;INPUT type=&quot;hidden&quot; value=&quot;previousPage&quot; name=&quot;whichPage&quot;&gt;
+          &lt;INPUT type=&quot;submit&quot; value=&quot;&#x4E0A;&#x4E00;&#x9875;&quot; name=&quot;submit&quot;&gt;
+          &lt;/FORM&gt;
+          &lt;/td&gt;
+         &lt;td&gt;
+          &lt;FORM action=&quot;helpReadRecord&quot; method=&quot;post&quot; name=&quot;form&quot;&gt;
+          &lt;INPUT type=&quot;hidden&quot; value=&quot;nextPage&quot; name=&quot;whichPage&quot;&gt;
+          &lt;INPUT type=&quot;submit&quot; value=&quot;&#x4E0B;&#x4E00;&#x9875;&quot; name=&quot;submit&quot;&gt;
+          &lt;/FORM&gt;
+          &lt;/td&gt;
+     &lt;/tr&gt;
+    &lt;/FORM&gt;
+&lt;/Font&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> mybean.data;
+<span class="hljs-keyword">import</span> com.sun.rowset.*; 
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ShowRecordByPage</span></span>{
+    CachedRowSetImpl rowSet=<span class="hljs-keyword">null</span>;         <span class="hljs-comment">//&#x5B58;&#x50A8;&#x8868;&#x4E2D;&#x5168;&#x90E8;&#x8BB0;&#x5F55;&#x7684;&#x884C;&#x96C6;&#x5BF9;&#x8C61;</span>
+    <span class="hljs-keyword">int</span> pageSize=<span class="hljs-number">10</span>;                      <span class="hljs-comment">//&#x6BCF;&#x9875;&#x663E;&#x793A;&#x7684;&#x8BB0;&#x5F55;&#x6570;</span>
+    <span class="hljs-keyword">int</span> pageAllCount=<span class="hljs-number">0</span>;                   <span class="hljs-comment">//&#x5206;&#x9875;&#x540E;&#x7684;&#x603B;&#x9875;&#x6570;</span>
+    <span class="hljs-keyword">int</span> showPage=<span class="hljs-number">1</span>   ;                    <span class="hljs-comment">//&#x5F53;&#x524D;&#x663E;&#x793A;&#x9875; </span>
+    StringBuffer presentPageResult;      <span class="hljs-comment">//&#x663E;&#x793A;&#x5F53;&#x524D;&#x9875;&#x5185;&#x5BB9;</span>
+    String databaseName=<span class="hljs-string">&quot;&quot;</span>;              <span class="hljs-comment">//&#x6570;&#x636E;&#x5E93;&#x540D;&#x79F0;</span>
+    String tableName=<span class="hljs-string">&quot;&quot;</span>;                 <span class="hljs-comment">//&#x8868;&#x7684;&#x540D;&#x5B57;</span>
+    StringBuffer formTitle=<span class="hljs-keyword">null</span>;         <span class="hljs-comment">//&#x8868;&#x5934;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setRowSet</span><span class="hljs-params">(CachedRowSetImpl set)</span></span>{
+       rowSet=set;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> CachedRowSetImpl <span class="hljs-title">getRowSet</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> rowSet;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setPageSize</span><span class="hljs-params">(<span class="hljs-keyword">int</span> size)</span></span>{
+       pageSize=size;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getPageSize</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> pageSize;
+    } 
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getPageAllCount</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> pageAllCount;
+    } 
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setPageAllCount</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span></span>{
+       pageAllCount=n; 
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setShowPage</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span></span>{
+       showPage=n;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getShowPage</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> showPage;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setPresentPageResult</span><span class="hljs-params">(StringBuffer p)</span></span>{
+       presentPageResult=p; 
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> StringBuffer <span class="hljs-title">getPresentPageResult</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> presentPageResult; 
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setDatabaseName</span><span class="hljs-params">(String s)</span></span>{
+       databaseName=s.trim();
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getDatabaseName</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> databaseName;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setTableName</span><span class="hljs-params">(String s)</span></span>{
+       tableName=s.trim();
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getTableName</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> tableName;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFormTitle</span><span class="hljs-params">(StringBuffer s)</span></span>{
+       formTitle=s;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> StringBuffer <span class="hljs-title">getFormTitle</span><span class="hljs-params">()</span></span>{
+       <span class="hljs-keyword">return</span> formTitle;
+    } 
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.ShowRecordByPage;
+<span class="hljs-keyword">import</span> com.sun.rowset.*;
+<span class="hljs-keyword">import</span> java.sql.*;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HandleDatabase</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-keyword">int</span> &#x5B57;&#x6BB5;&#x4E2A;&#x6570;;
+   CachedRowSetImpl rowSet=<span class="hljs-keyword">null</span>;
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+      <span class="hljs-keyword">try</span> {  Class.forName(<span class="hljs-string">&quot;com.mysql.jdbc.Driver&quot;</span>);
+      }
+      <span class="hljs-keyword">catch</span>(Exception e){} 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+  <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      Connection con; 
+      StringBuffer presentPageResult=<span class="hljs-keyword">new</span> StringBuffer();
+      ShowRecordByPage databaseBean=<span class="hljs-keyword">null</span>;
+      HttpSession session=request.getSession(<span class="hljs-keyword">true</span>);
+      <span class="hljs-keyword">try</span>{   databaseBean=(ShowRecordByPage)session.getAttribute(<span class="hljs-string">&quot;database&quot;</span>);
+             <span class="hljs-keyword">if</span>(databaseBean==<span class="hljs-keyword">null</span>){
+                databaseBean=<span class="hljs-keyword">new</span> ShowRecordByPage(); <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+                session.setAttribute(<span class="hljs-string">&quot;database&quot;</span>,databaseBean);
+             }
+      }
+      <span class="hljs-keyword">catch</span>(Exception exp){
+             databaseBean=<span class="hljs-keyword">new</span> ShowRecordByPage();
+             session.setAttribute(<span class="hljs-string">&quot;database&quot;</span>,databaseBean);
+      } 
+      String databaseName=request.getParameter(<span class="hljs-string">&quot;databaseName&quot;</span>);
+      String tableName=request.getParameter(<span class="hljs-string">&quot;tableName&quot;</span>);
+      String ps=request.getParameter(<span class="hljs-string">&quot;pageSize&quot;</span>);
+      <span class="hljs-keyword">if</span>(ps!=<span class="hljs-keyword">null</span>){
+         <span class="hljs-keyword">try</span>{  <span class="hljs-keyword">int</span> mm=Integer.parseInt(ps);
+               databaseBean.setPageSize(mm);
+         }
+         <span class="hljs-keyword">catch</span>(NumberFormatException exp){
+               databaseBean.setPageSize(<span class="hljs-number">1</span>);
+         } 
+      }
+      <span class="hljs-keyword">int</span> showPage=databaseBean.getShowPage();
+      <span class="hljs-keyword">int</span> pageSize=databaseBean.getPageSize();
+      <span class="hljs-keyword">boolean</span> boo=databaseName!=<span class="hljs-keyword">null</span>&amp;&amp;tableName!=<span class="hljs-keyword">null</span>&amp;&amp;
+                  databaseName.length()&gt;<span class="hljs-number">0</span>&amp;&amp;tableName.length()&gt;<span class="hljs-number">0</span>;
+      <span class="hljs-keyword">if</span>(boo){ 
+         databaseBean.setDatabaseName(databaseName);<span class="hljs-comment">//&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;databaseBean&#x4E2D;</span>
+         databaseBean.setTableName(tableName);      <span class="hljs-comment">//&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;databaseBean&#x4E2D;</span>
+         String uri=<span class="hljs-string">&quot;jdbc:mysql://127.0.0.1/&quot;</span>+databaseName;
+         <span class="hljs-keyword">try</span>{   &#x5B57;&#x6BB5;&#x4E2A;&#x6570;=<span class="hljs-number">0</span>;
+                con=DriverManager.getConnection(uri,<span class="hljs-string">&quot;root&quot;</span>,<span class="hljs-string">&quot;&quot;</span>);
+                DatabaseMetaData metadata=con.getMetaData();
+                ResultSet rs1=metadata.getColumns(<span class="hljs-keyword">null</span>,<span class="hljs-keyword">null</span>,tableName,<span class="hljs-keyword">null</span>);
+                <span class="hljs-keyword">int</span> k=<span class="hljs-number">0</span>;
+                String &#x5B57;&#x6BB5;[]=<span class="hljs-keyword">new</span> String[<span class="hljs-number">100</span>]  ;
+                <span class="hljs-keyword">while</span>(rs1.next()){
+                  &#x5B57;&#x6BB5;&#x4E2A;&#x6570;++;
+                  &#x5B57;&#x6BB5;[k]=rs1.getString(<span class="hljs-number">4</span>); <span class="hljs-comment">//&#x83B7;&#x53D6;&#x5B57;&#x6BB5;&#x7684;&#x540D;&#x5B57;</span>
+                  k++;
+                }
+                StringBuffer str=<span class="hljs-keyword">new</span> StringBuffer();
+                str.append(<span class="hljs-string">&quot;&lt;tr&gt;&quot;</span>);
+                <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=<span class="hljs-number">0</span>;i&lt;&#x5B57;&#x6BB5;&#x4E2A;&#x6570;;i++)
+                   str.append(<span class="hljs-string">&quot;&lt;th&gt;&quot;</span>+&#x5B57;&#x6BB5;[i]+<span class="hljs-string">&quot;&lt;/th&gt;&quot;</span>);
+                str.append(<span class="hljs-string">&quot;&lt;/tr&gt;&quot;</span>);
+                databaseBean.setFormTitle(str);  <span class="hljs-comment">//&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;databaseBean&#x4E2D;</span>
+                Statement sql=
+                con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
+                                                ResultSet.CONCUR_READ_ONLY);
+                ResultSet rs=sql.executeQuery(<span class="hljs-string">&quot;SELECT * FROM &quot;</span>+tableName);
+                rowSet=<span class="hljs-keyword">new</span> CachedRowSetImpl();  <span class="hljs-comment">//&#x521B;&#x5EFA;&#x884C;&#x96C6;&#x5BF9;&#x8C61;</span>
+                rowSet.populate(rs);
+                con.close();                     <span class="hljs-comment">//&#x5173;&#x95ED;&#x8FDE;&#x63A5;</span>
+                databaseBean.setRowSet(rowSet);  <span class="hljs-comment">//&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;databaseBean&#x4E2D;</span>
+                rowSet.last();
+                <span class="hljs-keyword">int</span> m=rowSet.getRow();           <span class="hljs-comment">//&#x603B;&#x884C;&#x6570;</span>
+                <span class="hljs-keyword">int</span> n=pageSize;
+                <span class="hljs-keyword">int</span> pageAllCount=((m%n)==<span class="hljs-number">0</span>)?(m/n):(m/n+<span class="hljs-number">1</span>);
+                databaseBean.setPageAllCount(pageAllCount);
+         }
+         <span class="hljs-keyword">catch</span>(SQLException exp){}
+      }
+      String whichPage=request.getParameter(<span class="hljs-string">&quot;whichPage&quot;</span>);
+      <span class="hljs-keyword">if</span>(whichPage==<span class="hljs-keyword">null</span>||whichPage.length()==<span class="hljs-number">0</span>){
+           showPage=<span class="hljs-number">1</span>;
+           databaseBean.setShowPage(showPage);
+           CachedRowSetImpl rowSet=databaseBean.getRowSet();
+           <span class="hljs-keyword">if</span>(rowSet!=<span class="hljs-keyword">null</span>){
+             presentPageResult=show(showPage,pageSize,rowSet);
+             databaseBean.setPresentPageResult(presentPageResult); 
+           }
+      }
+      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(whichPage.equals(<span class="hljs-string">&quot;nextPage&quot;</span>)){
+           showPage++;
+           <span class="hljs-keyword">if</span>(showPage&gt;databaseBean.getPageAllCount())
+             showPage=<span class="hljs-number">1</span>;
+           databaseBean.setShowPage(showPage);
+           CachedRowSetImpl rowSet=databaseBean.getRowSet();
+           <span class="hljs-keyword">if</span>(rowSet!=<span class="hljs-keyword">null</span>){
+             presentPageResult=show(showPage,pageSize,rowSet);
+             databaseBean.setPresentPageResult(presentPageResult); 
+           }
+      }
+      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(whichPage.equals(<span class="hljs-string">&quot;previousPage&quot;</span>)){
+           showPage--;
+           <span class="hljs-keyword">if</span>(showPage&lt;=<span class="hljs-number">0</span>)
+             showPage=databaseBean.getPageAllCount();
+           databaseBean.setShowPage(showPage);
+           CachedRowSetImpl rowSet=databaseBean.getRowSet();
+           <span class="hljs-keyword">if</span>(rowSet!=<span class="hljs-keyword">null</span>){
+             presentPageResult=show(showPage,pageSize,rowSet);
+             databaseBean.setPresentPageResult(presentPageResult); 
+           }
+      } 
+      databaseBean.setPresentPageResult(presentPageResult);
+      RequestDispatcher dispatcher=request.getRequestDispatcher(<span class="hljs-string">&quot;showRecord.jsp&quot;</span>);
+      dispatcher.forward(request,response);<span class="hljs-comment">//&#x8BF7;&#x6C42;showRecord.jsp&#x663E;&#x793A;&#x6570;&#x636E;</span>
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span> StringBuffer <span class="hljs-title">show</span><span class="hljs-params">(<span class="hljs-keyword">int</span> page,<span class="hljs-keyword">int</span> pageSize,CachedRowSetImpl rowSet)</span></span>{
+      StringBuffer str=<span class="hljs-keyword">new</span> StringBuffer();
+      <span class="hljs-keyword">try</span>{   rowSet.absolute((page-<span class="hljs-number">1</span>)*pageSize+<span class="hljs-number">1</span>);
+             <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=<span class="hljs-number">1</span>;i&lt;=pageSize;i++){
+                 str.append(<span class="hljs-string">&quot;&lt;tr&gt;&quot;</span>);
+                 <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> k=<span class="hljs-number">1</span>;k&lt;=&#x5B57;&#x6BB5;&#x4E2A;&#x6570;;k++)
+                    str.append(<span class="hljs-string">&quot;&lt;td&gt;&quot;</span>+rowSet.getString(k)+<span class="hljs-string">&quot;&lt;/td&gt;&quot;</span>);
+                 str.append(<span class="hljs-string">&quot;&lt;/tr&gt;&quot;</span>);
+                 rowSet.next();
+             }
+       }
+       <span class="hljs-keyword">catch</span>(SQLException exp){}
+       <span class="hljs-keyword">return</span> str;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+       doPost(request,response);
+    }
+}
+</code></pre>
+<h2 id="mvc&#x6A21;&#x5F0F;&#x4E0E;&#x6587;&#x4EF6;&#x64CD;&#x4F5C;">MVC&#x6A21;&#x5F0F;&#x4E0E;&#x6587;&#x4EF6;&#x64CD;&#x4F5C;</h2>
+<p>&#x200B;       &#x5728;MVC&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x5DE5;&#x4F5C;&#x7531;servlet&#x5BF9;&#x8C61;&#x8D1F;&#x8D23;&#xFF0C;bean&#x4EC5;&#x4EC5;&#x8D1F;&#x8D23;&#x5B58;&#x50A8;servlet&#x5BF9;&#x8C61;&#x6240;&#x8BFB;&#x53D6;&#x7684;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x3002; 
+&#x200B;     </p>
+<blockquote>
+<p>&#x672C;&#x8282;&#x8BBE;&#x8BA1;&#x4E00;&#x4E2A;Web&#x5E94;&#x7528;&#xFF0C;&#x5728;&#x8BE5;Web&#x5E94;&#x7528;&#x4E2D;&#x6709;&#x4E24;&#x4E2A;JSP&#x9875;&#x9762;&#xFF1A;choiceFile.jsp&#x548C;showFile.jsp&#x3001;&#x4E00;&#x4E2A;Javabean&#x548C;&#x4E00;&#x4E2A;servlet&#x3002;&#x7528;&#x6237;&#x5728;JSP&#x9875;&#x9762;choiceFile.jsp&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x63D0;&#x4EA4;&#x7ED9;servlet&#xFF0C;&#x8BE5;servlet&#x8D1F;&#x8D23;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x6709;&#x5173;&#x4FE1;&#x606F;&#x5B58;&#x653E;&#x5230;JavaBean&#x4E2D;&#xFF0C;&#x5E76;&#x8BF7;&#x6C42;JSP&#x9875;&#x9762;showFile.jsp&#x663E;&#x793A;Javanean&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002; </p>
+</blockquote>
+<p>&#x200B;     web.xml </p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>helpReadFile<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.HandleFile<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>helpReadFile <span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/helpReadFile<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>
+</span></code></pre>
+<blockquote>
+<p>&#x6A21;&#x578B;&#xFF08;Javabean&#xFF09; </p>
+<p>&#x200B;    &#x672C;&#x8282;&#x7684;Javabean&#x7C7B;&#x7684;&#x5305;&#x540D;&#x4E3A;mybean.data&#x3002;FileMessage.java&#x6A21;&#x578B;&#x4E2D;&#x7684;getXXX&#x548C;setXXX&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x663E;&#x793A;&#x548C;&#x4FEE;&#x6539;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x4F46;&#x4E0D;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x7684;&#x5904;&#x7406;&#x3002;&#x8BF7;&#x8BFB;&#x8005;&#x6BD4;&#x8F83;&#x672C;&#x8282;&#x4E2D;&#x7684;FileMessage.java&#x548C;7.5&#x4E2D;ReadFile.java&#x7684;&#x4E0D;&#x540C;&#x4E4B;&#x5904;&#x3002;
+&#x200B;     Javabean&#x7C7B;&#x7684;&#x6E90;&#x6587;&#x4EF6;FileMessage.java&#x4FDD;&#x5B58;&#x5230;&#xFF1A;D:\mybean\data&#xFF0C;&#x5982;&#x4E0B;&#x5217;&#x683C;&#x5F0F;&#x7F16;&#x8BD1;&#x6E90;&#x6587;&#x4EF6;&#xFF0C;&#x5373;&#x5E26;&#x7740;&#x5305;&#x540D;&#x5F62;&#x6210;&#x7684;&#x76EE;&#x5F55;&#xFF1A;
+D:&gt; javac mybean\data\FileMessage.java
+&#x200B;    &#x5C06;&#x7F16;&#x8BD1;&#x5F97;&#x5230;&#x7684;&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6;FileMessage.class&#x590D;&#x5236;&#x5230;
+ch9\WEB-INF\classes\mybean\data&#x76EE;&#x5F55;&#x4E2D;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> mybean.data;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">FileMessage</span> </span>{
+   String filePath,fileName,fileContent;
+   <span class="hljs-keyword">long</span> fileLength;
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFilePath</span><span class="hljs-params">(String str)</span></span>{
+      filePath=str;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFilePath</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> filePath; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFileName</span><span class="hljs-params">(String str)</span></span>{
+      fileName=str;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFileName</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> fileName; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFileContent</span><span class="hljs-params">(String str)</span></span>{
+      fileContent=str;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFileContent</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> fileContent; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFileLength</span><span class="hljs-params">(<span class="hljs-keyword">long</span> len)</span></span>{
+      fileLength=len; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">long</span> <span class="hljs-title">getFileLength</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> fileLength; 
+   }
+}
+</code></pre>
+<blockquote>
+<p>&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09; </p>
+<p>HandeFile .java
+    &#x63A7;&#x5236;&#x5668;&#x662F;&#x540D;&#x5B57;&#x4E3A;helpReadFile&#x7684;servlet&#x5BF9;&#x8C61;&#xFF08;&#x89C1;web.xml&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#xFF09;&#xFF0C;&#x7531;&#x4E0B;&#x9762;&#x7684;HandleFile&#x7C7B;&#x8D1F;&#x8D23;&#x521B;&#x5EFA;&#x3002;&#x7531;&#x4E8E;Servlet&#x7C7B;&#x4E2D;&#x8981;&#x4F7F;&#x7528;Javabean&#xFF0C;&#x6240;&#x4EE5;&#x4E3A;&#x4E86;&#x80FD;&#x987A;&#x5229;&#x5730;&#x7F16;&#x8BD1;Servlet&#x7C7B;&#xFF0C;&#x4E0D;&#x8981;&#x5FD8;&#x8BB0;&#x5C06;Tomcat&#x5B89;&#x88C5;&#x76EE;&#x5F55;lib&#x5B50;&#x76EE;&#x5F55;&#x4E2D;&#x7684;servlet-api.jar&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5230;Tomcat&#x670D;&#x52A1;&#x5668;&#x6240;&#x4F7F;&#x7528;&#x7684;JDK&#x7684;&#x6269;&#x5C55;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x6BD4;&#x5982;&#xFF0C;&#x590D;&#x5236;&#x5230;D:\jdk1.7\jre\lib\ext&#x4E2D;&#x3002;<br>    Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x4E3A;myservlet.control&#xFF0C;&#x5C06;&#x4E0B;&#x9762;&#x7684;Servlet&#x7C7B;&#x7684;&#x6E90;&#x6587;&#x4EF6;HandeFile.java&#x4FDD;&#x5B58;&#x5230; D:\myservlet\control&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x5373;&#x4FDD;&#x5B58;&#x65F6;&#xFF0C;&#x8BA9;Servlet&#x7C7B;&#x7684;&#x5305;&#x540D;&#x548C;Javabean&#x7C7B;&#x7684;&#x5305;&#x540D;&#x5F62;&#x6210;&#x7684;&#x76EE;&#x5F55;&#x7684;&#x7236;&#x76EE;&#x5F55;&#x76F8;&#x540C;&#x3002;&#x7528;&#x5982;&#x4E0B;&#x683C;&#x5F0F;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#xFF0C;&#x5373;&#x5E26;&#x7740;&#x5305;&#x540D;&#x5F62;&#x6210;&#x7684;&#x76EE;&#x5F55;&#xFF1A;
+D:&gt; javac myservlet\control\HandleFile.java
+    &#x5C06;&#x7F16;&#x8BD1;&#x5F97;&#x5230;&#x7684;&#x5B57;&#x8282;&#x7801;&#x6587;&#x4EF6;HandeFile.class&#x590D;&#x5236;&#x5230;
+       ch9\WEB-INF\classes\myservlet\control
+&#x76EE;&#x5F55;&#x4E2D;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.FileMessage;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HandleFile</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      FileMessage file=<span class="hljs-keyword">new</span> FileMessage();  <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+      request.setAttribute(<span class="hljs-string">&quot;file&quot;</span>,file);
+      String filePath=request.getParameter(<span class="hljs-string">&quot;filePath&quot;</span>);
+      String fileName=request.getParameter(<span class="hljs-string">&quot;fileName&quot;</span>);
+      file.setFilePath(filePath);   <span class="hljs-comment">//&#x5C06;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;file&#x4E2D; </span>
+      file.setFileName(fileName);   
+      <span class="hljs-keyword">try</span>{   File f=<span class="hljs-keyword">new</span> File(filePath,fileName);
+             <span class="hljs-keyword">long</span> length=f.length();
+             file.setFileLength(length);
+             FileReader in=<span class="hljs-keyword">new</span> FileReader(f) ;
+             BufferedReader inTwo=<span class="hljs-keyword">new</span> BufferedReader(in);
+             StringBuffer stringbuffer=<span class="hljs-keyword">new</span> StringBuffer(); 
+             String s=<span class="hljs-keyword">null</span>;
+             <span class="hljs-keyword">while</span> ((s=inTwo.readLine())!=<span class="hljs-keyword">null</span>) 
+                stringbuffer.append(<span class="hljs-string">&quot;\n&quot;</span>+s);
+             String content=<span class="hljs-keyword">new</span> String(stringbuffer);
+             file.setFileContent(content);
+      }
+      <span class="hljs-keyword">catch</span>(IOException exp){} 
+      RequestDispatcher dispatcher=request.getRequestDispatcher(<span class="hljs-string">&quot;showFile.jsp&quot;</span>);
+      dispatcher.forward(request, response);
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      doPost(request,response);
+   }
+}
+</code></pre>
+<blockquote>
+<p>&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09; </p>
+<p>&#x200B;    choiceFile.jsp 
+&#x200B;    &#x5728;choiceFile.jsp&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x8F93;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;&#x548C;&#x540D;&#x5B57;&#xFF0C;&#x5E76;&#x63D0;&#x4EA4;&#x7ED9;&#x540D;&#x5B57;&#x4E3A;handleFile&#x7684;servlet&#x5BF9;&#x8C61;&#x3002;servlet&#x5BF9;&#x8C61;&#x8D1F;&#x8D23;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5C06;&#x8BFB;&#x53D6;&#x7684;&#x5185;&#x5BB9;&#x4EE5;&#x53CA;&#x76F8;&#x5173;&#x7684;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5230;&#x6570;&#x636E;&#x6A21;&#x578B;bean&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x8BF7;&#x6C42;showFile.jsp&#x9875;&#x9762;&#x663E;&#x793A;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E; &#x3002;
+choiceFile.jsp &#xFF08;&#x6548;&#x679C;&#x5982;&#x56FE;9.11&#xFF09; 
+showFile .jsp&#xFF08;&#x6548;&#x679C;&#x5982;&#x56FE;9.12&#xFF09; </p>
+</blockquote>
+<p><img src="https://img1.zlogs.net/20/20200615203430.png" alt="image"></p>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;Font size=2&gt;
+ &lt;FORM action=&quot;helpReadFile&quot; method=&quot;post&quot; name=&quot;form&quot;&gt;
+ &#x8F93;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;(&#x5982;:d:/2000):
+ &lt;INPUT type=&quot;text&quot; name=&quot;filePath&quot; size=12&gt;
+ &lt;BR&gt;&#x8F93;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;(&#x5982;:Hello.java):
+ &lt;INPUT type=&quot;text&quot; name=&quot;fileName&quot; size=9&gt;
+ &lt;BR&gt;&lt;INPUT type=&quot;submit&quot; value=&quot;&#x8BFB;&#x53D6;&quot; name=&quot;submit&quot;&gt;
+ &lt;/FORM&gt;
+&lt;/Font&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-jsp">&lt;%@ page import=&quot;mybean.data.FileMessage&quot; %&gt; 
+&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+ &lt;jsp:useBean id=&quot;file&quot; type=&quot;mybean.data.FileMessage&quot; scope=&quot;request&quot;/&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=yellow&gt;&lt;Font size=2&gt;
+  &#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x7F6E;: &lt;jsp:getProperty name=&quot;file&quot; property=&quot;filePath&quot;/&gt;,
+  &#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF1A;&lt;jsp:getProperty name=&quot;file&quot; property=&quot;fileName&quot;/&gt;,
+  &#x6587;&#x4EF6;&#x7684;&#x957F;&#x5EA6;&#xFF1A;&lt;jsp:getProperty name=&quot;file&quot; property=&quot;fileLength&quot;/&gt; &#x5B57;&#x8282;&#x3002;
+  &lt;BR&gt;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF1A;
+  &lt;BR&gt;&lt;TextArea  rows=&quot;6&quot; cols=&quot;60&quot;&gt;
+       &lt;jsp:getProperty name=&quot;file&quot; property=&quot;fileContent&quot;/&gt;
+     &lt;/TextArea&gt;
+&lt;/Font&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1042.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: XML">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"MVC","level":"1.6","depth":1,"previous":{"title":"XML","level":"1.5.3","depth":2,"path":"page/1042.md","ref":"page/1042.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1043.md","mtime":"2020-06-15T12:57:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-15T12:59:48.699Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-gtag/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

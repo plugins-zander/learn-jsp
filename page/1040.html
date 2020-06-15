@@ -1,0 +1,1494 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>文件操作 · learn-jsp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Zander Zhao">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/css/gitalk.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1041.html" />
+    
+    
+    <link rel="prev" href="1039.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    本书简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1011.html">
+            
+                <a href="1011.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="1012.html">
+            
+                <a href="1012.html">
+            
+                    
+                    环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1014.html">
+            
+                <a href="1014.html">
+            
+                    
+                    原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1015.html">
+            
+                <a href="1015.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1036.html">
+            
+                <a href="1036.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="1013.html">
+            
+                <a href="1013.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1016.html">
+            
+                <a href="1016.html">
+            
+                    
+                    HTML部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="1019.html">
+            
+                <a href="1019.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="1017.html">
+            
+                <a href="1017.html">
+            
+                    
+                    Java部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="1021.html">
+            
+                <a href="1021.html">
+            
+                    
+                    声明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1.1" data-path="1022.html">
+            
+                <a href="1022.html">
+            
+                    
+                    变量声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.1.2" data-path="1023.html">
+            
+                <a href="1023.html">
+            
+                    
+                    方法声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="1024.html">
+            
+                <a href="1024.html">
+            
+                    
+                    程序片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="1025.html">
+            
+                <a href="1025.html">
+            
+                    
+                    表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="1026.html">
+            
+                <a href="1026.html">
+            
+                    
+                    内置对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.4.1" data-path="1027.html">
+            
+                <a href="1027.html">
+            
+                    
+                    request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.2" data-path="1028.html">
+            
+                <a href="1028.html">
+            
+                    
+                    response
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.3" data-path="1029.html">
+            
+                <a href="1029.html">
+            
+                    
+                    session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.4" data-path="1030.html">
+            
+                <a href="1030.html">
+            
+                    
+                    application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4.5" data-path="1031.html">
+            
+                <a href="1031.html">
+            
+                    
+                    out
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="1037.html">
+            
+                <a href="1037.html">
+            
+                    
+                    Javabean
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.6" data-path="1038.html">
+            
+                <a href="1038.html">
+            
+                    
+                    JavaServlet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.7" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="1018.html">
+            
+                <a href="1018.html">
+            
+                    
+                    JSP部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="1033.html">
+            
+                <a href="1033.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1.1" data-path="1034.html">
+            
+                <a href="1034.html">
+            
+                    
+                    指令标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.1.2" data-path="1035.html">
+            
+                <a href="1035.html">
+            
+                    
+                    动作标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="1020.html">
+            
+                <a href="1020.html">
+            
+                    
+                    注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="1039.html">
+            
+                <a href="1039.html">
+            
+                    
+                    资源处理(java)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="1040.html">
+            
+                <a href="1040.html">
+            
+                    
+                    文件操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="1041.html">
+            
+                <a href="1041.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="1042.html">
+            
+                <a href="1042.html">
+            
+                    
+                    XML
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="1043.html">
+            
+                <a href="1043.html">
+            
+                    
+                    MVC
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >文件操作</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6587;&#x4EF6;&#x64CD;&#x4F5C;">&#x6587;&#x4EF6;&#x64CD;&#x4F5C;</h1>
+<h2 id="file&#x7C7B;">File&#x7C7B;</h2>
+<pre><code class="lang-java">&#x521B;&#x5EFA;&#x4E00;&#x4E2A;File&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x6709;<span class="hljs-number">3</span>&#x4E2A;&#xFF1A;
+File(String filename);
+File(String directoryPath,String filename);
+File(File f, String filename);
+</code></pre>
+<pre><code class="lang-java">File&#x7C7B;&#x7684;&#x4E0B;&#x5217;&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x672C;&#x8EAB;&#x7684;&#x4E00;&#x4E9B;&#x4FE1;&#x606F;&#xFF1A;
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">()</span>  &#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x3002;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">canRead</span><span class="hljs-params">()</span>  &#x5224;&#x65AD;&#x6587;&#x4EF6;&#x662F;&#x5426;&#x662F;&#x53EF;&#x8BFB;&#x7684;&#x3002;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">canWrite</span><span class="hljs-params">()</span>  &#x5224;&#x65AD;&#x6587;&#x4EF6;&#x662F;&#x5426;&#x53EF;&#x88AB;&#x5199;&#x5165;&#x3002;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">exists</span><span class="hljs-params">()</span>  &#x5224;&#x65AD;&#x6587;&#x4EF6;&#x662F;&#x5426;&#x5B58;&#x5728;&#x3002;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">long</span> <span class="hljs-title">length</span><span class="hljs-params">()</span>  &#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x957F;&#x5EA6;&#xFF08;&#x5355;&#x4F4D;&#x662F;&#x5B57;&#x8282;&#xFF09;&#x3002;
+<span class="hljs-keyword">public</span> String <span class="hljs-title">getAbsolutePath</span><span class="hljs-params">()</span>  &#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x3002;
+
+
+<span class="hljs-keyword">public</span> String[] <span class="hljs-title">list</span><span class="hljs-params">()</span> &#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x8FD4;&#x56DE;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x5168;&#x90E8;&#x6587;&#x4EF6;.
+<span class="hljs-keyword">public</span> File [] <span class="hljs-title">listFiles</span><span class="hljs-params">()</span> &#x7528;File&#x5BF9;&#x8C61;&#x5F62;&#x5F0F;&#x8FD4;&#x56DE;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x5168;&#x90E8;&#x6587;&#x4EF6;&#x3002;
+<span class="hljs-keyword">public</span> String[] <span class="hljs-title">list</span><span class="hljs-params">(FilenameFilter obj)</span> &#x8BE5;&#x65B9;&#x6CD5;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x8FD4;&#x56DE;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x6307;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x3002;
+<span class="hljs-keyword">public</span> File [] <span class="hljs-title">listFiles</span><span class="hljs-params">(FilenameFilter obj)</span> &#x8BE5;&#x65B9;&#x6CD5;&#x7528;File&#x5BF9;&#x8C61;&#x8FD4;&#x56DE;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x6307;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x3002;
+</span></code></pre>
+<blockquote>
+<p>&#x200B;      &#x4F8B;&#x5B50;1&#x4E2D;&#xFF0C;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x7684;&#x5F53;&#x524D;JSP&#x9875;&#x9762;&#x7684;&#x4E00;&#x4E9B;&#x4FE1;&#x606F;&#x3002;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;request&#x8C03;&#x7528;getContextPath()&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x5F53;&#x524D;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;&#x540D;&#x79F0;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.io.*&quot;%&gt; 
+&lt;HTML&gt;&lt;body bgcolor=cyan&gt;&lt;font Size=2&gt;
+&lt;%  String jspPage=request.getServletPath();    //&#x8BF7;&#x6C42;&#x7684;&#x9875;&#x9762;&#x7684;&#x540D;&#x79F0;
+    String webDir = request.getContextPath();//&#x83B7;&#x53D6;&#x5F53;&#x524D;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;&#x540D;&#x79F0;
+    webDir = webDir.substring(1); //&#x53BB;&#x6389;&#x540D;&#x79F0;&#x524D;&#x9762;&#x7684;&#x76EE;&#x5F55;&#x7B26;&#x53F7;&#xFF1A;/
+    jspPage =jspPage.substring(1); //&#x53BB;&#x6389;&#x540D;&#x79F0;&#x524D;&#x9762;&#x7684;&#x76EE;&#x5F55;&#x7B26;&#x53F7;&#xFF1A;/
+    File f= new File(&quot;&quot;); //&#x8BE5;&#x6587;&#x4EF6;&#x8BA4;&#x4E3A;&#x5728;Tomcat&#x5F15;&#x64CE;&#x542F;&#x52A8;&#x7684;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x5373;bin&#x76EE;&#x5F55;&#x4E2D;
+    String path = f.getAbsolutePath();
+    int index = path.indexOf(&quot;bin&quot;);
+    String tomcatDir = path.substring(0,index);//tomcat&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;
+    File file=new File(tomcatDir+&quot;/webapps/&quot;+webDir,jspPage);
+  %&gt;
+  &#x6587;&#x4EF6;&lt;%=file.getName()%&gt;&#x662F;&#x53EF;&#x8BFB;&#x7684;&#x5417;&#xFF1F;&lt;b&gt;&lt;%=file.canRead()%&gt;&lt;/b&gt;
+ &lt;br&gt;&#x6587;&#x4EF6;&lt;%=file.getName()%&gt;&#x7684;&#x957F;&#x5EA6;&#xFF1A;&lt;b&gt;&lt;%=file.length()%&gt;&#x5B57;&#x8282;&lt;/b&gt;
+ &lt;br&gt;&lt;%=file.getName()%&gt;&#x7684;&#x7236;&#x76EE;&#x5F55;&#x662F;:&lt;br&gt;&lt;b&gt;&lt;%=file.getParent()%&gt;&lt;/b&gt;
+ &lt;br&gt; &lt;%=file.getName()%&gt;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x662F;&#xFF1A;&lt;br&gt;&lt;b&gt;&lt;%=file.getAbsolutePath()%&gt;
+&lt;/font&gt;&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>  &#x4F8B;&#x5B50;2&#x5728;&#x5F53;&#x524D;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x540D;&#x5B57;&#x662F;image&#x7684;&#x76EE;&#x5F55;&#x3002; example8_2.jsp</p>
+<p>File&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x65B9;&#x6CD5;
+       public boolean mkdir()
+&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x76EE;&#x5F55;&#x3002;
+      &#x5982;&#x679C;&#x521B;&#x5EFA;&#x6210;&#x529F;&#x5C31;&#x8FD4;&#x56DE;true&#xFF0C;
+      &#x5426;&#x5219;&#x8FD4;&#x56DE;false
+  &#xFF08;&#x5982;&#x679C;&#x8BE5;&#x76EE;&#x5F55;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x4E5F;&#x5C06;&#x8FD4;&#x56DE;false&#xFF09;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.io.*&quot;%&gt; 
+&lt;HTML&gt;&lt;body bgcolor=#EEFFAD&gt;&lt;font Size=2&gt;
+&lt;% 
+    String webDir = request.getContextPath();//&#x83B7;&#x53D6;&#x5F53;&#x524D;Web&#x670D;&#x52A1;&#x76EE;&#x5F55;&#x7684;&#x540D;&#x79F0;
+    webDir = webDir.substring(1); //&#x53BB;&#x6389;&#x540D;&#x79F0;&#x524D;&#x9762;&#x7684;&#x76EE;&#x5F55;&#x7B26;&#x53F7;&#xFF1A;/
+    File f= new File(&quot;&quot;); //&#x8BE5;&#x6587;&#x4EF6;&#x8BA4;&#x4E3A;&#x5728;Tomcat&#x5F15;&#x64CE;&#x542F;&#x52A8;&#x7684;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x5373;bin&#x76EE;&#x5F55;&#x4E2D;
+    String path = f.getAbsolutePath();
+    int index = path.indexOf(&quot;bin&quot;);
+    String tomcatDir = path.substring(0,index);//tomcat&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;
+    File dir=new File(tomcatDir+&quot;/webapps/&quot;+webDir+&quot;/image&quot;);
+%&gt;
+ &lt;br&gt; &#x5728;&lt;%=webDir%&gt;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x76EE;&#x5F55;&#xFF1A;image,&lt;br&gt;&#x6210;&#x529F;&#x521B;&#x5EFA;&#x4E86;&#x5417;&#xFF1F;
+    &lt;%=dir.mkdir()%&gt;
+ &lt;br&gt; image&#x662F;&#x76EE;&#x5F55;&#x5417;&#xFF1F;&lt;%=dir.isDirectory()%&gt;
+&lt;/font&gt;&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x4F8B;&#x5B50;3&#xFF08;example8_3.jsp&#xFF09;&#x4E2D;,&#x5217;&#x51FA;&#x5F53;&#x524D;Web&#x76EE;&#x5F55;&#x4E0B;&#x7684;JSP&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import=&quot;java.io.*&quot;%&gt; 
+&lt;%! class FileJSP implements FilenameFilter{ 
+       String str=null;
+       FileJSP(String s){
+          str=&quot;.&quot;+s;
+       }
+       public boolean accept(File dir,String name){
+          return name.endsWith(str);
+       }              
+    }
+%&gt;
+&lt;HTML&gt;&lt;body bgcolor=#EEFFAD&gt;&lt;font Size=2&gt;
+&lt;% 
+    String name=&quot;jsp&quot;;
+    String webDir = request.getContextPath();
+    webDir = webDir.substring(1); 
+    File f= new File(&quot;&quot;); 
+    String path = f.getAbsolutePath();
+    int index = path.indexOf(&quot;bin&quot;);
+    String tomcatDir = path.substring(0,index);//tomcat&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;
+    File dir=new File(tomcatDir+&quot;/webapps/&quot;+webDir);
+%&gt;
+ &lt;br&gt; &#x5728;&lt;%=dir%&gt;&#x4E0B;&lt;%=name%&gt;&#x6587;&#x4EF6;&#xFF1A;
+&lt;%
+    FileJSP file_jsp=new FileJSP(name);
+    String file_name[]=dir.list(file_jsp);
+    for(int i=0;i&lt;file_name.length;i++)
+       out.print(&quot;&lt;br&gt;&quot;+file_name[i]);
+%&gt;
+&lt;/font&gt;&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<h2 id="&#x8BFB;&#x5199;&#x6587;&#x4EF6;&#x7684;&#x5E38;&#x7528;&#x6D41;">&#x8BFB;&#x5199;&#x6587;&#x4EF6;&#x7684;&#x5E38;&#x7528;&#x6D41;</h2>
+<p>&#x200B;         Java&#x7684;I/O&#x6D41;&#x63D0;&#x4F9B;&#x4E00;&#x6761;&#x901A;&#x9053;&#x7A0B;&#x5E8F;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8FD9;&#x6761;&#x901A;&#x9053;&#x628A;&#x6E90;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x9001;&#x7ED9;&#x76EE;&#x7684;&#x5730;&#x3002;&#x8F93;&#x5165;&#x6D41;&#x7684;&#x6307;&#x5411;&#x79F0;&#x505A;&#x6E90;&#xFF0C;&#x7A0B;&#x5E8F;&#x4ECE;&#x6307;&#x5411;&#x6E90;&#x7684;&#x8F93;&#x5165;&#x6D41;&#x4E2D;&#x8BFB;&#x53D6;&#x6E90;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;&#x8F93;&#x51FA;&#x6D41;&#x7684;&#x6307;&#x5411;&#x662F;&#x6570;&#x636E;&#x8981;&#x53BB;&#x7684;&#x4E00;&#x4E2A;&#x76EE;&#x7684;&#x5730;&#xFF0C;&#x7A0B;&#x5E8F;&#x901A;&#x8FC7;&#x5411;&#x8F93;&#x51FA;&#x6D41;&#x4E2D;&#x5199;&#x5165;&#x6570;&#x636E;&#x628A;&#x4FE1;&#x606F;&#x4F20;&#x9012;&#x5230;&#x76EE;&#x7684;&#x5730;&#xFF0C;&#x5982;&#x56FE;8.2&#x3001;&#x56FE;8.3&#x6240;&#x793A;&#x3002;</p>
+<p><img src="https://img1.zlogs.net/20/20200615170604.png" alt="image"></p>
+<h3 id="&#x5B57;&#x8282;&#x8F93;&#x5165;&#x6D41;">&#x5B57;&#x8282;&#x8F93;&#x5165;&#x6D41;</h3>
+<p>&#x200B;       &#x5982;&#x679C;&#x5BF9;&#x6587;&#x4EF6;&#x8BFB;&#x53D6;&#x9700;&#x6C42;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;FileInputStream&#x7C7B;&#xFF08;&#x6587;&#x4EF6;&#x5B57;&#x8282;&#x8F93;&#x5165;&#x6D41;&#xFF09;&#xFF0C;&#x8BE5;&#x7C7B;&#x662F;InputStream&#x7C7B;&#x7684;&#x5B50;&#x7C7B;&#xFF08;&#x4EE5;&#x5B57;&#x8282;&#x4E3A;&#x5355;&#x4F4D;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#xFF09;&#xFF0C;&#x8BE5;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x90FD;&#x662F;&#x4ECE;InputStream&#x7C7B;&#x7EE7;&#x627F;&#x6765;&#x7684;&#x3002;</p>
+<ul>
+<li>&#x4F7F;&#x7528;&#x8F93;&#x5165;&#x6D41;&#x901A;&#x5E38;&#x5305;&#x62EC;4&#x4E2A;&#x57FA;&#x672C;&#x6B65;&#x9AA4;&#xFF1A;<ul>
+<li>&#x8BBE;&#x5B9A;&#x8F93;&#x5165;&#x6D41;&#x7684;&#x6E90;</li>
+<li>&#x521B;&#x5EFA;&#x6307;&#x5411;&#x6E90;&#x7684;&#x8F93;&#x5165;&#x6D41;</li>
+<li>&#x8BA9;&#x8F93;&#x5165;&#x6D41;&#x8BFB;&#x53D6;&#x6E90;&#x4E2D;&#x7684;&#x6570;&#x636E;</li>
+<li>&#x5173;&#x95ED;&#x8F93;&#x5165;&#x6D41;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h4 id="&#x6784;&#x9020;&#x65B9;&#x6CD5;">&#x6784;&#x9020;&#x65B9;&#x6CD5;</h4>
+<pre><code class="lang-java">      FileInputStream(String name);
+      FileInputStream(File file);
+</code></pre>
+<p>&#x7B2C;&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x7ED9;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x540D;name&#x521B;&#x5EFA;FileInputStream&#x6D41;&#xFF0C;</p>
+<p>&#x7B2C;&#x4E8C;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;File&#x5BF9;&#x8C61;&#x521B;&#x5EFA;FileInputStream&#x6D41;&#x3002;&#x53C2;&#x6570;name&#x548C;file&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x79F0;&#x4E3A;&#x8F93;&#x5165;&#x6D41;&#x7684;&#x6E90;&#x3002;</p>
+<pre><code class="lang-java">File f = <span class="hljs-keyword">new</span> File(<span class="hljs-string">&quot;hello.txt&quot;</span>);   <span class="hljs-comment">//&#x6307;&#x5B9A;&#x8F93;&#x5165;&#x6D41;&#x7684;&#x6E90;</span>
+<span class="hljs-keyword">try</span> {
+FileInputStream in = <span class="hljs-keyword">new</span> FileInputStream(f); <span class="hljs-comment">//&#x521B;&#x5EFA;&#x6307;&#x5411;&#x6E90;&#x7684;&#x8F93;&#x5165;&#x6D41;</span>
+}
+<span class="hljs-keyword">catch</span> (IOException e) {
+      System.out.println(<span class="hljs-string">&quot;File read error:&quot;</span>+e );
+}
+</code></pre>
+<h4 id="&#x4F7F;&#x7528;&#x8F93;&#x5165;&#x6D41;&#x8BFB;&#x53D6;&#x5B57;&#x8282;">&#x4F7F;&#x7528;&#x8F93;&#x5165;&#x6D41;&#x8BFB;&#x53D6;&#x5B57;&#x8282;</h4>
+<p>&#x200B;        &#x8F93;&#x5165;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x662F;&#x63D0;&#x4F9B;&#x8BFB;&#x53D6;&#x6E90;&#x4E2D;&#x6570;&#x636E;&#x7684;&#x901A;&#x9053;&#xFF0C;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x901A;&#x9053;&#x8BFB;&#x53D6;&#x6E90;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;&#x6587;&#x4EF6;&#x5B57;&#x8282;&#x6D41;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x4ECE;&#x7236;&#x7C7B;&#x7EE7;&#x627F;&#x7684;read&#x65B9;&#x6CD5;&#x987A;&#x5E8F;&#x5730;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#xFF0C;&#x53EA;&#x8981;&#x4E0D;&#x5173;&#x95ED;&#x6D41;&#xFF0C;&#x6BCF;&#x6B21;&#x8C03;&#x7528;read&#x65B9;&#x6CD5;&#x5C31;&#x987A;&#x5E8F;&#x5730;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x5176;&#x4F59;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x672B;&#x5C3E;&#x6216;&#x6587;&#x4EF6;&#x5B57;&#x8282;&#x8F93;&#x5165;&#x6D41;&#x88AB;&#x5173;&#x95ED;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">read</span><span class="hljs-params">()</span>   &#x8BFB;&#x53D6;&#x5355;&#x4E2A;&#x5B57;&#x8282;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x8BE5;&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x5B57;&#x8282;&#x503C;&#xFF08;0~255&#x4E4B;&#x95F4;&#x7684;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#xFF09;&#xFF0C;&#x5982;&#x679C;&#x672A;&#x8BFB;&#x51FA;&#x5B57;&#x8282;&#x5C31;&#x8FD4;&#x56DE;-1&#x3002;
+<span class="hljs-keyword">int</span> <span class="hljs-title">read</span><span class="hljs-params">(<span class="hljs-keyword">byte</span> b[])</span>  &#x8BD5;&#x56FE;&#x8BFB;&#x53D6;b.length&#x4E2A;&#x5B57;&#x8282;&#x5230;&#x5B57;&#x8282;&#x6570;&#x7EC4;b&#x4E2D;&#x3002;
+<span class="hljs-keyword">int</span> <span class="hljs-title">read</span><span class="hljs-params">(<span class="hljs-keyword">byte</span> b[], <span class="hljs-keyword">int</span> off, <span class="hljs-keyword">int</span> len)</span> &#x8BD5;&#x56FE;&#x8BFB;&#x53D6;len&#x4E2A;&#x5B57;&#x8282;&#x5230;&#x5B57;&#x8282;&#x6570;&#x7EC4;b&#x4E2D;&#xFF0C;&#x53C2;&#x6570;off&#x6307;&#x5B9A;&#x4ECE;&#x5B57;&#x8282;&#x6570;&#x7EC4;&#x7684;&#x67D0;&#x4E2A;&#x4F4D;&#x7F6E;&#x5F00;&#x59CB;&#x5B58;&#x653E;&#x8BFB;&#x53D6;&#x7684;&#x6570;&#x636E;&#x3002;
+</span></code></pre>
+<h4 id="&#x5173;&#x95ED;&#x6D41;">&#x5173;&#x95ED;&#x6D41;</h4>
+<p>&#x200B;        &#x8F93;&#x5165;&#x6D41;&#x90FD;&#x63D0;&#x4F9B;&#x4E86;&#x5173;&#x95ED;&#x65B9;&#x6CD5;close()&#xFF0C;&#x5C3D;&#x7BA1;&#x7A0B;&#x5E8F;&#x7ED3;&#x675F;&#x65F6;&#x4F1A;&#x81EA;&#x52A8;&#x5173;&#x95ED;&#x6240;&#x6709;&#x6253;&#x5F00;&#x7684;&#x6D41;&#xFF0C;&#x4F46;&#x662F;&#x5F53;&#x7A0B;&#x5E8F;&#x4F7F;&#x7528;&#x5B8C;&#x6D41;&#x540E;&#xFF0C;&#x663E;&#x5F0F;&#x5730;&#x5173;&#x95ED;&#x4EFB;&#x4F55;&#x6253;&#x5F00;&#x7684;&#x6D41;&#x4ECD;&#x662F;&#x4E00;&#x4E2A;&#x826F;&#x597D;&#x7684;&#x4E60;&#x60EF;&#x3002;</p>
+<h3 id="&#x5B57;&#x8282;&#x8F93;&#x51FA;&#x6D41;">&#x5B57;&#x8282;&#x8F93;&#x51FA;&#x6D41;</h3>
+<p>&#x200B;       &#x5982;&#x679C;&#x5BF9;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x9700;&#x6C42;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;FileOutputStream&#x7C7B;&#xFF08;&#x6587;&#x4EF6;&#x5B57;&#x8282;&#x8F93;&#x51FA;&#x6D41;&#xFF09;&#xFF0C;&#x5B83;&#x662F;OutputStream&#x7C7B;&#x7684;&#x5B50;&#x7C7B;&#xFF08;&#x4EE5;&#x5B57;&#x8282;&#x4E3A;&#x5355;&#x4F4D;&#x5411;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x5185;&#x5BB9;&#xFF09;&#xFF0C;&#x8BE5;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x90FD;&#x662F;&#x4ECE;OutputStream&#x7C7B;&#x7EE7;&#x627F;&#x6765;&#x7684;&#x3002;</p>
+<ul>
+<li>&#x4F7F;&#x7528;&#x8F93;&#x51FA;&#x6D41;&#x901A;&#x5E38;&#x5305;&#x62EC;4&#x4E2A;&#x57FA;&#x672C;&#x6B65;&#x9AA4;&#xFF1A;<ul>
+<li>&#x7ED9;&#x51FA;&#x8F93;&#x51FA;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x5730;</li>
+<li>&#x521B;&#x5EFA;&#x6307;&#x5411;&#x76EE;&#x7684;&#x5730;&#x7684;&#x8F93;&#x51FA;&#x6D41;</li>
+<li>&#x8BA9;&#x8F93;&#x51FA;&#x6D41;&#x628A;&#x6570;&#x636E;&#x5199;&#x5165;&#x5230;&#x76EE;&#x7684;&#x5730;</li>
+<li>&#x5173;&#x95ED;&#x8F93;&#x51FA;&#x6D41;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h4 id="&#x6784;&#x9020;&#x65B9;&#x6CD5;">&#x6784;&#x9020;&#x65B9;&#x6CD5;</h4>
+<pre><code class="lang-java">      FileOutputStream(String name);
+      FileOutputStream(File file);
+</code></pre>
+<p>&#x7B2C;&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x7ED9;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x540D;name&#x521B;&#x5EFA;FileOutputStream&#x6D41;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;File&#x5BF9;&#x8C61;&#x521B;&#x5EFA;FileOutputStream&#x6D41;&#x3002;&#x53C2;&#x6570;name&#x548C;file&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x79F0;&#x4E3A;&#x8F93;&#x51FA;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x5730;&#x3002;</p>
+<pre><code class="lang-java">File f=<span class="hljs-keyword">new</span> File(<span class="hljs-string">&quot;destin.txt&quot;</span>);     <span class="hljs-comment">//&#x6307;&#x5B9A;&#x8F93;&#x51FA;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x5730;</span>
+<span class="hljs-keyword">try</span> {
+FileOutputStream out = <span class="hljs-keyword">new</span> FileOutnputStream(f);  <span class="hljs-comment">//&#x521B;&#x5EFA;&#x6307;&#x5411;&#x76EE;&#x7684;&#x5730;&#x7684;&#x8F93;&#x51FA;&#x6D41;</span>
+}
+<span class="hljs-keyword">catch</span> (IOException e) {
+      System.out.println(<span class="hljs-string">&quot;Filewrite:&quot;</span>+e );
+}
+</code></pre>
+<h4 id="&#x4F7F;&#x7528;&#x8F93;&#x51FA;&#x6D41;&#x5199;&#x5B57;&#x8282;">&#x4F7F;&#x7528;&#x8F93;&#x51FA;&#x6D41;&#x5199;&#x5B57;&#x8282;</h4>
+<p>&#x200B;       &#x8F93;&#x51FA;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x662F;&#x63D0;&#x4F9B;&#x901A;&#x5F80;&#x76EE;&#x7684;&#x5730;&#x7684;&#x901A;&#x9053;&#xFF0C;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x901A;&#x9053;&#x5C06;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5199;&#x5165;&#x5230;&#x76EE;&#x7684;&#x5730;&#xFF08;&#x5982;&#x524D;&#x9762;&#x56FE;10.2&#x6240;&#x793A;&#xFF09;&#x3002;&#x6587;&#x4EF6;&#x5B57;&#x8282;&#x6D41;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x4ECE;&#x7236;&#x7C7B;&#x7EE7;&#x627F;&#x7684;write&#x65B9;&#x6CD5;&#x987A;&#x5E8F;&#x5730;&#x5199;&#x6587;&#x4EF6;&#x3002;FileOutStream&#x6D41;&#x987A;&#x5E8F;&#x5730;&#x5411;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x5185;&#x5BB9;&#xFF0C;&#x5373;&#x53EA;&#x8981;&#x4E0D;&#x5173;&#x95ED;&#x6D41;&#xFF0C;&#x6BCF;&#x6B21;&#x8C03;&#x7528;write&#x65B9;&#x6CD5;&#x5C31;&#x987A;&#x5E8F;&#x5730;&#x5411;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x5230;&#x6D41;&#x88AB;&#x5173;&#x95ED;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">write</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span> &#x8F93;&#x51FA;&#x6D41;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x5411;&#x76EE;&#x7684;&#x5730;&#x5199;&#x5165;&#x5355;&#x4E2A;&#x5B57;&#x8282;&#x3002;
+<span class="hljs-keyword">void</span> <span class="hljs-title">write</span><span class="hljs-params">(<span class="hljs-keyword">byte</span> b[])</span> &#x8F93;&#x51FA;&#x6D41;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x5411;&#x76EE;&#x7684;&#x5730;&#x5199;&#x5165;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x6570;&#x7EC4;&#x3002;
+<span class="hljs-keyword">void</span> <span class="hljs-title">write</span><span class="hljs-params">(<span class="hljs-keyword">byte</span> b[],<span class="hljs-keyword">int</span> off,<span class="hljs-keyword">int</span> len)</span> &#x7ED9;&#x5B9A;&#x5B57;&#x8282;&#x6570;&#x7EC4;&#x4E2D;&#x8D77;&#x59CB;&#x4E8E;&#x504F;&#x79FB;&#x91CF;off&#x5904;&#x53D6;len&#x4E2A;&#x5B57;&#x8282;&#x5199;&#x5230;&#x76EE;&#x7684;&#x5730;&#x3002;
+</span></code></pre>
+<h4 id="&#x5173;&#x95ED;&#x6D41;">&#x5173;&#x95ED;&#x6D41;</h4>
+<p>&#x200B;        &#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x5728;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x628A;&#x7A0B;&#x5E8F;&#x6240;&#x5199;&#x5230;&#x8F93;&#x51FA;&#x6D41;&#x4E0A;&#x7684;&#x90A3;&#x4E9B;&#x5B57;&#x8282;&#x4FDD;&#x5B58;&#x5230;&#x78C1;&#x76D8;&#x4E0A;&#x4E4B;&#x524D;&#xFF0C;&#x6709;&#x65F6;&#x88AB;&#x5B58;&#x653E;&#x5728;&#x5185;&#x5B58;&#x7F13;&#x51B2;&#x533A;&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;&#x8C03;&#x7528;close()&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x628A;&#x6D41;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x5185;&#x5BB9;&#x5199;&#x5230;&#x5B83;&#x7684;&#x76EE;&#x7684;&#x5730;&#xFF0C;&#x5373;&#x5173;&#x95ED;&#x8F93;&#x51FA;&#x6D41;&#x53EF;&#x4EE5;&#x628A;&#x8BE5;&#x6D41;&#x6240;&#x7528;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x7684;&#x5185;&#x5BB9;&#x51B2;&#x6D17;&#x6389;&#xFF08;&#x901A;&#x5E38;&#x51B2;&#x6D17;&#x5230;&#x78C1;&#x76D8;&#x6587;&#x4EF6;&#x4E0A;&#xFF09;&#x3002;</p>
+<h3 id="&#x5B57;&#x7B26;&#x6D41;">&#x5B57;&#x7B26;&#x6D41;</h3>
+<p>&#x200B;       &#x4E0E;FileInputStream&#x3001;FileOutputStream&#x5B57;&#x8282;&#x6D41;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x662F;FileReader&#x3001;FileWriter&#x5B57;&#x7B26;&#x6D41;&#xFF08;&#x6587;&#x4EF6;&#x5B57;&#x7B26;&#x8F93;&#x5165;&#x3001;&#x8F93;&#x51FA;&#x6D41;&#xFF09;&#xFF0C;FileReader&#x548C;FileWriter&#x5206;&#x522B;&#x662F;Reader&#x548C;Writer&#x7684;&#x5B50;&#x7C7B;.&#x5B57;&#x7B26;&#x8F93;&#x5165;&#x6D41;&#x548C;&#x8F93;&#x51FA;&#x6D41;&#x7684;read&#x548C;write&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#x8BFB;&#x5199;&#x6570;&#x636E;&#xFF0C;&#x5373;&#x4EE5;&#x5B57;&#x7B26;&#x4E3A;&#x57FA;&#x672C;&#x5355;&#x4F4D;&#x5904;&#x7406;&#x6570;&#x636E;&#x3002;</p>
+<pre><code class="lang-java">&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x5206;&#x522B;&#x662F;&#xFF1A;
+FileReader(String filename); 
+FileReader(File filename);
+FileWriter (String filename); 
+FileWriter (File filename);
+FileWriter (String filename,<span class="hljs-keyword">boolean</span> append);
+FileWriter (File filename,<span class="hljs-keyword">boolean</span> append);
+</code></pre>
+<h3 id="&#x7F13;&#x51B2;&#x6D41;">&#x7F13;&#x51B2;&#x6D41;</h3>
+<p>BufferedReader&#x7C7B;&#x548C;BufferedWriter&#x7684;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x5206;&#x522B;&#x662F;&#xFF1A;</p>
+<pre><code class="lang-java">     BufferedReader(Reader in); 
+     BufferedWriter (Writer out);
+</code></pre>
+<p>BufferedReader&#x6D41;&#x80FD;&#x591F;&#x8BFB;&#x53D6;&#x6587;&#x672C;&#x884C;&#xFF0C;&#x65B9;&#x6CD5;&#x662F;readLine(). BufferedReader&#x548C;BufferedWriter&#x7C7B;&#x521B;&#x5EFA;&#x7684;&#x5BF9;&#x8C61;&#x79F0;&#x4E3A;&#x7F13;&#x51B2;&#x8F93;&#x5165;&#x3001;&#x8F93;&#x51FA;&#x6D41;&#xFF0C;&#x4E8C;&#x8005;&#x589E;&#x5F3A;&#x4E86;&#x8BFB;&#x5199;&#x6587;&#x4EF6;&#x7684;&#x80FD;&#x529B;&#x3002;</p>
+<p>&#x200B;          &#x53EF;&#x4EE5;&#x628A;BufferedReader&#x548C;BufferedWriter&#x79F0;&#x4E3A;&#x4E0A;&#x5C42;&#x6D41;&#xFF0C;&#x628A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x5B57;&#x7B26;&#x6D41;&#x79F0;&#x4E3A;&#x5E95;&#x5C42;&#x6D41;&#x3002;Java&#x91C7;&#x7528;&#x7F13;&#x5B58;&#x6280;&#x672F;&#x5C06;&#x4E0A;&#x5C42;&#x6D41;&#x548C;&#x5E95;&#x5C42;&#x6D41;&#x8FDE;&#x63A5;&#x3002;&#x5E95;&#x5C42;&#x5B57;&#x7B26;&#x8F93;&#x5165;&#x6D41;&#x9996;&#x5148;&#x5C06;&#x6570;&#x636E;&#x8BFB;&#x5165;&#x7F13;&#x5B58;&#xFF0C;BufferedReader&#x6D41;&#x518D;&#x4ECE;&#x7F13;&#x5B58;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#xFF1B;BufferedWriter&#x6D41;&#x5C06;&#x6570;&#x636E;&#x5199;&#x5165;&#x7F13;&#x5B58;&#xFF0C;&#x5E95;&#x5C42;&#x5B57;&#x7B26;&#x8F93;&#x51FA;&#x6D41;&#x4F1A;&#x4E0D;&#x65AD;&#x5730;&#x5C06;&#x7F13;&#x5B58;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5199;&#x5165;&#x5230;&#x76EE;&#x7684;&#x5730;&#x3002;&#x5F53;BufferedWriter&#x6D41;&#x8C03;&#x7528;flush()&#x5237;&#x65B0;&#x7F13;&#x5B58;&#x6216;&#x8C03;&#x7528;close()&#x65B9;&#x6CD5;&#x5173;&#x95ED;&#x65F6;&#xFF0C;&#x5373;&#x4F7F;&#x7F13;&#x5B58;&#x6CA1;&#x6709;&#x76CA;&#x6EE1;&#xFF0C;&#x5E95;&#x5C42;&#x6D41;&#x4E5F;&#x4F1A;&#x7ACB;&#x523B;&#x5C06;&#x7F13;&#x5B58;&#x7684;&#x5185;&#x5BB9;&#x5199;&#x5165;&#x76EE;&#x7684;&#x5730;</p>
+<blockquote>
+<p>&#x4F8B;&#x5B50;4&#x4E2D;&#x6709;&#x4E24;&#x4E2A;JSP&#x9875;&#x9762;&#xFF1A;
+example8_4_choiceFile.jsp&#x548C;example8_4_showFile.jsp
+&#x4E00;&#x4E2A;Javabean&#x548C;&#x4E00;&#x4E2A;servlet&#x3002;</p>
+<p>&#x200B;      &#x5728;JSP&#x9875;&#x9762;example8_4_choiceFile.jsp&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x63D0;&#x4EA4;&#x7ED9;servlet&#xFF0C;&#x8BE5;servlet&#x8D1F;&#x8D23;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x6709;&#x5173;&#x4FE1;&#x606F;&#x5B58;&#x653E;&#x5230;JavaBean&#x4E2D;&#xFF0C;&#x5E76;&#x8BF7;&#x6C42;JSP&#x9875;&#x9762;example8_4_showFile.jsp&#x663E;&#x793A;Javanean&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;</p>
+<p>&#x200B;    &#x9700;&#x8981;&#x4E3A;ch8\WEB-INF&#x4E2D;&#x7684;web.xml&#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5B50;&#x6807;&#x8BB0;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>helpReadFile <span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.Example8_4_Servlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>helpReadFile <span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/helpReadFile<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+</code></pre>
+<blockquote>
+<p>&#x200B;    &#x6A21;&#x578B;&#xFF08;Javabean&#xFF09;
+&#x200B;       Javabean&#x6A21;&#x578B;Example8_4_Bean.java&#x8D1F;&#x8D23;&#x5B58;&#x50A8;&#x6587;&#x4EF6;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#xFF0C;&#x5728;&#x672C;&#x4F8B;&#x5B50;&#x4E2D;Example8_4_Bean&#x521B;&#x5EFA;&#x7684;Javabean&#x6A21;&#x578B;&#x7684;id&#x662F;fileBean&#xFF0C;scope&#x53D6;&#x503C;&#x662F;request&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> mybean.data;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example8_4_Bean</span> </span>{
+   String filePath,fileName,fileContent;
+   <span class="hljs-keyword">long</span> fileLength;
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFilePath</span><span class="hljs-params">(String str)</span></span>{
+      filePath=str;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFilePath</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> filePath; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFileName</span><span class="hljs-params">(String str)</span></span>{
+      fileName=str;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFileName</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> fileName; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFileContent</span><span class="hljs-params">(String str)</span></span>{
+      fileContent=str;
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getFileContent</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> fileContent; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setFileLength</span><span class="hljs-params">(<span class="hljs-keyword">long</span> len)</span></span>{
+      fileLength=len; 
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">long</span> <span class="hljs-title">getFileLength</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> fileLength; 
+   }
+}
+</code></pre>
+<blockquote>
+<p>&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09;</p>
+<p>&#x200B;      &#x5728; example8_4_choiceFile.jsp&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x8F93;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;&#x548C;&#x540D;&#x5B57;&#xFF0C;&#x5E76;&#x63D0;&#x4EA4;&#x7ED9;&#x540D;&#x5B57;&#x4E3A;handleFile&#x7684;servlet&#x5BF9;&#x8C61;&#x3002;servlet&#x5BF9;&#x8C61;&#x8D1F;&#x8D23;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5C06;&#x8BFB;&#x53D6;&#x7684;&#x5185;&#x5BB9;&#x4EE5;&#x53CA;&#x76F8;&#x5173;&#x7684;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5230;id&#x4E3A;fileBean&#x7684;Javabean&#x6570;&#x636E;&#x6A21;&#x578B;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x8BF7;&#x6C42;example8_4_showFile.jsp&#x9875;&#x9762;&#x663E;&#x793A;&#x6570;&#x636E;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;example8_4_choiceFile.jsp&#x548C;example8_4_showFile.jsp&#x7684;&#x6548;&#x679C;&#x5982;&#x56FE;8.4(a)&#x548C;8.4(b)&#x6240;&#x793A;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=gb2312&quot; %&gt;
+&lt;HTML&gt;&lt;BODY bgcolor=cyan&gt;&lt;font size=2&gt;
+ &lt;form action=&quot;helpReadFile&quot; method=&quot;post&quot; name=&quot;form&quot;&gt;
+ &#x8F93;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;(&#x5982;:d:/2000):
+ &lt;input type=&quot;text&quot; name=&quot;filePath&quot; size=12&gt;
+ &lt;br&gt;&#x8F93;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;(&#x5982;:Hello.java):
+ &lt;input type=&quot;text&quot; name=&quot;fileName&quot; size=9&gt;
+ &lt;br&gt;&lt;input type=&quot;submit&quot; value=&quot;&#x8BFB;&#x53D6;&quot; name=&quot;submit&quot;&gt;
+ &lt;/form&gt;
+&lt;/font&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=gb2312&quot; %&gt;
+ &lt;jsp:useBean id=&quot;fileBean&quot; type=&quot;mybean.data.Example8_4_Bean&quot; scope=&quot;request&quot;/&gt;
+&lt;HTML&gt;&lt;body bgcolor=#EEFFAE&gt;&lt;font size=2&gt;
+  &#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x7F6E;: &lt;jsp:getProperty name=&quot;fileBean&quot; property=&quot;filePath&quot;/&gt;,
+  &#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF1A;&lt;jsp:getProperty name=&quot;fileBean&quot; property=&quot;fileName&quot;/&gt;,
+  &#x6587;&#x4EF6;&#x7684;&#x957F;&#x5EA6;&#xFF1A;&lt;jsp:getProperty name=&quot;fileBean&quot; property=&quot;fileLength&quot;/&gt; &#x5B57;&#x8282;&#x3002;
+  &lt;br&gt;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF1A;
+  &lt;br&gt;&lt;TextArea  rows=&quot;6&quot; cols=&quot;60&quot;&gt;
+       &lt;jsp:getProperty name=&quot;fileBean&quot; property=&quot;fileContent&quot;/&gt;
+     &lt;/TextArea&gt;
+&lt;/font&gt;&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09;
+Example8_4_Sevlet&#x8D1F;&#x8D23;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5C06;&#x7ED3;&#x679C;&#x5B58;&#x653E;&#x5230;id&#x662F;fileBean&#x7684;Javabean&#x6570;&#x636E;&#x6A21;&#x578B;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x8F6C;&#x53D1;&#x7684;&#x65B9;&#x6CD5;&#x8BF7;&#x6C42;example8_4_showFile.jsp&#x663E;&#x793A;fileBean&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.Example8_4_Bean;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example8_4_Servlet</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      Example8_4_Bean fileBean=<span class="hljs-keyword">new</span> Example8_4_Bean();  <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+      request.setAttribute(<span class="hljs-string">&quot;fileBean&quot;</span>,fileBean);
+      String filePath=request.getParameter(<span class="hljs-string">&quot;filePath&quot;</span>);
+      String fileName=request.getParameter(<span class="hljs-string">&quot;fileName&quot;</span>);
+      fileBean.setFilePath(filePath);   <span class="hljs-comment">//&#x5C06;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;fileBean&#x4E2D; </span>
+      fileBean.setFileName(fileName);   
+      <span class="hljs-keyword">try</span>{   File f=<span class="hljs-keyword">new</span> File(filePath,fileName);
+             <span class="hljs-keyword">long</span> length=f.length();
+             fileBean.setFileLength(length);
+             FileReader in=<span class="hljs-keyword">new</span> FileReader(f) ;
+             BufferedReader inTwo=<span class="hljs-keyword">new</span> BufferedReader(in);
+             StringBuffer stringbuffer=<span class="hljs-keyword">new</span> StringBuffer(); 
+             String s=<span class="hljs-keyword">null</span>;
+             <span class="hljs-keyword">while</span> ((s=inTwo.readLine())!=<span class="hljs-keyword">null</span>) 
+                stringbuffer.append(<span class="hljs-string">&quot;\n&quot;</span>+s);
+             String content=<span class="hljs-keyword">new</span> String(stringbuffer);
+             fileBean.setFileContent(content);
+      }
+      <span class="hljs-keyword">catch</span>(IOException exp){
+            fileBean.setFileContent(<span class="hljs-string">&quot;&#x8BFB;&#x53D6;&#x5931;&#x8D25;&quot;</span>+exp.toString());
+      } 
+      RequestDispatcher dispatcher=
+      request.getRequestDispatcher(<span class="hljs-string">&quot;example8_4_showFile.jsp&quot;</span>);
+      dispatcher.forward(request, response);
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,
+HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      doPost(request,response);
+   }
+}
+</code></pre>
+<h2 id="randomaccessfile&#x7C7B;">RandomAccessFile&#x7C7B;</h2>
+<p>RandomAccessFile&#x7C7B;&#x521B;&#x5EFA;&#x7684;&#x6D41;&#x4E0E;&#x524D;&#x9762;&#x7684;&#x8F93;&#x5165;&#x3001;&#x8F93;&#x51FA;&#x6D41;&#x4E0D;&#x540C;&#x3002;RandomAccessFile&#x7C7B;&#x65E2;&#x4E0D;&#x662F;&#x8F93;&#x5165;&#x6D41;&#x7C7B;InputStream&#x7C7B;&#x7684;&#x5B50;&#x7C7B;&#xFF0C;&#x4E5F;&#x4E0D;&#x662F;&#x8F93;&#x51FA;&#x6D41;&#x7C7B;Outputstream&#x7C7B;&#x7684;&#x5B50;&#x7C7B;&#x3002;&#x4E60;&#x60EF;&#x4E0A;&#xFF0C;&#x4ECD;&#x7136;&#x79F0;RandomAccessFile&#x7C7B;&#x521B;&#x5EFA;&#x7684;&#x5BF9;&#x8C61;&#x4E3A;&#x4E00;&#x4E2A;&#x6D41;&#x3002;RandomAccessFile&#x6D41;&#x7684;&#x6307;&#x5411;&#x65E2;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x6E90;&#x4E5F;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x76EE;&#x7684;&#x5730;&#x3002;&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x5F53;&#x60F3;&#x5BF9;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x8FDB;&#x884C;&#x8BFB;&#x5199;&#x64CD;&#x4F5C;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x8BE5;&#x6587;&#x4EF6;&#x7684;RandomAccessFile&#x6D41;&#xFF0C;&#x8FD9;&#x6837;&#x65E2;&#x53EF;&#x4EE5;&#x4ECE;&#x8FD9;&#x4E2A;&#x6D41;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x6D41;&#x5411;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x6570;&#x636E;&#x3002;</p>
+<p>RandomAccessFile&#x7C7B;&#x7684;&#x4E24;&#x4E2A;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#xFF1A;
+<code>RandomAccessFile(String name,String mode)</code>
+        &#x53C2;&#x6570;name&#x7528;&#x6765;&#x786E;&#x5B9A;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x540D;&#xFF0C;&#x7ED9;&#x51FA;&#x521B;&#x5EFA;&#x7684;&#x6D41;&#x7684;&#x6E90;&#xFF08;&#x4E5F;&#x662F;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x5730;&#xFF09;&#x3002;&#x53C2;&#x6570;mode&#x53D6;&#x201C;r&#x201D;&#xFF08;&#x53EA;&#x8BFB;&#xFF09;&#x6216;&#x201C;rw&#x201D;&#xFF08;&#x53EF;&#x8BFB;&#x5199;&#xFF09;&#xFF0C;&#x51B3;&#x5B9A;&#x521B;&#x5EFA;&#x7684;&#x6D41;&#x5BF9;&#x6587;&#x4EF6;&#x7684;&#x8BBF;&#x95EE;&#x6743;&#x5229;&#x3002;
+<code>RandomAccessFile(File file,String mode)</code>
+       &#x53C2;&#x6570;file&#x662F;&#x4E00;&#x4E2A;File&#x5BF9;&#x8C61;&#xFF0C;&#x7ED9;&#x51FA;&#x521B;&#x5EFA;&#x7684;&#x6D41;&#x7684;&#x6E90;&#xFF08;&#x4E5F;&#x662F;&#x6D41;&#x7684;&#x76EE;&#x7684;&#x5730;&#xFF09;&#x3002;&#x53C2;&#x6570;mode&#x53D6;&#x201C;r&#x201D;&#xFF08;&#x53EA;&#x8BFB;&#xFF09;&#x6216;&#x201C;rw&#x201D;&#xFF08;&#x53EF;&#x8BFB;&#x5199;&#xFF09;&#xFF0C;&#x51B3;&#x5B9A;&#x521B;&#x5EFA;&#x7684;&#x6D41;&#x5BF9;&#x6587;&#x4EF6;&#x7684;&#x8BBF;&#x95EE;&#x6743;&#x5229;&#x3002;</p>
+<p>   RandomAccessFile&#x7C7B;&#x7684;&#x8BFB;&#x5199;&#x65B9;&#x6CD5;</p>
+<p>readLine() &#x4ECE;&#x6587;&#x4EF6;&#x4E2D;&#x8BFB;&#x53D6;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x884C;
+readUTF() &#x4ECE;&#x6587;&#x4EF6;&#x4E2D;&#x8BFB;&#x53D6;&#x4E00;&#x4E2A;UTF&#x5B57;&#x7B26;&#x4E32;
+seek(long a) &#x5B9A;&#x4F4D;&#x5F53;&#x524D;&#x6D41;&#x5728;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x8BFB;&#x5199;&#x7684;&#x4F4D;&#x7F6E;
+write(byte b[]) &#x5199;b.length&#x4E2A;&#x5B57;&#x8282;&#x5230;&#x6587;&#x4EF6;
+writeDouble(double v) &#x5411;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x4E00;&#x4E2A;&#x53CC;&#x7CBE;&#x5EA6;&#x6D6E;&#x70B9;&#x503C;
+writeInt(int v) &#x5411;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x4E00;&#x4E2A;int&#x503C;
+writeUTF(String s) &#x5199;&#x5165;&#x4E00;&#x4E2A;UTF&#x5B57;&#x7B26;&#x4E32;
+getFilePointer()  &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x6D41;&#x5728;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x8BFB;&#x5199;&#x7684;&#x4F4D;&#x7F6E;</p>
+<h2 id="&#x6587;&#x4EF6;&#x4E0A;&#x4F20;">&#x6587;&#x4EF6;&#x4E0A;&#x4F20;</h2>
+<p>&#x7528;&#x6237;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;JSP&#x9875;&#x9762;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7ED9;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x8BE5;JSP&#x9875;&#x9762;&#x5FC5;&#x987B;&#x542B;&#x6709;File&#x7C7B;&#x578B;&#x7684;&#x8868;&#x5355;&#xFF0C;&#x5E76;&#x4E14;&#x8868;&#x5355;&#x5FC5;&#x987B;&#x5C06;ENCTYPE&#x7684;&#x5C5E;&#x6027;&#x503C;&#x8BBE;&#x6210;multipart/form-data&#x3002;</p>
+<pre><code class="lang-html">&lt;form action=&quot;&#x63A5;&#x53D7;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x9875;&#x9762;&quot; method=&quot;post&quot; ENCTYPE=&quot;multipart/form-data&quot;
+&lt;Input type=&quot;File&quot; name=&quot;picture&quot; &gt;
+&lt;/form&gt;
+</code></pre>
+<blockquote>
+<p>&#x200B;     &#x4F8B;&#x5B50;5&#x4E2D;&#xFF0C;&#x7528;&#x6237;&#x901A;&#x8FC7;example8_5.jsp&#x9875;&#x9762;&#x9009;&#x62E9;&#x7684;&#x6587;&#x672C;&#x6587;&#x4EF6;A.txt&#x51C6;&#x5907;&#x4E0A;&#x4F20;</p>
+<p>A.txt: request&#x83B7;&#x5F97;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x6D41;&#x8BFB;&#x53D6;&#x7528;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x5168;&#x90E8;&#x4FE1;&#x606F;&#xFF0C;&#x5305;&#x62EC;&#x8868;&#x5355;&#x7684;&#x5934;&#x4FE1;&#x606F;&#x4EE5;&#x53CA;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x4EE5;&#x540E;&#x5C06;&#x8BA8;&#x8BBA;&#x5982;&#x4F55;&#x53BB;&#x6389;&#x8868;&#x5355;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#x3002;            </p>
+<p>&#x200B;     &#x4F8B;&#x5B50;5&#x4E2D;&#x5728;example8_5_accept.jsp&#x9875;&#x9762;&#xFF0C;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;request&#x8C03;&#x7528;&#x65B9;&#x6CD5;getInputStream()&#x83B7;&#x5F97;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x6D41;in&#xFF0C;&#x7528;FileOutputStream&#x7C7B;&#x518D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x8F93;&#x51FA;&#x6D41;o&#x3002;&#x8F93;&#x5165;&#x6D41;in&#x8BFB;&#x53D6;&#x7528;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x8F93;&#x51FA;&#x6D41;o&#x5C06;&#x8BFB;&#x53D6;&#x7684;&#x4FE1;&#x606F;&#x5199;&#x5165;&#x6587;&#x4EF6;B.txt&#x3002;&#x4E0A;&#x4F20;&#x540E;&#x7684;&#x6587;&#x4EF6;&#x662F;B.txt(&#x5982;&#x56FE;8.5)&#x3002;</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=gb2312&quot; %&gt;
+&lt;HTML&gt;&lt;body&gt;
+ &lt;P&gt;&#x9009;&#x62E9;&#x8981;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#xFF1A;&lt;BR&gt;
+   &lt;form action=&quot;example8_5_accept.jsp&quot; method=&quot;post&quot; ENCTYPE=&quot;multipart/form-data&quot;&gt;
+      &lt;input type=FILE name=&quot;boy&quot; size=&quot;38&quot;&gt; 
+      &lt;br&gt;&lt;input type=&quot;submit&quot; name =&quot;g&quot; value=&quot;&#x63D0;&#x4EA4;&quot;&gt;  
+&lt;/form&gt;
+&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=GB2312&quot; %&gt;
+&lt;%@ page import =&quot;java.io.*&quot; %&gt;
+&lt;HTML&gt;&lt;body&gt;
+  &lt;%try{  InputStream in=request.getInputStream();
+          File dir=new File(&quot;C:/1000&quot;);
+          dir.mkdir();
+          File f=new File(dir,&quot;B.txt&quot;);
+          FileOutputStream o=new FileOutputStream(f);
+          byte b[]=new byte[1000];
+          int n;
+          while((n=in.read(b))!=-1)
+             o.write(b,0,n);
+          o.close();
+          in.close();
+          out.print(&quot;&#x6587;&#x4EF6;&#x5DF2;&#x4E0A;&#x4F20;&quot;);
+    }
+    catch(IOException ee){
+          out.print(&quot;&#x4E0A;&#x4F20;&#x5931;&#x8D25;&quot;+ee);
+    }
+  %&gt; 
+&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x200B;     &#x4F8B;&#x5B50;6&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;&#x8F93;&#x5165;&#x3001;&#x8F93;&#x51FA;&#x6D41;&#x6280;&#x672F;&#x83B7;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5373;&#x53BB;&#x6389;&#x8868;&#x5355;&#x7684;&#x4FE1;&#x606F;&#x3002;</p>
+<ul>
+<li>&#x4E0D;&#x540C;&#x7528;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x4E92;&#x4E0D;&#x76F8;&#x540C;&#x8FD9;&#x4E00;&#x7279;&#x70B9;&#xFF0C;&#x5C06;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x5168;&#x90E8;&#x4FE1;&#x606F;&#x9996;&#x5148;&#x4FDD;&#x5B58;&#x6210;&#x4E00;&#x4E2A;&#x4E34;&#x65F6;&#x6587;&#x4EF6;&#xFF0C;&#x8BE5;&#x4E34;&#x65F6;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x662F;&#x7528;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x7684;id.</li>
+<li>&#x7136;&#x540E;&#x8BFB;&#x53D6;&#x8BE5;&#x4E34;&#x65F6;&#x6587;&#x4EF6;&#x7684;&#x7B2C;2&#x884C;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E00;&#x884C;&#x4E2D;&#x542B;&#x6709;&#x7528;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x518D;&#x83B7;&#x53D6;&#x7B2C;4&#x884C;&#x7ED3;&#x675F;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x4EE5;&#x53CA;&#x5012;&#x6570;&#x7B2C;6&#x884C;&#x7ED3;&#x675F;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E24;&#x4E2A;&#x4F4D;&#x7F6E;&#x4E4B;&#x95F4;&#x7684;&#x5185;&#x5BB9;&#x662F;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x8FD9;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#x5B58;&#x5165;&#x6587;&#x4EF6;&#xFF0C;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x548C;&#x7528;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x4FDD;&#x6301;&#x4E00;&#x81F4;</li>
+<li><p>&#x6700;&#x540E;&#x5220;&#x9664;&#x4E34;&#x65F6;&#x6587;&#x4EF6;&#x3002;</p>
+<p> &#x9700;&#x8981;&#x4E3A;ch8\WEB-INF&#x4E2D;&#x7684;web.xml&#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5B50;&#x6807;&#x8BB0;&#x3002;</p>
+</li>
+</ul>
+</blockquote>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>upFile<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.Example8_6_Servlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>upFile<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/upFile<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+</code></pre>
+<blockquote>
+<p>&#x200B;    &#x6A21;&#x578B;&#xFF08;Javabean&#xFF09;
+&#x200B;      Javabean&#x6A21;&#x578B;Example8_6_Bean.java&#x8D1F;&#x8D23;&#x5B58;&#x50A8;&#x6587;&#x4EF6;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#xFF0C;&#x5728;&#x672C;&#x4F8B;&#x5B50;&#x4E2D;Example8_6_Bean&#x521B;&#x5EFA;&#x7684;Javabean&#x6A21;&#x578B;&#x7684;id&#x662F;fileBean&#xFF0C;scope&#x53D6;&#x503C;&#x662F;request&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.Example8_6_Bean;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example8_6_Servlet</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      request.setCharacterEncoding(<span class="hljs-string">&quot;gb2312&quot;</span>);
+      Example8_6_Bean fileBean=<span class="hljs-keyword">new</span> Example8_6_Bean();  <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+      request.setAttribute(<span class="hljs-string">&quot;fileBean&quot;</span>,fileBean);
+      String fileName=<span class="hljs-keyword">null</span>;
+      HttpSession session=request.getSession(<span class="hljs-keyword">true</span>);
+      <span class="hljs-keyword">try</span>{  
+         <span class="hljs-comment">//&#x7528;&#x5BA2;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x7684;Id&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x4E34;&#x65F6;&#x6587;&#x4EF6;</span>
+          String tempFileName=(String)session.getId();
+          String webDir = request.getContextPath();
+          webDir = webDir.substring(<span class="hljs-number">1</span>); 
+          File f= <span class="hljs-keyword">new</span> File(<span class="hljs-string">&quot;&quot;</span>); 
+          String path = f.getAbsolutePath();
+          <span class="hljs-keyword">int</span> index = path.indexOf(<span class="hljs-string">&quot;bin&quot;</span>);
+          String tomcatDir = path.substring(<span class="hljs-number">0</span>,index);<span class="hljs-comment">//tomcat&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;</span>
+          File dir=<span class="hljs-keyword">new</span> File(tomcatDir+<span class="hljs-string">&quot;/webapps/&quot;</span>+webDir+<span class="hljs-string">&quot;/image&quot;</span>);
+          dir.mkdir();          
+          <span class="hljs-comment">//&#x5EFA;&#x7ACB;&#x4E34;&#x65F6;&#x6587;&#x4EF6;f1</span>
+          File f1=<span class="hljs-keyword">new</span> File(dir,tempFileName);
+          FileOutputStream o=<span class="hljs-keyword">new</span> FileOutputStream(f1);
+           <span class="hljs-comment">//&#x5C06;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x5168;&#x90E8;&#x4FE1;&#x606F;&#x5B58;&#x5165;f1</span>
+          InputStream in=request.getInputStream();
+          <span class="hljs-keyword">byte</span> b[]=<span class="hljs-keyword">new</span> <span class="hljs-keyword">byte</span>[<span class="hljs-number">10000</span>];
+          <span class="hljs-keyword">int</span> n;
+          <span class="hljs-keyword">while</span>( (n=in.read(b))!=-<span class="hljs-number">1</span>){
+             o.write(b,<span class="hljs-number">0</span>,n);
+          }
+          o.close();
+          in.close();
+           <span class="hljs-comment">//&#x8BFB;&#x53D6;&#x4E34;&#x65F6;&#x6587;&#x4EF6;f1&#xFF0C;&#x4ECE;&#x4E2D;&#x83B7;&#x53D6;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x548C;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;</span>
+          RandomAccessFile randomRead=<span class="hljs-keyword">new</span> RandomAccessFile(f1,<span class="hljs-string">&quot;r&quot;</span>);
+           <span class="hljs-comment">//&#x8BFB;&#x51FA;f1&#x7684;&#x7B2C;2&#x884C;&#xFF0C;&#x6790;&#x53D6;&#x51FA;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;</span>
+          <span class="hljs-keyword">int</span> second=<span class="hljs-number">1</span>;
+          String secondLine=<span class="hljs-keyword">null</span>;
+          <span class="hljs-keyword">while</span>(second&lt;=<span class="hljs-number">2</span>) { 
+              secondLine=randomRead.readLine();
+              second++;
+          }
+          <span class="hljs-comment">//&#x83B7;&#x53D6;f1&#x4E2D;&#x7B2C;2&#x884C;&#x4E2D;&quot;filename&quot;&#x4E4B;&#x540E;&#x201C;=&#x201D;&#x51FA;&#x73B0;&#x7684;&#x4F4D;&#x7F6E;:</span>
+          <span class="hljs-keyword">int</span> position=secondLine.lastIndexOf(<span class="hljs-string">&quot;=&quot;</span>);
+           <span class="hljs-comment">//&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x662F;</span>
+          fileName=secondLine.substring(position+<span class="hljs-number">2</span>,secondLine.length()-<span class="hljs-number">1</span>);
+          randomRead.seek(<span class="hljs-number">0</span>); <span class="hljs-comment">//&#x518D;&#x5B9A;&#x4F4D;&#x5230;&#x6587;&#x4EF6;f1&#x7684;&#x5F00;&#x5934;</span>
+          <span class="hljs-comment">//&#x83B7;&#x53D6;&#x7B2C;4&#x884C;&#x56DE;&#x8F66;&#x7B26;&#x53F7;&#x7684;&#x4F4D;&#x7F6E;</span>
+          <span class="hljs-keyword">long</span>  forthEndPosition=<span class="hljs-number">0</span>;
+          <span class="hljs-keyword">int</span> forth=<span class="hljs-number">1</span>;
+          <span class="hljs-keyword">while</span>((n=randomRead.readByte())!=-<span class="hljs-number">1</span>&amp;&amp;(forth&lt;=<span class="hljs-number">4</span>)){  
+             <span class="hljs-keyword">if</span>(n==<span class="hljs-string">&apos;\n&apos;</span>){
+                forthEndPosition=randomRead.getFilePointer();
+                forth++;
+             }
+          }
+          <span class="hljs-comment">//&#x6839;&#x636E;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x5B58;&#x5165;&#x78C1;&#x76D8;</span>
+          <span class="hljs-keyword">byte</span>  cc[]=fileName.getBytes(<span class="hljs-string">&quot;ISO-8859-1&quot;</span>);
+          fileName=<span class="hljs-keyword">new</span> String(cc);
+          File f2= <span class="hljs-keyword">new</span> File(dir,fileName);
+          RandomAccessFile randomWrite=<span class="hljs-keyword">new</span> RandomAccessFile(f2,<span class="hljs-string">&quot;rw&quot;</span>); 
+          <span class="hljs-comment">//&#x786E;&#x5B9A;&#x51FA;&#x6587;&#x4EF6;f1&#x4E2D;&#x5305;&#x542B;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x6700;&#x540E;&#x4F4D;&#x7F6E;&#xFF0C;&#x5373;&#x5012;&#x6570;&#x7B2C;6&#x884C;</span>
+          randomRead.seek(randomRead.length());
+          <span class="hljs-keyword">long</span> endPosition=randomRead.getFilePointer();
+          <span class="hljs-keyword">long</span> mark=endPosition;
+          <span class="hljs-keyword">int</span> j=<span class="hljs-number">1</span>;
+          <span class="hljs-keyword">while</span>((mark&gt;=<span class="hljs-number">0</span>)&amp;&amp;(j&lt;=<span class="hljs-number">6</span>)) { 
+              mark--;
+              randomRead.seek(mark);
+              n=randomRead.readByte();
+              <span class="hljs-keyword">if</span>(n==<span class="hljs-string">&apos;\n&apos;</span>){
+                 endPosition=randomRead.getFilePointer();
+                 j++;
+              }
+          }
+          <span class="hljs-comment">//&#x5C06;randomRead&#x6D41;&#x6307;&#x5411;&#x6587;&#x4EF6;f1&#x7684;&#x7B2C;4&#x884C;&#x7ED3;&#x675F;&#x7684;&#x4F4D;&#x7F6E;</span>
+          randomRead.seek(forthEndPosition);
+          <span class="hljs-keyword">long</span> startPoint=randomRead.getFilePointer();
+         <span class="hljs-comment">//&#x4ECE;f1&#x8BFB;&#x51FA;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x5B58;&#x5165;f2&#xFF08;&#x8BFB;&#x53D6;&#x7B2C;4&#x884C;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;&#x548C;&#x5012;&#x6570;&#x7B2C;6&#x884C;&#x4E4B;&#x95F4;&#x7684;&#x5185;&#x5BB9;&#xFF09;</span>
+          <span class="hljs-keyword">while</span>(startPoint&lt;endPosition-<span class="hljs-number">1</span>){
+              n=randomRead.readByte();
+              randomWrite.write(n); 
+              startPoint=randomRead.getFilePointer();
+          }
+          randomWrite.close();
+          randomRead.close();
+
+          fileBean.setMess(<span class="hljs-string">&quot;&#x4E0A;&#x4F20;&#x6210;&#x529F;&quot;</span>); 
+          fileBean.setFileName(fileName);   
+          f1.delete(); <span class="hljs-comment">//&#x5220;&#x9664;&#x4E34;&#x65F6;&#x6587;&#x4EF6;</span>
+       }
+       <span class="hljs-keyword">catch</span>(Exception ee) {
+          fileBean.setMess(<span class="hljs-string">&quot;&#x6CA1;&#x6709;&#x9009;&#x62E9;&#x6587;&#x4EF6;&#x6216;&#x4E0A;&#x4F20;&#x5931;&#x8D25;&quot;</span>); 
+       }
+      RequestDispatcher dispatcher=
+      request.getRequestDispatcher(<span class="hljs-string">&quot;example8_6.jsp&quot;</span>);
+      dispatcher.forward(request, response);
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,
+                      HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      doPost(request,response);
+   }
+}
+</code></pre>
+<blockquote>
+<p>&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09;
+      example8_6.jsp&#x9875;&#x9762;&#x8D1F;&#x8D23;&#x63D0;&#x4EA4;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7ED9;&#x540D;&#x5B57;&#x662F;upFile&#x7684;servlet&#xFF0C;&#x5E76;&#x8D1F;&#x8D23;&#x663E;&#x793A;Javabean&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x5982;&#x679C;Javabean&#x6A21;&#x578B;&#x4E2D;&#x5B58;&#x653E;&#x7684;&#x6587;&#x4EF6;&#x4E0D;&#x662F;&#x56FE;&#x50CF;&#x6587;&#x4EF6;&#x5C31;&#x663E;&#x793A;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x56FE;&#x50CF;&#x6587;&#x4EF6;&#xFF0C;&#x4E0D;&#x4EC5;&#x663E;&#x793A;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x663E;&#x793A;&#x5F53;&#x524D;&#x56FE;&#x50CF;&#x3002;example8_6.jsp&#x6548;&#x679C;&#x5982;&#x56FE;8.6&#x3002;</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=gb2312&quot; %&gt;
+&lt;%@ page import =&quot;java.io.*&quot; %&gt;
+ &lt;jsp:useBean id=&quot;fileBean&quot; class=&quot;mybean.data.Example8_6_Bean&quot; scope=&quot;request&quot;/&gt;
+&lt;HTML&gt;&lt;body&gt;
+ &lt;P&gt;&#x9009;&#x62E9;&#x8981;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#xFF1A;&lt;BR&gt;
+ &lt;form action=&quot;upFile&quot; method=&quot;post&quot; ENCTYPE=&quot;multipart/form-data&quot;&gt;
+      &lt;input type=FILE name=&quot;boy&quot; size=&quot;45&quot;&gt; 
+      &lt;br&gt; &lt;input type=&quot;submit&quot; name =&quot;boy&quot; value=&quot;&#x63D0;&#x4EA4;&quot;&gt;
+ &lt;/form&gt;
+ &lt;br&gt; &#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x540D;&#x5B57;&#xFF1A;
+ &lt;jsp:getProperty name=&quot;fileBean&quot; property=&quot;fileName&quot;/&gt; 
+   &lt;br&gt; &#x4E0A;&#x4F20;&#x53CD;&#x9988;&#xFF1A;
+ &lt;jsp:getProperty name=&quot;fileBean&quot; property=&quot;mess&quot;/&gt;
+ &lt;%
+    String name=fileBean.getFileName();
+    boolean boo =name.endsWith(&quot;.jpg&quot;);
+    boo = boo||name.endsWith(&quot;.gif&quot;);
+    if(boo) {
+ %&gt;     &lt;image src = &quot;image/&lt;%=name%&gt;&quot; width=200 height =200&gt;&lt;%=name %&gt;&lt;/image&gt;
+ &lt;% }
+    else {
+ %&gt;     &lt;%=name %&gt;
+ &lt;% }
+ %&gt;
+&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09;
+Example8_6_Sevlet&#x8D1F;&#x8D23;&#x5C06;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;&#x5230;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#xFF0C;&#x5E76;&#x5C06;&#x6587;&#x4EF6;&#x7684;&#x6709;&#x5173;&#x4FE1;&#x606F;&#x5B58;&#x653E;&#x5230;id&#x662F;fileBean&#x7684;Javabean&#x6570;&#x636E;&#x6A21;&#x578B;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x8F6C;&#x53D1;&#x7684;&#x65B9;&#x6CD5;&#x8BF7;&#x6C42;example8_6.jsp&#x663E;&#x793A;fileBean&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> mybean.data.Example8_6_Bean;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example8_6_Servlet</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      request.setCharacterEncoding(<span class="hljs-string">&quot;gb2312&quot;</span>);
+      Example8_6_Bean fileBean=<span class="hljs-keyword">new</span> Example8_6_Bean();  <span class="hljs-comment">//&#x521B;&#x5EFA;Javabean&#x5BF9;&#x8C61;</span>
+      request.setAttribute(<span class="hljs-string">&quot;fileBean&quot;</span>,fileBean);
+      String fileName=<span class="hljs-keyword">null</span>;
+      HttpSession session=request.getSession(<span class="hljs-keyword">true</span>);
+      <span class="hljs-keyword">try</span>{  
+         <span class="hljs-comment">//&#x7528;&#x5BA2;&#x6237;&#x7684;session&#x5BF9;&#x8C61;&#x7684;Id&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x4E34;&#x65F6;&#x6587;&#x4EF6;</span>
+          String tempFileName=(String)session.getId();
+          String webDir = request.getContextPath();
+          webDir = webDir.substring(<span class="hljs-number">1</span>); 
+          File f= <span class="hljs-keyword">new</span> File(<span class="hljs-string">&quot;&quot;</span>); 
+          String path = f.getAbsolutePath();
+          <span class="hljs-keyword">int</span> index = path.indexOf(<span class="hljs-string">&quot;bin&quot;</span>);
+          String tomcatDir = path.substring(<span class="hljs-number">0</span>,index);<span class="hljs-comment">//tomcat&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;</span>
+          File dir=<span class="hljs-keyword">new</span> File(tomcatDir+<span class="hljs-string">&quot;/webapps/&quot;</span>+webDir+<span class="hljs-string">&quot;/image&quot;</span>);
+          dir.mkdir();          
+          <span class="hljs-comment">//&#x5EFA;&#x7ACB;&#x4E34;&#x65F6;&#x6587;&#x4EF6;f1</span>
+          File f1=<span class="hljs-keyword">new</span> File(dir,tempFileName);
+          FileOutputStream o=<span class="hljs-keyword">new</span> FileOutputStream(f1);
+           <span class="hljs-comment">//&#x5C06;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x5168;&#x90E8;&#x4FE1;&#x606F;&#x5B58;&#x5165;f1</span>
+          InputStream in=request.getInputStream();
+          <span class="hljs-keyword">byte</span> b[]=<span class="hljs-keyword">new</span> <span class="hljs-keyword">byte</span>[<span class="hljs-number">10000</span>];
+          <span class="hljs-keyword">int</span> n;
+          <span class="hljs-keyword">while</span>( (n=in.read(b))!=-<span class="hljs-number">1</span>){
+             o.write(b,<span class="hljs-number">0</span>,n);
+          }
+          o.close();
+          in.close();
+           <span class="hljs-comment">//&#x8BFB;&#x53D6;&#x4E34;&#x65F6;&#x6587;&#x4EF6;f1&#xFF0C;&#x4ECE;&#x4E2D;&#x83B7;&#x53D6;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x548C;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;</span>
+          RandomAccessFile randomRead=<span class="hljs-keyword">new</span> RandomAccessFile(f1,<span class="hljs-string">&quot;r&quot;</span>);
+           <span class="hljs-comment">//&#x8BFB;&#x51FA;f1&#x7684;&#x7B2C;2&#x884C;&#xFF0C;&#x6790;&#x53D6;&#x51FA;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;</span>
+          <span class="hljs-keyword">int</span> second=<span class="hljs-number">1</span>;
+          String secondLine=<span class="hljs-keyword">null</span>;
+          <span class="hljs-keyword">while</span>(second&lt;=<span class="hljs-number">2</span>) { 
+              secondLine=randomRead.readLine();
+              second++;
+          }
+          <span class="hljs-comment">//&#x83B7;&#x53D6;f1&#x4E2D;&#x7B2C;2&#x884C;&#x4E2D;&quot;filename&quot;&#x4E4B;&#x540E;&#x201C;=&#x201D;&#x51FA;&#x73B0;&#x7684;&#x4F4D;&#x7F6E;:</span>
+          <span class="hljs-keyword">int</span> position=secondLine.lastIndexOf(<span class="hljs-string">&quot;=&quot;</span>);
+           <span class="hljs-comment">//&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x662F;</span>
+          fileName=secondLine.substring(position+<span class="hljs-number">2</span>,secondLine.length()-<span class="hljs-number">1</span>);
+          randomRead.seek(<span class="hljs-number">0</span>); <span class="hljs-comment">//&#x518D;&#x5B9A;&#x4F4D;&#x5230;&#x6587;&#x4EF6;f1&#x7684;&#x5F00;&#x5934;</span>
+          <span class="hljs-comment">//&#x83B7;&#x53D6;&#x7B2C;4&#x884C;&#x56DE;&#x8F66;&#x7B26;&#x53F7;&#x7684;&#x4F4D;&#x7F6E;</span>
+          <span class="hljs-keyword">long</span>  forthEndPosition=<span class="hljs-number">0</span>;
+          <span class="hljs-keyword">int</span> forth=<span class="hljs-number">1</span>;
+          <span class="hljs-keyword">while</span>((n=randomRead.readByte())!=-<span class="hljs-number">1</span>&amp;&amp;(forth&lt;=<span class="hljs-number">4</span>)){  
+             <span class="hljs-keyword">if</span>(n==<span class="hljs-string">&apos;\n&apos;</span>){
+                forthEndPosition=randomRead.getFilePointer();
+                forth++;
+             }
+          }
+          <span class="hljs-comment">//&#x6839;&#x636E;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x5B58;&#x5165;&#x78C1;&#x76D8;</span>
+          <span class="hljs-keyword">byte</span>  cc[]=fileName.getBytes(<span class="hljs-string">&quot;ISO-8859-1&quot;</span>);
+          fileName=<span class="hljs-keyword">new</span> String(cc);
+          File f2= <span class="hljs-keyword">new</span> File(dir,fileName);
+          RandomAccessFile randomWrite=<span class="hljs-keyword">new</span> RandomAccessFile(f2,<span class="hljs-string">&quot;rw&quot;</span>); 
+          <span class="hljs-comment">//&#x786E;&#x5B9A;&#x51FA;&#x6587;&#x4EF6;f1&#x4E2D;&#x5305;&#x542B;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x6700;&#x540E;&#x4F4D;&#x7F6E;&#xFF0C;&#x5373;&#x5012;&#x6570;&#x7B2C;6&#x884C;</span>
+          randomRead.seek(randomRead.length());
+          <span class="hljs-keyword">long</span> endPosition=randomRead.getFilePointer();
+          <span class="hljs-keyword">long</span> mark=endPosition;
+          <span class="hljs-keyword">int</span> j=<span class="hljs-number">1</span>;
+          <span class="hljs-keyword">while</span>((mark&gt;=<span class="hljs-number">0</span>)&amp;&amp;(j&lt;=<span class="hljs-number">6</span>)) { 
+              mark--;
+              randomRead.seek(mark);
+              n=randomRead.readByte();
+              <span class="hljs-keyword">if</span>(n==<span class="hljs-string">&apos;\n&apos;</span>){
+                 endPosition=randomRead.getFilePointer();
+                 j++;
+              }
+          }
+          <span class="hljs-comment">//&#x5C06;randomRead&#x6D41;&#x6307;&#x5411;&#x6587;&#x4EF6;f1&#x7684;&#x7B2C;4&#x884C;&#x7ED3;&#x675F;&#x7684;&#x4F4D;&#x7F6E;</span>
+          randomRead.seek(forthEndPosition);
+          <span class="hljs-keyword">long</span> startPoint=randomRead.getFilePointer();
+         <span class="hljs-comment">//&#x4ECE;f1&#x8BFB;&#x51FA;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x5B58;&#x5165;f2&#xFF08;&#x8BFB;&#x53D6;&#x7B2C;4&#x884C;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;&#x548C;&#x5012;&#x6570;&#x7B2C;6&#x884C;&#x4E4B;&#x95F4;&#x7684;&#x5185;&#x5BB9;&#xFF09;</span>
+          <span class="hljs-keyword">while</span>(startPoint&lt;endPosition-<span class="hljs-number">1</span>){
+              n=randomRead.readByte();
+              randomWrite.write(n); 
+              startPoint=randomRead.getFilePointer();
+          }
+          randomWrite.close();
+          randomRead.close();
+
+          fileBean.setMess(<span class="hljs-string">&quot;&#x4E0A;&#x4F20;&#x6210;&#x529F;&quot;</span>); 
+          fileBean.setFileName(fileName);   
+          f1.delete(); <span class="hljs-comment">//&#x5220;&#x9664;&#x4E34;&#x65F6;&#x6587;&#x4EF6;</span>
+       }
+       <span class="hljs-keyword">catch</span>(Exception ee) {
+          fileBean.setMess(<span class="hljs-string">&quot;&#x6CA1;&#x6709;&#x9009;&#x62E9;&#x6587;&#x4EF6;&#x6216;&#x4E0A;&#x4F20;&#x5931;&#x8D25;&quot;</span>); 
+       }
+      RequestDispatcher dispatcher=
+      request.getRequestDispatcher(<span class="hljs-string">&quot;example8_6.jsp&quot;</span>);
+      dispatcher.forward(request, response);
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,
+                      HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      doPost(request,response);
+   }
+}
+</code></pre>
+<h2 id="&#x6587;&#x4EF6;&#x4E0B;&#x8F7D;">&#x6587;&#x4EF6;&#x4E0B;&#x8F7D;</h2>
+<p>&#x200B;    JSP&#x5185;&#x7F6E;&#x5BF9;&#x8C61;response&#x8C03;&#x7528;&#x65B9;&#x6CD5;getOutputStream()&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x7528;&#x6237;&#x7684;&#x8F93;&#x51FA;&#x6D41;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x5C06;&#x6587;&#x4EF6;&#x5199;&#x5165;&#x8FD9;&#x4E2A;&#x6D41;&#xFF0C;&#x7528;&#x6237;&#x5C31;&#x53EF;&#x4EE5;&#x4E0B;&#x8F7D;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x4E86;&#x3002;&#x5F53;&#x63D0;&#x4F9B;&#x4E0B;&#x8F7D;&#x529F;&#x80FD;&#x65F6;&#xFF0C;&#x5E94;&#x5F53;&#x4F7F;&#x7528;response&#x5BF9;&#x8C61;&#x5411;&#x7528;&#x6237;&#x53D1;&#x9001;HTTP&#x5934;&#x4FE1;&#x606F;&#xFF0C;&#x8FD9;&#x6837;&#x7528;&#x6237;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x5C31;&#x4F1A;&#x8C03;&#x7528;&#x76F8;&#x5E94;&#x7684;&#x5916;&#x90E8;&#x7A0B;&#x5E8F;&#x6253;&#x5F00;&#x4E0B;&#x8F7D;&#x7684;&#x6587;&#x4EF6;&#xFF0C;response&#x8C03;&#x7528;setHeader&#x65B9;&#x6CD5;&#x6DFB;&#x52A0;&#x4E0B;&#x8F7D;&#x5934;&#x7684;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-java">response.setHeader(&quot;Content-disposition&quot;,&quot;attachment;filename=&quot;&#x4E0B;&#x8F7D;&#x6587;&#x4EF6;&#x540D;&quot;);
+</code></pre>
+<blockquote>
+<p>&#x200B;         &#x4F8B;&#x5B50;7&#x4E2D;&#xFF0C;&#x7528;&#x6237;&#x5728;example8_7.jsp&#x9875;&#x9762;&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x8981;&#x4E0B;&#x8F7D;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x63D0;&#x4EA4;&#x7ED9;&#x540D;&#x5B57;&#x662F;loadFile&#x7684;servlet(Example8_7_Sevlet&#x8D1F;&#x8D23;&#x521B;&#x5EFA;servlet)&#xFF0C;servlet&#x5C06;&#x7528;&#x6237;&#x9009;&#x62E9;&#x7684;&#x6587;&#x4EF6;&#x53D1;&#x9001;&#x7ED9;&#x7528;&#x6237;&#xFF0C;&#x5373;&#x63D0;&#x4F9B;&#x4E0B;&#x8F7D;&#x3002;example8_7.jsp&#xFF0C;loadFile&#x7684;&#x6548;&#x679C;&#x5982;&#x56FE;8.7(a)&#x548C;8.7(b)&#x3002;</p>
+<p>&#x9700;&#x8981;&#x4E3A;ch8\WEB-INF&#x4E2D;&#x7684;web.xml&#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5B50;&#x6807;&#x8BB0;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>loadFile<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>myservlet.control.Example8_7_Servlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>loadFile<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/loadFile<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+&gt;
+</code></pre>
+<blockquote>
+<p>&#x89C6;&#x56FE;&#xFF08;JSP&#x9875;&#x9762;&#xFF09;</p>
+<p>&#x200B;     &#x7528;&#x6237;&#x5728;example8_7.jsp&#x9875;&#x9762;&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x8981;&#x4E0B;&#x8F7D;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x5C06;&#x8BE5;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x63D0;&#x4EA4;&#x7ED9;&#x540D;&#x5B57;&#x662F;loadFile&#x7684;servlet(Example8_7_Sevlet&#x8D1F;&#x8D23;&#x521B;&#x5EFA;servlet)&#x3002;&#x6548;&#x679C;&#x5982;&#x56FE;8.7(a).</p>
+</blockquote>
+<pre><code class="lang-jsp">&lt;%@ page contentType=&quot;text/html;charset=gb2312&quot; %&gt;
+&lt;HTML&gt;&lt;body bgcolor=#FFBBFE&gt;
+&lt;form action=&quot;loadFile&quot; method=post name=form&gt;
+       &#x9009;&#x62E9;&#x8981;&#x4E0B;&#x8F7D;&#x7684;&#x6587;&#x4EF6;&#xFF1A;&lt;br&gt;
+       &lt;Select name=&quot;filePath&quot; size=3&gt;
+          &lt;Option Selected value=&quot;d:/2000/E.java&quot;&gt;E.java
+          &lt;Option value=&quot;d:/2000/first.jsp&quot;&gt;first.jsp
+          &lt;Option value=&quot;d:/2000/book.zip&quot;&gt;book.zip
+           &lt;Option value=&quot;d:/2000/A.txt&quot;&gt;A.txt
+       &lt;/Select&gt; 
+       &lt;br&gt;&lt;INPUT TYPE=&quot;submit&quot; value=&quot;&#x63D0;&#x4EA4;&quot; &gt;
+   &lt;/form&gt; 
+&lt;/body&gt;&lt;/HTML&gt;
+</code></pre>
+<blockquote>
+<p>&#x63A7;&#x5236;&#x5668;&#xFF08;servlet&#xFF09;
+Example8_7_Sevlet&#x8D1F;&#x8D23;&#x521B;&#x5EFA;servlet)&#xFF0C;servlet&#x5C06;&#x7528;&#x6237;&#x9009;&#x62E9;&#x7684;&#x6587;&#x4EF6;&#x53D1;&#x9001;&#x7ED9;&#x7528;&#x6237;&#xFF0C;&#x5373;&#x63D0;&#x4F9B;&#x4E0B;&#x8F7D;&#x3002;loadFile&#x7684;&#x6548;&#x679C;&#x5982;&#x56FE;8.7(b)&#x3002;</p>
+</blockquote>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> myservlet.control;
+<span class="hljs-keyword">import</span> java.io.*;
+<span class="hljs-keyword">import</span> javax.servlet.*;
+<span class="hljs-keyword">import</span> javax.servlet.http.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example8_7_Servlet</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HttpServlet</span></span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">(ServletConfig config)</span> <span class="hljs-keyword">throws</span> ServletException</span>{
+      <span class="hljs-keyword">super</span>.init(config);
+   }
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doPost</span><span class="hljs-params">(HttpServletRequest request,HttpServletResponse response)</span>
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      request.setCharacterEncoding(<span class="hljs-string">&quot;gb2312&quot;</span>);
+      String filePath=request.getParameter(<span class="hljs-string">&quot;filePath&quot;</span>);
+      String fileName=filePath.substring(filePath.lastIndexOf(<span class="hljs-string">&quot;/&quot;</span>)+<span class="hljs-number">1</span>);
+      response.setHeader(<span class="hljs-string">&quot;Content-disposition&quot;</span>,<span class="hljs-string">&quot;attachment;filename=&quot;</span>+fileName);   
+      <span class="hljs-keyword">try</span>{ <span class="hljs-comment">//&#x8BFB;&#x53D6;&#x6587;&#x4EF6;,&#x5E76;&#x53D1;&#x9001;&#x7ED9;&#x7528;&#x6237;&#x4E0B;&#x8F7D;:</span>
+        File f=<span class="hljs-keyword">new</span> File(filePath);
+        FileInputStream in=<span class="hljs-keyword">new</span> FileInputStream(f);
+        OutputStream out=response.getOutputStream();
+        <span class="hljs-keyword">int</span> n=<span class="hljs-number">0</span>;
+        <span class="hljs-keyword">byte</span> b[]=<span class="hljs-keyword">new</span> <span class="hljs-keyword">byte</span>[<span class="hljs-number">500</span>];
+        <span class="hljs-keyword">while</span>((n=in.read(b))!=-<span class="hljs-number">1</span>)
+           out.write(b,<span class="hljs-number">0</span>,n);
+        out.close();
+        in.close(); 
+     }
+     <span class="hljs-keyword">catch</span>(Exception exp){
+     }
+   } 
+   <span class="hljs-function"><span class="hljs-keyword">public</span>  <span class="hljs-keyword">void</span>  <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest request,
+                      HttpServletResponse response)</span> 
+                        <span class="hljs-keyword">throws</span> ServletException,IOException</span>{
+      doPost(request,response);
+   }
+}
+</code></pre>
+<p>&#x8F93;&#x5165;&#x6D41;&#x7684;&#x6307;&#x5411;&#x79F0;&#x4E3A;&#x6E90;&#xFF0C;&#x7A0B;&#x5E8F;&#x4ECE;&#x6307;&#x5411;&#x6E90;&#x7684;&#x8F93;&#x5165;&#x6D41;&#x4E2D;&#x8BFB;&#x53D6;&#x6E90;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;&#x800C;&#x8F93;&#x51FA;&#x6D41;&#x7684;&#x6307;&#x5411;&#x662F;&#x6570;&#x636E;&#x8981;&#x53BB;&#x7684;&#x76EE;&#x7684;&#x5730;&#xFF0C;&#x7A0B;&#x5E8F;&#x901A;&#x8FC7;&#x5411;&#x8F93;&#x51FA;&#x6D41;&#x4E2D;&#x5199;&#x5165;&#x6570;&#x636E;&#x628A;&#x4FE1;&#x606F;&#x9001;&#x5F80;&#x76EE;&#x7684;&#x5730;&#x3002;
+FileInputStream&#x548C;FileReader&#x6D41;&#x90FD;&#x987A;&#x5E8F;&#x5730;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#xFF0C;&#x53EA;&#x8981;&#x4E0D;&#x5173;&#x95ED;&#x6D41;&#xFF0C;&#x6BCF;&#x6B21;&#x8C03;&#x7528;read&#x65B9;&#x6CD5;&#x5C31;&#x987A;&#x5E8F;&#x5730;&#x8BFB;&#x53D6;&#x6E90;&#x4E2D;&#x5176;&#x4F59;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x5230;&#x6E90;&#x7684;&#x672B;&#x5C3E;&#x6216;&#x6D41;&#x88AB;&#x5173;&#x95ED;&#x3002;&#x4E8C;&#x8005;&#x7684;&#x533A;&#x522B;&#x662F;&#xFF0C;FileInputStream&#x6D41;&#x4EE5;&#x5B57;&#x8282;&#xFF08;byte&#xFF09;&#x4E3A;&#x5355;&#x4F4D;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#xFF1B;FileReader&#x6D41;&#x4EE5;&#x5B57;&#x7B26;&#xFF08;char&#xFF09;&#x4E3A;&#x5355;&#x4F4D;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x3002;
+FileOutStream&#x6D41;&#x548C;FileWriter &#x987A;&#x5E8F;&#x5730;&#x5199;&#x6587;&#x4EF6;&#xFF0C;&#x53EA;&#x8981;&#x4E0D;&#x5173;&#x95ED;&#x6D41;&#xFF0C;&#x6BCF;&#x6B21;&#x8C03;&#x7528;writer&#x65B9;&#x6CD5;&#x5C31;&#x987A;&#x5E8F;&#x5730;&#x5411;&#x8F93;&#x51FA;&#x6D41;&#x5199;&#x5165;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x5230;&#x6D41;&#x88AB;&#x5173;&#x95ED;&#x3002;&#x4E8C;&#x8005;&#x7684;&#x533A;&#x522B;&#x662F;&#xFF0C;FileOutStream&#x6D41;&#x4EE5;&#x5B57;&#x8282;&#xFF08;byte&#xFF09;&#x4E3A;&#x5355;&#x4F4D;&#x5199;&#x6587;&#x4EF6;&#xFF1B;FileWriter&#x6D41;&#x4EE5;&#x5B57;&#x7B26;&#xFF08;char&#xFF09;&#x4E3A;&#x5355;&#x4F4D;&#x5199;&#x6587;&#x4EF6;&#x3002;
+RandomAccessFile&#x6D41;&#x7684;&#x6307;&#x5411;&#x65E2;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x6E90;&#x4E5F;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x76EE;&#x7684;&#x5730;&#xFF0C;&#x5728;&#x8BFB;&#x5199;&#x6587;&#x4EF6;&#x65F6;&#x53EF;&#x4EE5;&#x8C03;&#x7528;seek&#x65B9;&#x6CD5;&#x6539;&#x53D8;&#x8BFB;&#x5199;&#x4F4D;&#x7F6E;&#x3002;</p>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1039.html" class="navigation navigation-prev " aria-label="Previous page: 资源处理(java)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1041.html" class="navigation navigation-next " aria-label="Next page: 数据库">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"文件操作","level":"1.5.1","depth":2,"next":{"title":"数据库","level":"1.5.2","depth":2,"path":"page/1041.md","ref":"page/1041.md","articles":[]},"previous":{"title":"资源处理(java)","level":"1.5","depth":1,"path":"page/1039.md","ref":"page/1039.md","articles":[{"title":"文件操作","level":"1.5.1","depth":2,"path":"page/1040.md","ref":"page/1040.md","articles":[]},{"title":"数据库","level":"1.5.2","depth":2,"path":"page/1041.md","ref":"page/1041.md","articles":[]},{"title":"XML","level":"1.5.3","depth":2,"path":"page/1042.md","ref":"page/1042.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","theme-simple@git+https://github.com/plugins-zander/gitbook-plugin-theme-simple.git","search-pro@git+https://github.com/plugins-zander/gitbook-plugin-search-pro.git","katex@git+https://github.com/plugins-zander/gitbook-plugin-katex.git","splitter@git+https://github.com/plugins-zander/gitbook-plugin-splitter.git","mygitalk@git+https://github.com/plugins-zander/gitbook-plugin-mygitalk.git","edit-link@git+https://github.com/plugins-zander/gitbook-plugin-edit-link.git","sitemap-general@git+https://github.com/plugins-zander/gitbook-plugin-sitemap-general.git","gtag@git+https://github.com/plugins-zander/gitbook-plugin-gtag.git","chapter-fold@git+https://github.com/plugins-zander/gitbook-plugin-chapter-fold.git","copy-code-button@git+https://github.com/plugins-zander/gitbook-plugin-copy-code-button.git","page-toc@git+https://github.com/plugins-zander/gitbook-plugin-page-toc.git"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search-pro":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"sitemap-general":{"prefix":"https://zlogs.net/learn-jsp/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"gtag":{"token":"UA-149127400-1"},"highlight":{},"theme-simple":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"364365ceb2659b383d73","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["zanderzhao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"talk","owner":"zanderzhao","enableHotKey":true,"clientSecret":"447ef6648e9dfffe2e2a65c34c8ead1dd4b7af54","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"EDIT","base":"https://github.com/ZanderZhao/learn-jsp/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Zander Zhao","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"learn-jsp","language":"zh-hans","gitbook":"3.2.3","description":"learn-jsp - Zander's Learn Book"},"file":{"path":"page/1040.md","mtime":"2020-06-15T12:57:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-15T12:59:48.699Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://cdn.jsdelivr.net/gh/ZanderZhao/cdn/js/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-gtag/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
