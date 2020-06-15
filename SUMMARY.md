@@ -22,11 +22,17 @@
             * [session](page/1029.md)
             * [application](page/1030.md)
             * [out](page/1031.md)
+        * [Javabean](page/1037.md)
+        * [JavaServlet](page/1038.md)
         * [注释](page/1020.md)
     * [JSP部分](page/1018.md)
         * [标记](page/1033.md)
             * [指令标记](page/1034.md)
             * [动作标记](page/1035.md)
         * [注释](page/1020.md)
-
+* [资源处理(java)](page/1039.md)
+    * [文件操作](page/1040.md)
+    * [数据库](page/1041.md)
+    * [XML](page/1042.md)
+* [MVC](page/1043.md)
 
